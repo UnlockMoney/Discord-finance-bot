@@ -1,0 +1,26 @@
+name: Weekly Wrap
+
+on:
+  schedule:
+    - cron: '0 13 * * 0'   # ทุกอาทิตย์ 20:00 น. เวลาไทย
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - run: python daily_news.py --mode weekly
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
