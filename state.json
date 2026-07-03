@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "time": "2026-07-03T16:36:23.563280+07:00",
+      "content": "📊 **BTC & Gold Market Update**\n\n🔥 ETF Outflow Streak จบแล้ว — เงินไหลกลับเข้า BTC\nBitcoin ETF พลิกกลับมา inflow $221M ตัดขาดทุน 10 วันติดที่เงินไหลออกต่อเนื่อง สอดคล้องกับ short squeeze ที่ดัน BTC ทะลุ $62,000\n💡 กระทบ: ₿ Support $60,500 / Resistance $62,000 — สัญญาณบวกระยะสั้น ช่วยหยุดเลือดไหล แต่ F&G ยังอยู่ Extreme Fear (21) ต้องระวัง sell-the-news\n\n🆕 Bitcoin ขาดทุนมากกว่ากำไรเป็นครั้งแรก\nOn-chain data ชี้ว่าตอนนี้มี BTC ที่ถือแบบขาดทุน (unrealized loss) มากกว่าที่ถือแบบกำไร — สะท้อน capitulation phase ที่รุนแรง นักลงทุนระยะสั้นเจ็บหนัก\n💡 กระทบ: ₿ Support $60,000 (psychological) — เป็นสัญญาณ bottoming แบบ contrarian แต่ก็เสี่ยง panic sell เพิ่มถ้าหลุด support\n\n🔥 Short Squeeze ดัน ETH/SOL/BTC พุ่งพร้อมกัน\nBTC เด้งขึ้นใกล้ $62,000 จากแรง short covering ลาม altcoin ETH, SOL, XRP วิ่งตาม (+4%) — momentum เปลี่ยนทิศเร็วในตลาดที่ leverage สูง\n💡 กระทบ: ₿ Resistance $62,000 / ถ้าทะลุเปิดทาง $63,500 — ระวัง reversal แรงถ้า squeeze จบ เพราะพื้นฐาน sentiment ยังอ่อนแอ\n\n🔄 อัปเดต — Gold ยังแข็งแกร่งต่อเนื่อง\nเดิม: Gold trend บวกจาก safe-haven demand / ล่าสุด: Gold +2.54% แตะ $4,161.84 พร้อม GLD ETF +2.35% ($378.13) หนุนจาก DXY อ่อนตัว (-0.36% ที่ 100.74) และ 10Y Yield ทรงตัว 4.49%\n💡 กระทบ: 🥇 Support $4,100 / Resistance $4,200 — เงินไหลเข้าทองต่อเนื่องจาก fear sentiment สวนทางกับ BTC ที่ยังผันผวนหนัก\n\n---\n📈 Trend: BTC sideways-to-uptrend (short squeeze) | Gold uptrend\n⚠️ Risk: สูง — F&G Extreme Fear (21) + BTC loss>profit ครั้งแรก บ่งชี้ตลาดยังเปราะบาง short squeeze อาจเป็นแค่ relief rally\n🎯 ภาพรวม: เงินไหลกลับ BTC เริ่มดีขึ้นแต่ sentiment ยังอ่อนแอ ทองยังเป็น safe-haven เด่นชัดกว่าในสภาวะ macro ปัจจุบัน"
+    }
+  ],
+  "posted_urls": [
+    "https://www.coindesk.com/tech/2026/07/03/live-updates-more-bitcoin-is-now-held-at-a-loss-than-at-a-profit",
+    "https://www.coindesk.com/markets/2026/07/03/finally-usd221-million-flow-into-bitcoin-etfs-ending-a-painful-10-day-outflow-streak",
+    "https://www.coindesk.com/markets/2026/07/03/xrp-bulls-test-path-back-toward-usd1-10-as-token-zips-4-higher",
+    "https://www.coindesk.com/markets/2026/07/03/ether-and-solana-extend-gains-as-a-short-squeeze-lifts-bitcoin-toward-usd62-000"
+  ],
+  "price_history": [
+    {
+      "btc": {
+        "price": 61564,
+        "change_24h": 1.3891137021198003,
+        "volume_24h": 36250642723.52221
+      },
+      "gold": {
+        "price": 4161.84,
+        "change_24h": 2.5373361654269635
+      },
+      "timestamp": "2026-07-03T09:35:57.259373+00:00"
+    }
+  ],
+  "last_alert": {}
+}
