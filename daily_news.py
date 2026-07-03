@@ -1,89 +1,344 @@
 """
-Financial News Bot -> Discord
-รัน 4 รอบ/วันผ่าน GitHub Actions
-พร้อมระบบ:
-- จำข่าวเก่า (dedup ด้วย URL)
-- ตรวจสอบ context ข่าวก่อนหน้า (BREAKING / NEW / UPDATE)
-- วิเคราะห์แนวโน้มทุกข่าว
+BTC & Gold Discord Bot — Full Featured
+โฟกัส Bitcoin + ทองคำ พร้อมข้อมูลเทรดครบชุด
+
+Data sources (ฟรีทั้งหมด):
+- CoinGecko: BTC price, PAXG price (gold proxy)
+- Alternative.me: Fear & Greed Index
+- Yahoo Finance: DXY, 10Y yield, GLD, TIP (real yields proxy)
+- Binance Futures: BTC funding rate, open interest
+- RSS: News from 9 sources
+- Local JSON: Economic calendar
+
+Modes:
+- full   : สรุปเต็ม (รอบใหญ่ 2x/วัน)
+- watch  : ตรวจ BREAKING + price alarm (ทุก 30 นาที)
+- weekly : สรุปสัปดาห์ (ทุกอาทิตย์ 20:00)
 """
 
 import os
 import json
+import argparse
 import feedparser
 import requests
 import anthropic
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-# ---- Config from environment variables (GitHub Secrets) ----
+# ============================================================
+# CONFIG
+# ============================================================
+
 DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK_URL"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
-# ---- State file (จะ commit กลับ repo หลังรันเสร็จ) ----
 STATE_FILE = Path("state.json")
+CALENDAR_FILE = Path("economic_events.json")
 
-# ---- News sources (RSS feeds) ----
+BTC_ALERT_THRESHOLD = 3.0
+GOLD_ALERT_THRESHOLD = 1.5
+ALERT_COOLDOWN_MINUTES = 60
+PRICE_LOOKBACK_HOURS = 1.0
+
 FEEDS = {
-    "Reuters Business": "https://feeds.reuters.com/reuters/businessNews",
-    "Investing.com Economy": "https://www.investing.com/rss/news_285.rss",
-    "CNBC Markets": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
-    "CoinDesk": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-    "Kitco Gold News": "https://www.kitco.com/rss/KitcoNews.xml",
+    "Reuters Business":     "https://feeds.reuters.com/reuters/businessNews",
+    "Reuters Markets":      "https://feeds.reuters.com/reuters/marketsNews",
+    "Reuters World":        "https://feeds.reuters.com/Reuters/worldNews",
+    "CNBC Markets":         "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+    "CNBC Economy":         "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+    "MarketWatch":          "https://feeds.marketwatch.com/marketwatch/topstories/",
+    "Yahoo Finance":        "https://finance.yahoo.com/news/rssindex",
+    "Investing.com Econ":   "https://www.investing.com/rss/news_285.rss",
+    "Kitco Gold":           "https://www.kitco.com/rss/KitcoNews.xml",
+    "CoinDesk":             "https://www.coindesk.com/arc/outboundfeeds/rss/",
 }
 
-# ---- Expanded keywords ----
 KEYWORDS = [
-    # Fed / นโยบายการเงิน
-    "fed", "fomc", "powell", "warsh", "rate", "inflation", "cpi", "ppi",
+    "fed", "fomc", "powell", "warsh", "rate", "inflation", "cpi", "ppi", "pce",
     "payroll", "nfp", "gdp", "unemployment", "jobs", "yield", "treasury",
     "dollar", "dxy",
-    # ธนาคารกลางอื่น
-    "ecb", "boj", "boe", "lagarde", "central bank",
-    # Commodities
-    "gold", "oil", "opec", "brent", "wti", "commodity",
-    # Crypto
-    "bitcoin", "btc", "crypto", "ethereum", "eth", "sec",
-    # ภูมิรัฐศาสตร์ / สงคราม
-    "middle east", "war", "iran", "israel", "ukraine", "russia",
-    "china", "taiwan", "north korea", "missile", "strike", "ceasefire",
-    # การเมืองสหรัฐ / การค้า
-    "trump", "biden", "election", "executive order", "sanctions",
-    "congress", "senate", "shutdown", "debt ceiling", "veto",
-    "tariff", "trade war", "chip ban", "semiconductor",
-    # Macro
-    "recession", "stagflation",
+    "gold", "bullion", "kitco",
+    "bitcoin", "btc", "spot etf", "sec ", "blackrock", "microstrategy",
+    "whale", "halving", "capitulation",
+    "middle east", "war", "iran", "israel", "ukraine", "russia", "china",
+    "taiwan", "missile", "strike", "attack", "ceasefire",
+    "trump", "tariff", "sanctions", "executive order", "shutdown",
+]
+
+BREAKING_KEYWORDS = [
+    "rate cut", "rate hike", "emergency rate", "emergency meeting",
+    "fomc statement", "fomc decision", "unscheduled",
+    "powell speaks", "powell testimony", "warsh testimony",
+    "cpi report", "cpi rose", "cpi came", "cpi surprise",
+    "ppi report", "ppi rose", "pce report",
+    "nfp report", "non-farm payrolls",
+    "jobless claims surprise", "gdp report", "fomc minutes",
+    "airstrike", "missile strike", "invasion", "war declared",
+    "iran attack", "israel strike", "taiwan invasion", "ceasefire",
+    "us strike", "attack on",
+    "tariff announce", "new tariff", "trump tariff",
+    "sanctions imposed", "executive order signed",
+    "government shutdown", "debt ceiling deal",
+    "spot bitcoin etf", "sec approval", "sec rejects",
+    "bitcoin halving", "blackrock bitcoin", "microstrategy bought",
+    "microstrategy sold", "mt gox distribution",
+    "gold record", "gold all-time high", "central bank gold",
+    "china gold reserves", "russia gold reserves",
 ]
 
 
 # ============================================================
-# STATE MANAGEMENT
+# STATE
 # ============================================================
 
 def load_state():
-    """โหลด state ที่บันทึกไว้ (posts เก่า 24-36 ชม. + URL ที่โพสไปแล้ว)"""
+    default = {
+        "posts": [], "posted_urls": [], "price_history": [], "last_alert": {},
+    }
     if not STATE_FILE.exists():
-        return {"posts": [], "posted_urls": []}
+        return default
     try:
-        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        for k, v in default.items():
+            state.setdefault(k, v)
+        return state
     except Exception as e:
-        print(f"[warn] load_state failed: {e}")
-        return {"posts": [], "posted_urls": []}
+        print(f"[warn] load_state: {e}")
+        return default
 
 
 def save_state(state):
-    """บันทึก state (workflow จะ commit กลับ repo ให้อัตโนมัติ)"""
     STATE_FILE.write_text(
-        json.dumps(state, ensure_ascii=False, indent=2),
-        encoding="utf-8"
+        json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+
+
+# ============================================================
+# PRICE FETCHING - BTC + Gold (CoinGecko)
+# ============================================================
+
+def fetch_prices():
+    try:
+        r = requests.get(
+            "https://api.coingecko.com/api/v3/simple/price",
+            params={
+                "ids": "bitcoin,pax-gold",
+                "vs_currencies": "usd",
+                "include_24hr_change": "true",
+                "include_24hr_vol": "true",
+            },
+            timeout=10,
+        )
+        r.raise_for_status()
+        d = r.json()
+        return {
+            "btc": {
+                "price": d["bitcoin"]["usd"],
+                "change_24h": d["bitcoin"].get("usd_24h_change", 0),
+                "volume_24h": d["bitcoin"].get("usd_24h_vol", 0),
+            },
+            "gold": {
+                "price": d["pax-gold"]["usd"],
+                "change_24h": d["pax-gold"].get("usd_24h_change", 0),
+            },
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
+    except Exception as e:
+        print(f"[error] fetch_prices: {e}")
+        return None
+
+
+def record_price(state, prices):
+    if not prices:
+        return
+    state["price_history"].append(prices)
+    state["price_history"] = state["price_history"][-48:]  # 24 hrs at 30 min
+
+
+def compute_price_change(prices_now, price_history, hours=1.0):
+    if not prices_now or not price_history:
+        return None, None
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    ref = None
+    for p in price_history:
+        try:
+            p_time = datetime.fromisoformat(p["timestamp"].replace("Z", "+00:00"))
+            if p_time <= cutoff:
+                ref = p
+        except Exception:
+            continue
+    if not ref and len(price_history) >= 2:
+        ref = price_history[0]
+    if not ref:
+        return None, None
+    try:
+        btc = (prices_now["btc"]["price"] / ref["btc"]["price"] - 1) * 100
+        gold = (prices_now["gold"]["price"] / ref["gold"]["price"] - 1) * 100
+        return btc, gold
+    except Exception:
+        return None, None
+
+
+# ============================================================
+# FEAR & GREED INDEX (Alternative.me - ฟรี)
+# ============================================================
+
+def fetch_fear_greed():
+    try:
+        r = requests.get(
+            "https://api.alternative.me/fng/",
+            params={"limit": 2}, timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json()["data"]
+        today = data[0]
+        yesterday = data[1] if len(data) > 1 else None
+        return {
+            "value": int(today["value"]),
+            "label": today["value_classification"],
+            "yesterday": int(yesterday["value"]) if yesterday else None,
+        }
+    except Exception as e:
+        print(f"[warn] fear_greed: {e}")
+        return None
+
+
+# ============================================================
+# MACRO - DXY, 10Y Yield, GLD, TIP (Yahoo Finance query API)
+# ============================================================
+
+def _yahoo_quote(symbol):
+    """ดึงราคาล่าสุด + % change 1d จาก Yahoo Finance"""
+    try:
+        r = requests.get(
+            f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}",
+            params={"interval": "1d", "range": "5d"},
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=10,
+        )
+        r.raise_for_status()
+        result = r.json()["chart"]["result"][0]
+        meta = result["meta"]
+        current = meta.get("regularMarketPrice") or meta.get("previousClose")
+        prev = meta.get("chartPreviousClose")
+        change_pct = ((current - prev) / prev * 100) if prev else 0
+        return {"price": current, "change_1d": change_pct}
+    except Exception as e:
+        print(f"[warn] yahoo {symbol}: {e}")
+        return None
+
+
+def fetch_macro():
+    """DXY (Dollar Index), 10Y Yield, GLD ETF, TIP ETF"""
+    return {
+        "dxy": _yahoo_quote("DX-Y.NYB"),   # US Dollar Index
+        "yield_10y": _yahoo_quote("^TNX"),  # 10-Year Treasury Yield
+        "gld": _yahoo_quote("GLD"),         # SPDR Gold Shares ETF
+        "tip": _yahoo_quote("TIP"),         # iShares TIPS (real yield proxy)
+    }
+
+
+# ============================================================
+# BTC PERP DATA - Binance Futures (ฟรี)
+# ============================================================
+
+def fetch_btc_perp():
+    """Funding rate + Open Interest จาก Binance USDT-M Futures"""
+    try:
+        # Funding rate + mark price
+        r1 = requests.get(
+            "https://fapi.binance.com/fapi/v1/premiumIndex",
+            params={"symbol": "BTCUSDT"}, timeout=10,
+        )
+        r1.raise_for_status()
+        premium = r1.json()
+
+        # Open Interest
+        r2 = requests.get(
+            "https://fapi.binance.com/fapi/v1/openInterest",
+            params={"symbol": "BTCUSDT"}, timeout=10,
+        )
+        r2.raise_for_status()
+        oi = r2.json()
+
+        return {
+            "funding_rate": float(premium["lastFundingRate"]) * 100,  # % per 8h
+            "mark_price": float(premium["markPrice"]),
+            "open_interest": float(oi["openInterest"]),
+        }
+    except Exception as e:
+        print(f"[warn] binance perp: {e}")
+        return None
+
+
+# ============================================================
+# TECHNICAL LEVELS - คำนวณ S/R จาก price history
+# ============================================================
+
+def compute_technical_levels(price_history):
+    """คำนวณ Support/Resistance zones จาก price data 24 ชม.ล่าสุด"""
+    if len(price_history) < 3:
+        return None
+    btc_prices = [p["btc"]["price"] for p in price_history]
+    gold_prices = [p["gold"]["price"] for p in price_history]
+
+    def levels(prices):
+        current = prices[-1]
+        high = max(prices)
+        low = min(prices)
+        mid = (high + low) / 2
+        return {
+            "current": current,
+            "recent_high": high,
+            "recent_low": low,
+            "mid": mid,
+            "range_pct": ((high - low) / low * 100) if low else 0,
+        }
+
+    return {
+        "btc": levels(btc_prices),
+        "gold": levels(gold_prices),
+    }
+
+
+# ============================================================
+# ECONOMIC CALENDAR (Local JSON file - user editable)
+# ============================================================
+
+def load_calendar():
+    """โหลด economic events จากไฟล์ JSON"""
+    if not CALENDAR_FILE.exists():
+        return []
+    try:
+        return json.loads(CALENDAR_FILE.read_text(encoding="utf-8")).get("events", [])
+    except Exception as e:
+        print(f"[warn] calendar: {e}")
+        return []
+
+
+def upcoming_events(events, hours=72):
+    """กรอง events ที่จะเกิดใน X ชม.ข้างหน้า"""
+    now = datetime.now(timezone(timedelta(hours=7)))
+    cutoff = now + timedelta(hours=hours)
+    upcoming = []
+    for e in events:
+        try:
+            dt = datetime.fromisoformat(f"{e['date']}T{e['time']}:00+07:00")
+            if now <= dt <= cutoff:
+                upcoming.append({**e, "datetime": dt})
+        except Exception:
+            continue
+    upcoming.sort(key=lambda x: x["datetime"])
+    return upcoming[:6]  # เอาแค่ 6 อันแรก
 
 
 # ============================================================
 # NEWS FETCHING
 # ============================================================
 
-def fetch_headlines(hours_back=8):
-    """ดึงข่าวจาก RSS 8 ชม.ล่าสุด (buffer กัน cron delay)"""
+def fetch_headlines(hours_back=8, keywords=None):
+    if keywords is None:
+        keywords = KEYWORDS
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     items = []
     for source, url in FEEDS.items():
@@ -99,12 +354,10 @@ def fetch_headlines(hours_back=8):
                 title = entry.get("title", "").strip()
                 summary = entry.get("summary", "").strip()[:300]
                 text = (title + " " + summary).lower()
-                if any(k in text for k in KEYWORDS):
+                if any(k in text for k in keywords):
                     items.append({
-                        "source": source,
-                        "title": title,
-                        "summary": summary,
-                        "link": entry.get("link", ""),
+                        "source": source, "title": title,
+                        "summary": summary, "link": entry.get("link", ""),
                         "published": pub_dt.isoformat(),
                     })
         except Exception as e:
@@ -112,112 +365,506 @@ def fetch_headlines(hours_back=8):
     return items
 
 
-def filter_new_items(items, posted_urls):
-    """กรอง URL ที่โพสไปแล้วออก"""
-    posted_set = set(posted_urls)
-    return [i for i in items if i["link"] and i["link"] not in posted_set]
+def filter_new(items, posted_urls):
+    posted = set(posted_urls)
+    return [i for i in items if i["link"] and i["link"] not in posted]
+
+
+# ============================================================
+# HEADER BUILDER - ราคา + macro + sentiment (ใช้ทุกโพส)
+# ============================================================
+
+def build_header(prices, fg, macro, perp, levels, events):
+    """สร้าง header block รวมข้อมูลทั้งหมด"""
+    lines = []
+
+    # ราคา
+    lines.append("💰 **ราคาปัจจุบัน**")
+    lines.append(f"• ₿ BTC: **${prices['btc']['price']:,.0f}** "
+                 f"({prices['btc']['change_24h']:+.2f}% 24h)")
+    lines.append(f"• 🥇 ทอง: **${prices['gold']['price']:,.2f}** "
+                 f"({prices['gold']['change_24h']:+.2f}% 24h)")
+
+    # Macro
+    if macro:
+        macro_parts = []
+        if macro.get("dxy"):
+            macro_parts.append(f"💵 ดอลลาร์ {macro['dxy']['price']:.2f} "
+                               f"({macro['dxy']['change_1d']:+.2f}%)")
+        if macro.get("yield_10y"):
+            macro_parts.append(f"🏦 พันธบัตร 10 ปี {macro['yield_10y']['price']:.2f}%")
+        if macro_parts:
+            lines.append("• " + " | ".join(macro_parts))
+
+    # Sentiment
+    sentiment_parts = []
+    if fg:
+        sentiment_parts.append(f"😱 อารมณ์ตลาด BTC: **{fg['value']}** ({fg['label']})")
+    if perp:
+        funding_emoji = "🔴" if perp["funding_rate"] > 0.05 else "🟢" if perp["funding_rate"] < -0.02 else "⚪"
+        sentiment_parts.append(f"{funding_emoji} คน long/short BTC: {perp['funding_rate']:+.3f}%")
+    if sentiment_parts:
+        lines.append("")
+        lines.append("• " + " | ".join(sentiment_parts))
+
+    lines.append("\n" + "─" * 20 + "\n")
+    return "\n".join(lines)
 
 
 # ============================================================
 # AI SUMMARIZATION
 # ============================================================
 
-def ai_summarize(items, previous_posts):
-    """ให้ Claude สรุปข่าวเป็นภาษาไทย + วิเคราะห์แนวโน้ม + เทียบกับโพสก่อน"""
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+def ai_client():
+    return anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
-    joined_news = "\n\n".join(
+
+def _extract_text(msg):
+    parts = [b.text for b in msg.content if getattr(b, "text", None)]
+    if not parts:
+        raise RuntimeError(f"empty response: {msg.content}")
+    return "\n".join(parts).strip()
+
+
+def ai_summarize_brief(items, prices, fg, macro, perp, levels, previous_posts):
+    """สรุปเต็มสำหรับรอบใหญ่"""
+    client = ai_client()
+    news_txt = "\n\n".join(
         f"[{i['source']}] {i['title']}\n{i['summary']}\nURL: {i['link']}"
         for i in items
     )
-
-    # แสดง posts ที่เคยส่ง (สูงสุด 5 ล่าสุด) ให้ AI ใช้เทียบ
     context = ""
     if previous_posts:
-        context = "\n\n=== โพสก่อนหน้าที่บอทเคยส่ง (24 ชม.ล่าสุด — ใช้เพื่อเช็คว่าอะไรใหม่/อัปเดต) ===\n"
-        for p in previous_posts[-5:]:
-            context += f"\n[โพสเมื่อ {p['time']}]\n{p['content']}\n"
+        context = "\n\n=== โพสก่อนหน้าของบอท ===\n"
+        for p in previous_posts[-4:]:
+            context += f"\n[{p['time']}]\n{p['content'][:500]}\n"
 
-    prompt = f"""คุณคือนักวิเคราะห์ตลาดการเงิน สรุปข่าวเศรษฐกิจสำหรับห้อง Discord "ข่าวเศรษฐกิจ"
+    # Data block for AI
+    data_ctx = f"""
+=== ข้อมูลราคา + macro + sentiment ===
+- BTC ${prices['btc']['price']:,.0f} ({prices['btc']['change_24h']:+.2f}% 24h)
+- Gold ${prices['gold']['price']:,.2f} ({prices['gold']['change_24h']:+.2f}% 24h)
+- F&G Index: {fg['value']} ({fg['label']})""" if fg else ""
+
+    if macro:
+        if macro.get("dxy"):
+            data_ctx += f"\n- DXY: {macro['dxy']['price']:.2f} ({macro['dxy']['change_1d']:+.2f}%)"
+        if macro.get("yield_10y"):
+            data_ctx += f"\n- 10Y Yield: {macro['yield_10y']['price']:.2f}%"
+        if macro.get("gld"):
+            data_ctx += f"\n- GLD ETF: ${macro['gld']['price']:.2f} ({macro['gld']['change_1d']:+.2f}%)"
+
+    if perp:
+        data_ctx += f"\n- BTC Perp funding: {perp['funding_rate']:+.3f}%/8h"
+
+    # (Key Levels removed - user preference)
+
+    prompt = f"""คุณคือนักวิเคราะห์ตลาด BTC และทองคำ สำหรับกลุ่ม Discord trader
+
+{data_ctx}
 {context}
 
 === ข่าวใหม่ 8 ชม.ล่าสุด ===
-{joined_news}
+{news_txt}
 
 **กติกาสำคัญ**:
 
-1. **แบ่งข่าวเป็น 3 กลุ่ม สถานะ**:
-   - 🔥 **BREAKING** — ข่าวใหญ่ market-moving ที่พึ่งเกิด (ใช้เฉพาะเหตุการณ์สำคัญมาก เช่น สงคราม, Fed พูดฉุกเฉิน, crash)
-   - 🆕 **NEW** — ข่าวใหม่ที่ไม่เคยพูดในโพสก่อนหน้า
-   - 🔄 **UPDATE** — เรื่องเก่าจากโพสก่อนที่มีตัวเลข/ทิศทาง/สถานการณ์เปลี่ยน
+1. **เลือกเฉพาะข่าวที่กระทบ BTC หรือทอง** — ตัดข่าวที่ไม่กระทบทิ้ง
 
-2. **ข้าม STALE** — ข่าวที่ซ้ำโพสก่อนและ**ไม่มีอะไรเปลี่ยน** ไม่ต้องเอามา
+2. **สถานะข่าว**:
+   - 🔥 BREAKING — market-moving ระดับสูง
+   - 🆕 NEW — ข่าวใหม่ยังไม่เคยพูด
+   - 🔄 UPDATE — เรื่องเก่าที่พลิก/มีตัวเลขใหม่
 
-3. **Format แต่ละข่าว 3 บรรทัด**:
+3. **Format แต่ละข่าว**:
 ```
-[emoji status] หัวข้อสั้น
-รายละเอียด/ตัวเลข (2-3 บรรทัดสั้นๆ พร้อมตัวเลขจริง)
-💡 แนวโน้ม: ทิศทาง + asset ที่กระทบ (ทอง/หุ้น/BTC/USD) + level ที่จับตา
+[emoji] หัวข้อสั้น
+รายละเอียด/ตัวเลข (2-3 บรรทัด)
+💡 กระทบ: 🥇 [ทอง + level] | ₿ [BTC + level]
 ```
 
-4. **UPDATE format พิเศษ**:
+4. **UPDATE format**:
 ```
 🔄 อัปเดต — [หัวข้อ]
-เดิม: [ที่รายงานไปก่อน]
-ล่าสุด: [ข้อมูลใหม่/พลิก]
-💡 แนวโน้ม: ...
+เดิม: ... / ล่าสุด: ...
+💡 กระทบ: ...
 ```
 
-5. **กติกา "แนวโน้ม"** (บรรทัด 💡):
-   - ต้อง SPECIFIC มีตัวเลข level แนวรับ/ต้าน %target หรือ event ที่ต้องจับตา
-   - ระบุ asset ชัดเจน (ทอง/หุ้น/BTC/USD)
-   - **ห้ามพูดกำกวมแบบ** "ต้องจับตาต่อไป", "ตลาดผันผวน" — ต้องมีสาระ
+5. เลือกข่าวเด่นสุด **3-4 อัน**
+6. **ใช้ข้อมูล macro/sentiment/level ที่ให้มา** อ้างอิงในการวิเคราะห์
+7. ปิดท้ายด้วย 3 บรรทัด:
+   - `📈 Trend: BTC [uptrend/sideways/downtrend] | Gold [uptrend/sideways/downtrend]`
+   - `⚠️ Risk: [ระดับ + เหตุผลสั้น]`
+   - `🎯 ภาพรวม: [สรุปทิศทาง 1 บรรทัด]`
+8. ห้ามเกิน 2500 ตัวอักษร
+9. Level ต้องเป็นตัวเลขจริง อ้างอิงจาก key levels ที่ให้
 
-6. **ปิดท้าย 1 บรรทัด**: `🎯 ภาพรวม: [สรุปทิศทางตลาดสั้นๆ 1 บรรทัด]`
+ตอบเฉพาะเนื้อหา ไม่ต้องมีคำนำ"""
 
-7. **ถ้าไม่มีข่าวสำคัญเลย** (STALE ทั้งหมด หรือทั้งหมดคุณค่าต่ำ) ตอบเพียง: "ไม่มีข่าวใหม่ที่สำคัญ"
+    msg = client.messages.create(
+        model="claude-sonnet-5",
+        max_tokens=2000,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return _extract_text(msg)
 
-8. **ห้ามเกิน 2500 ตัวอักษร** เลือกเฉพาะข่าวเด่น 3-5 อัน
 
-9. **ห้ามเพิ่มหมวดที่ไม่มีข่าวจริงในนั้น** — ถ้าไม่มีข่าวคริปโต ก็ไม่ต้องมีหัวข้อคริปโต
+def ai_breaking_alert(breaking_items, prices, fg, previous_posts):
+    """สรุปข่าว BREAKING"""
+    client = ai_client()
+    news_txt = "\n\n".join(
+        f"[{i['source']}] {i['title']}\n{i['summary']}\n"
+        f"เผยแพร่: {i['published']}"
+        for i in breaking_items
+    )
+    context = ""
+    if previous_posts:
+        context = "\n\n=== โพสล่าสุดของบอท ===\n"
+        for p in previous_posts[-3:]:
+            context += f"\n{p['content'][:400]}\n---\n"
 
-ตอบกลับเฉพาะเนื้อหาสรุปเท่านั้น ไม่ต้องมีคำนำหรือคำอธิบาย"""
+    data_ctx = f"BTC ${prices['btc']['price']:,.0f} | Gold ${prices['gold']['price']:,.2f}"
+    if fg:
+        data_ctx += f" | F&G {fg['value']} ({fg['label']})"
+
+    prompt = f"""ตลาด BTC/ทอง — มีข่าว BREAKING เข้ามา
+
+{data_ctx}
+{context}
+
+=== ข่าว BREAKING ===
+{news_txt}
+
+**เลือก 1 จาก 3 กรณี**:
+
+**A. SKIP** → ตอบ "SKIP" อย่างเดียว เมื่อ:
+- ไม่กระทบ BTC/ทอง
+- เคยพูดในโพสก่อนและไม่มีอะไรใหม่
+
+**B. 🔄 UPDATE** → เมื่อเรื่องเดิมแต่พลิก/มีตัวเลขใหม่:
+```
+🔄 อัปเดต — [หัวข้อ]
+📌 เดิม: ...
+🆕 ล่าสุด: ...
+
+💡 กระทบ BTC: [ทิศทาง + level]
+💡 กระทบทอง: [ทิศทาง + level]
+🎯 [ต่อไป]
+```
+
+**C. 🔥 BREAKING** → เมื่อข่าวใหม่ล้วน:
+```
+🔥 BREAKING — [หัวข้อ]
+[รายละเอียด + ตัวเลข]
+
+💡 กระทบ BTC: [ทิศทาง + level]
+💡 กระทบทอง: [ทิศทาง + level]
+🎯 [ต่อไป]
+```
+
+- ห้ามเกิน 1500 ตัวอักษร
+- ถ้ากระทบแค่ตัวเดียว = ระบุแค่ตัวนั้น
+
+ตัวอย่างการตัดสิน:
+- โพสก่อน: "Trump ประกาศบุกอิหร่าน" | ใหม่: "Trump ยกเลิก" → UPDATE
+- โพสก่อน: "Trump ประกาศบุกอิหร่าน" | ใหม่: "นักวิเคราะห์วิจารณ์ Trump" → SKIP
+
+ตอบเฉพาะเนื้อหา หรือ SKIP"""
+
+    msg = client.messages.create(
+        model="claude-sonnet-5",
+        max_tokens=1000,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return _extract_text(msg)
+
+
+def ai_price_alert(prices, btc_change, gold_change, context_news, fg, perp):
+    """สรุป price alert + ข่าวประกอบ"""
+    client = ai_client()
+    news_txt = ""
+    if context_news:
+        news_txt = "=== ข่าว 60 นาที (อาจเป็นสาเหตุ) ===\n"
+        news_txt += "\n\n".join(
+            f"[{i['source']}] {i['title']}\n{i['summary'][:250]}"
+            for i in context_news[:5]
+        )
+    else:
+        news_txt = "=== ไม่พบข่าวที่เกี่ยวข้อง ==="
+
+    triggered = []
+    if btc_change is not None and abs(btc_change) >= BTC_ALERT_THRESHOLD:
+        triggered.append(f"BTC {btc_change:+.2f}%")
+    if gold_change is not None and abs(gold_change) >= GOLD_ALERT_THRESHOLD:
+        triggered.append(f"ทอง {gold_change:+.2f}%")
+
+    sentiment = ""
+    if fg:
+        sentiment += f"F&G: {fg['value']} ({fg['label']})"
+    if perp:
+        sentiment += f" | Funding: {perp['funding_rate']:+.3f}%"
+
+    prompt = f"""ราคาผิดปกติ — เขียน alert ด่วน
+
+BTC ${prices['btc']['price']:,.0f} | Gold ${prices['gold']['price']:,.2f}
+{sentiment}
+
+Trigger: {', '.join(triggered)} ใน 1 ชม.
+
+{news_txt}
+
+**Format**:
+```
+🚨 [BTC/GOLD/BOTH] ALERT
+
+📈/📉 [asset] $[ราคา] ([%change] ใน 1 ชม.)
+
+📰 น่าจะเป็นสาเหตุ:
+   • [ข่าว 1-2 อัน]  (ถ้ามี)
+หรือ
+📰 ไม่พบข่าวชัดเจน — อาจเป็น:
+   • [liquidation/whale/technical]  (ถ้าไม่มีข่าว)
+
+💡 แนวโน้ม:
+• แนวรับ/ต้าน: [ตัวเลข]
+• ถ้าหลุด → ...
+• ถ้ายืน → ...
+
+🎯 กระทบตัวอื่น: [ถ้ามี]
+```
+
+- ห้ามเกิน 1500 ตัวอักษร
+- ซื่อสัตย์: ไม่มีข่าว = บอกว่าไม่มี
+- ใช้ F&G + Funding ประกอบการวิเคราะห์
+
+ตอบเฉพาะเนื้อหา"""
+
+    msg = client.messages.create(
+        model="claude-sonnet-5",
+        max_tokens=800,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return _extract_text(msg)
+
+
+def ai_weekly_wrap(prices, fg, macro, perp, week_posts):
+    """สรุปสัปดาห์ทุกวันอาทิตย์"""
+    client = ai_client()
+    week_summary = "\n\n".join(
+        f"[{p['time']}]\n{p['content'][:400]}"
+        for p in week_posts[-14:]
+    )
+
+    prompt = f"""เขียน Weekly Wrap สำหรับ BTC + ทองคำ
+
+=== ราคา ณ สิ้นสัปดาห์ ===
+- BTC ${prices['btc']['price']:,.0f} ({prices['btc']['change_24h']:+.2f}% 24h)
+- Gold ${prices['gold']['price']:,.2f} ({prices['gold']['change_24h']:+.2f}% 24h)
+- F&G: {fg['value']} ({fg['label']}) if fg else 'N/A'
+
+=== โพสสัปดาห์นี้ ===
+{week_summary}
+
+**Format**:
+```
+📊 Weekly Wrap — สัปดาห์ที่ผ่านมา
+
+📈 ผลตอบแทน:
+• BTC: [%สัปดาห์ + ทิศทาง]
+• Gold: [%สัปดาห์ + ทิศทาง]
+
+🎯 ประเด็นสำคัญ (3 อัน):
+1. [ประเด็น 1]
+2. [ประเด็น 2]
+3. [ประเด็น 3]
+
+📅 สัปดาห์หน้าจับตา:
+• [event สำคัญ]
+
+🔮 Outlook สัปดาห์หน้า:
+• BTC: [ทิศทาง + level]
+• Gold: [ทิศทาง + level]
+```
+
+ห้ามเกิน 2000 ตัวอักษร
+ตอบเฉพาะเนื้อหา"""
 
     msg = client.messages.create(
         model="claude-sonnet-5",
         max_tokens=1500,
         messages=[{"role": "user", "content": prompt}],
     )
-    parts = [b.text for b in msg.content if getattr(b, "text", None)]
-    if not parts:
-        raise RuntimeError(f"ไม่มี text ใน response: {msg.content}")
-    return "\n".join(parts).strip()
+    return _extract_text(msg)
 
 
 # ============================================================
-# DISCORD POSTING
+# DISCORD
 # ============================================================
 
-def post_to_discord(summary):
-    """ส่ง embed ไป Discord"""
+def post_discord(summary, title_prefix="📊 อัปเดต BTC & ทอง", color=15844367):
     now_th = datetime.now(timezone(timedelta(hours=7))).strftime("%d %b %Y %H:%M")
-
-    # เลือกสีตาม content (breaking = แดง, ปกติ = เหลือง)
-    color = 15158332 if "🔥 BREAKING" in summary else 15844367
-
     payload = {
         "username": "AI Bot",
         "embeds": [{
-            "title": f"📊 อัปเดตข่าวการเงิน | {now_th}",
+            "title": f"{title_prefix} | {now_th}",
             "description": summary[:4000],
             "color": color,
-            "footer": {"text": "AI Bot • ข้อมูลนี้เพื่อการติดตามข่าว ไม่ใช่คำแนะนำการลงทุน"},
+            "footer": {"text": "AI Bot • ไม่ใช่คำแนะนำการลงทุน"},
             "timestamp": datetime.now(timezone.utc).isoformat(),
         }]
     }
     r = requests.post(DISCORD_WEBHOOK, json=payload, timeout=15)
     r.raise_for_status()
-    print(f"[ok] posted to Discord ({r.status_code})")
+    print(f"[ok] posted ({r.status_code})")
+
+
+# ============================================================
+# MODE: FULL BRIEF
+# ============================================================
+
+def mode_full_brief():
+    print("[mode] full_brief")
+    state = load_state()
+
+    # Fetch all data
+    prices = fetch_prices()
+    if not prices:
+        print("[error] no prices — abort")
+        return
+
+    fg = fetch_fear_greed()
+    macro = fetch_macro()
+    perp = fetch_btc_perp()
+    levels = None    # ตัด Key Levels ออก
+    events = []      # ตัด Calendar ออก
+
+    items = fetch_headlines(hours_back=8, keywords=KEYWORDS)
+    new_items = filter_new(items, state["posted_urls"])
+    print(f"[info] {len(new_items)} new items")
+
+    if not new_items:
+        print("[info] no news — skip")
+        record_price(state, prices)
+        save_state(state)
+        return
+
+    summary = ai_summarize_brief(new_items, prices, fg, macro, perp, levels, state["posts"])
+
+    if "ไม่มีข่าวใหม่ที่สำคัญ" in summary or len(summary) < 80:
+        print("[info] AI: nothing important")
+        state["posted_urls"] = (state["posted_urls"] + [i["link"] for i in new_items])[-500:]
+        record_price(state, prices)
+        save_state(state)
+        return
+
+    header = build_header(prices, fg, macro, perp, levels, events)
+    body = header + summary
+    color = 15158332 if "🔥 BREAKING" in summary else 15844367
+    post_discord(body, color=color)
+
+    now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
+    state["posts"].append({"time": now_iso, "content": summary})
+    state["posts"] = state["posts"][-8:]
+    state["posted_urls"] = (state["posted_urls"] + [i["link"] for i in new_items])[-500:]
+    record_price(state, prices)
+    save_state(state)
+    print("[ok] full brief done")
+
+
+# ============================================================
+# MODE: WATCH (BREAKING + Price alarm)
+# ============================================================
+
+def _cooldown_active(state, key):
+    last = state["last_alert"].get(key)
+    if not last:
+        return False
+    try:
+        last_dt = datetime.fromisoformat(last)
+        return (datetime.now(timezone(timedelta(hours=7))) - last_dt) < timedelta(minutes=ALERT_COOLDOWN_MINUTES)
+    except Exception:
+        return False
+
+
+def _fire_price_alert(state, prices, btc_c, gold_c):
+    print(f"[alert] PRICE! BTC {btc_c:+.2f}%, Gold {gold_c:+.2f}%")
+    context_news = fetch_headlines(hours_back=1, keywords=KEYWORDS)
+    fg = fetch_fear_greed()
+    perp = fetch_btc_perp()
+    summary = ai_price_alert(prices, btc_c, gold_c, context_news[:5], fg, perp)
+    post_discord(summary, title_prefix="🚨 PRICE ALERT", color=15158332)
+    state["last_alert"]["price"] = datetime.now(timezone(timedelta(hours=7))).isoformat()
+
+
+def _fire_breaking(state, prices, breaking_items):
+    print(f"[alert] BREAKING! {len(breaking_items)} items")
+    fg = fetch_fear_greed()
+    summary = ai_breaking_alert(breaking_items, prices, fg, state["posts"])
+    if summary.strip().upper() == "SKIP":
+        print("[info] SKIP")
+        state["posted_urls"] = (state["posted_urls"] + [i["link"] for i in breaking_items])[-500:]
+        return
+    # เพิ่ม mini header
+    header = (
+        f"💰 BTC **${prices['btc']['price']:,.0f}** ({prices['btc']['change_24h']:+.2f}%) | "
+        f"🥇 Gold **${prices['gold']['price']:,.2f}** ({prices['gold']['change_24h']:+.2f}%)\n\n"
+    )
+    if fg:
+        header = f"😱 F&G: {fg['value']} ({fg['label']}) | " + header
+    post_discord(header + summary, title_prefix="🔥 BREAKING NEWS", color=15158332)
+    now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
+    state["posts"].append({"time": now_iso, "content": summary})
+    state["posts"] = state["posts"][-8:]
+    state["posted_urls"] = (state["posted_urls"] + [i["link"] for i in breaking_items])[-500:]
+    state["last_alert"]["breaking"] = now_iso
+
+
+def mode_watch():
+    print("[mode] watch")
+    state = load_state()
+    prices = fetch_prices()
+    if not prices:
+        print("[error] no prices — abort")
+        return
+
+    # Layer 3: Price Alarm
+    btc_c, gold_c = compute_price_change(prices, state["price_history"], PRICE_LOOKBACK_HOURS)
+    print(f"[info] 1h: BTC {btc_c}, Gold {gold_c}")
+    btc_alert = btc_c is not None and abs(btc_c) >= BTC_ALERT_THRESHOLD
+    gold_alert = gold_c is not None and abs(gold_c) >= GOLD_ALERT_THRESHOLD
+
+    if (btc_alert or gold_alert) and not _cooldown_active(state, "price"):
+        _fire_price_alert(state, prices, btc_c, gold_c)
+
+    # Layer 2: BREAKING
+    breaking = fetch_headlines(hours_back=1.5, keywords=BREAKING_KEYWORDS)
+    new_breaking = filter_new(breaking, state["posted_urls"])
+    if new_breaking and not _cooldown_active(state, "breaking"):
+        _fire_breaking(state, prices, new_breaking)
+
+    record_price(state, prices)
+    save_state(state)
+    print("[ok] watch done")
+
+
+# ============================================================
+# MODE: WEEKLY WRAP
+# ============================================================
+
+def mode_weekly():
+    print("[mode] weekly")
+    state = load_state()
+    prices = fetch_prices()
+    if not prices:
+        print("[error] no prices")
+        return
+    fg = fetch_fear_greed()
+    macro = fetch_macro()
+    perp = fetch_btc_perp()
+    summary = ai_weekly_wrap(prices, fg, macro, perp, state["posts"])
+    header = build_header(prices, fg, macro, perp, None, [])
+    post_discord(header + summary, title_prefix="📊 Weekly Wrap", color=3447003)
+    print("[ok] weekly done")
 
 
 # ============================================================
@@ -225,45 +872,16 @@ def post_to_discord(summary):
 # ============================================================
 
 def main():
-    # 1. โหลด state
-    state = load_state()
-    print(f"[info] state: {len(state['posts'])} previous posts, "
-          f"{len(state['posted_urls'])} known URLs")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=["full", "watch", "weekly"], default="full")
+    args = parser.parse_args()
 
-    # 2. ดึงข่าว 8 ชม.ล่าสุด
-    items = fetch_headlines(hours_back=8)
-    print(f"[info] fetched {len(items)} relevant headlines")
-
-    # 3. กรอง URL ที่โพสแล้ว
-    new_items = filter_new_items(items, state["posted_urls"])
-    print(f"[info] {len(new_items)} truly new after dedup")
-
-    if not new_items:
-        print("[info] no new items — skipping")
-        return
-
-    # 4. ให้ AI สรุป (พร้อม context ของ posts ก่อนหน้า)
-    summary = ai_summarize(new_items, state["posts"])
-    print(f"[info] summary length: {len(summary)} chars")
-
-    # 5. AI บอกว่าไม่มีอะไรสำคัญ = ไม่โพส แต่อัปเดต URL ให้ไม่เจอซ้ำ
-    if "ไม่มีข่าวใหม่ที่สำคัญ" in summary or len(summary) < 80:
-        print("[info] AI: nothing important — updating URLs only")
-        state["posted_urls"] = (state["posted_urls"] + [i["link"] for i in new_items])[-500:]
-        save_state(state)
-        return
-
-    # 6. โพสเข้า Discord
-    post_to_discord(summary)
-
-    # 7. บันทึก state
-    now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
-    state["posts"].append({"time": now_iso, "content": summary})
-    state["posts"] = state["posts"][-6:]  # เก็บ 6 posts ล่าสุด (~24-36 ชม.)
-    state["posted_urls"] = (state["posted_urls"] + [i["link"] for i in new_items])[-500:]
-    save_state(state)
-    print(f"[ok] state saved: {len(state['posts'])} posts, "
-          f"{len(state['posted_urls'])} URLs")
+    if args.mode == "full":
+        mode_full_brief()
+    elif args.mode == "watch":
+        mode_watch()
+    elif args.mode == "weekly":
+        mode_weekly()
 
 
 if __name__ == "__main__":
