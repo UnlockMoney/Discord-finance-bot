@@ -10,5 +10,20 @@
     "https://www.coindesk.com/markets/2026/07/03/finally-usd221-million-flow-into-bitcoin-etfs-ending-a-painful-10-day-outflow-streak",
     "https://www.coindesk.com/markets/2026/07/03/xrp-bulls-test-path-back-toward-usd1-10-as-token-zips-4-higher",
     "https://www.coindesk.com/markets/2026/07/03/ether-and-solana-extend-gains-as-a-short-squeeze-lifts-bitcoin-toward-usd62-000"
-  ]
+  ],
+  "price_history": [
+    {
+      "btc": {
+        "price": 61611,
+        "change_24h": 1.588940937123045,
+        "volume_24h": 35626923408.73363
+      },
+      "gold": {
+        "price": 4163.17,
+        "change_24h": 2.5078838413123137
+      },
+      "timestamp": "2026-07-03T09:30:43.463947+00:00"
+    }
+  ],
+  "last_alert": {}
 }
