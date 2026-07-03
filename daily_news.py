@@ -90,8 +90,11 @@ def ai_summarize(items):
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
-    return msg.content[0].text.strip()
-
+    # ดึง text จากทุก content block (ข้าม thinking block ที่ไม่มี text)
+    parts = [b.text for b in msg.content if getattr(b, "text", None)]
+    if not parts:
+        raise RuntimeError(f"ไม่มี text ใน response: {msg.content}")
+    return "\n".join(parts).strip()
 
 def post_to_discord(summary):
     """Send embed to Discord webhook."""
