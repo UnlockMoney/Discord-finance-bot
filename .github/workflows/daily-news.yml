@@ -2,11 +2,15 @@ name: Daily Discord Finance News
 
 on:
   schedule:
-    - cron: '0 1 * * *'    # 08:00 เช้า (สรุปข่าวเมื่อคืน + เอเชียเช้า)
-    - cron: '0 8 * * *'    # 15:00 บ่าย (เอเชียปิด / ยุโรปเปิด)
+    - cron: '0 1 * * *'    # 08:00 เช้า (เอเชียเช้า)
+    - cron: '0 8 * * *'    # 15:00 บ่าย (ยุโรปเปิด)
     - cron: '0 13 * * *'   # 20:00 เย็น (US เปิดตลาด)
-    - cron: '0 17 * * *'   # 00:00 กลางคืน (US ปิดตลาด)
-  workflow_dispatch: {}   # กดรันเองได้จากหน้า Actions
+    - cron: '0 17 * * *'   # 00:00 กลางคืน (US ปิด)
+  workflow_dispatch: {}
+
+# ต้องมี write permission เพื่อ commit state.json กลับ repo
+permissions:
+  contents: write
 
 jobs:
   post:
@@ -24,3 +28,12 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json || true
+          git diff --staged --quiet || git commit -m "chore: update state [skip ci]"
+          git push
+        continue-on-error: true
