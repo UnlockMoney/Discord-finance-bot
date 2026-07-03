@@ -1,0 +1,24 @@
+name: Daily Discord Finance News
+
+on:
+  schedule:
+    # 08:00 น. เวลาไทย = 01:00 UTC ทุกวัน
+    - cron: '0 1 * * *'
+  workflow_dispatch: {}   # กดรันเองได้จากหน้า Actions
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - run: python daily_news.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
