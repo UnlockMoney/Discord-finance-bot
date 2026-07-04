@@ -7,6 +7,10 @@
     {
       "time": "2026-07-04T01:47:19.177281+07:00",
       "content": "📊 **BTC & Gold Market Update**\n\n🔄 อัปเดต — ETF Flow เรื่องจริงซับซ้อนกว่าที่คิด\nเดิม: เมื่อวานบอก ETF พลิก inflow $221M ตัดขาดทุน 10 วัน\nล่าสุด: CoinDesk เผยภาพใหญ่กว่า — Whales กว้านซื้อ BTC $16.7B (~270,000 BTC) ใน 2 สัปดาห์ ขณะที่ ETF โดย net แล้ว \"bled\" ระดับ record $4B ในช่วงเดียวกัน สะท้อนว่า retail ผ่าน ETF ยังขายอยู่ แต่ smart money/whale สะสมหนักสวนทาง\n💡 กระทบ: ₿ Support $60,500 / Resistance $62,000 (ราคาปัจจุบัน $62,155 ทะลุแนวต้านแล้ว) — divergence ระหว่าง whale accumulation กับ ETF outflow คือสัญญาณเปลี่ยนมือจากมือลอยไปมือแข็ง มักเกิดก่อน bottom สำคัญ\n\n🆕 Options Market ยังไม่เชื่อการเด้งครั้งนี้\nCoinDesk รายงานว่าตลาด options BTC/ETH สะท้อน skew ที่ trader ยังไม่ mua เต็มที่กับการรีบาวด์ ป้องกันความเสี่ยงขาลงมากกว่าเก็งกำไรขาขึ้น\n💡 กระทบ: ₿ แม้ราคาแตะ $62,155 แต่ downside protection ยังสูง — อาจเห็นแรงขายกดกลับมาที่ $60,500 หากไม่มี catalyst ใหม่ ต้องระวัง fakeout เหนือ $62,000\n\n🆕 Rate-Hike Risk ลดลง หนุน Crypto Bulls\nตลาดมองความเสี่ยงขึ้นดอกเบี้ยเฟดลดลง สอดคล้องกับ DXY อ่อนตัว (-0.27% ที่ 100.84) และ 10Y Yield ทรงตัว 4.48%\n💡 กระทบ: ₿ Dollar อ่อน = bullish สำหรับสินทรัพย์เสี่ยง / 🥇 Gold $4,164.43 (+1.21%) ได้แรงหนุนเดียวกันจาก DXY อ่อน + safe haven demand\n\n🆕 AI Bubble Warning หนุน Safe Haven Flow\nMacroResearchBoard เตือนความเสี่ยง AI disappointment ผสมกับ yield ขาขึ้น อาจกดดันหุ้นเทคใน 12 เดือนข้างหน้า\n💡 กระทบ: 🥇 Gold Resistance $4,200 — ความกังวลเรื่อง stock correction หนุนแรงซื้อทองเป็น hedge เห็นได้จาก GLD ETF +2.35% วันนี้ / ₿ หากหุ้นปรับฐานแรง BTC อาจโดน risk-off ลากลงด้วยในระยะสั้น\n\n---\n📈 Trend: BTC sideways-to-uptrend (ทะลุ resistance แต่ options ยังระวัง) | Gold uptrend (โมเมนตัม"
+    },
+    {
+      "time": "2026-07-04T16:33:37.898444+07:00",
+      "content": "📊 **BTC & Gold Market Update**\n\n🆕 BTC ต้องการทุนใหม่ $1 ล้านล้านเพื่อ parabolic รอบใหม่\nนักวิเคราะห์ชี้ว่าหาก BTC จะทะลุ"
     }
   ],
   "posted_urls": [
@@ -19,7 +23,9 @@
     "https://www.coindesk.com/policy/2026/07/03/trump-says-there-is-nothing-wrong-with-family-s-crypto-windfall",
     "https://www.coindesk.com/markets/2026/07/03/bitcoin-whales-bought-270-000-btc-in-two-weeks-even-as-etfs-bled-a-record-usd4-billion",
     "https://www.coindesk.com/daybook-us/2026/07/03/bitcoin-ether-traders-aren-t-fully-buying-the-bounce-options-markets-show",
-    "https://www.coindesk.com/markets/2026/07/03/crypto-bulls-on-firmer-footing-as-u-s-rate-hike-risk-recedes"
+    "https://www.coindesk.com/markets/2026/07/03/crypto-bulls-on-firmer-footing-as-u-s-rate-hike-risk-recedes",
+    "https://www.coindesk.com/markets/2026/07/04/xrp-climbs-8-as-one-onchain-gauge-signal-shows-favorable-risk-reward-for-buyers",
+    "https://www.coindesk.com/markets/2026/07/04/bitcoin-s-next-parabolic-run-may-need-usd1-trillion-in-fresh-capital"
   ],
   "price_history": [
     {
@@ -81,6 +87,18 @@
         "change_24h": -0.06625975593664382
       },
       "timestamp": "2026-07-04T07:29:33.635635+00:00"
+    },
+    {
+      "btc": {
+        "price": 62420,
+        "change_24h": 1.3391383526579497,
+        "volume_24h": 23557030335.499023
+      },
+      "gold": {
+        "price": 4165.95,
+        "change_24h": 0.12427320926730756
+      },
+      "timestamp": "2026-07-04T09:33:05.520035+00:00"
     }
   ],
   "last_alert": {}
