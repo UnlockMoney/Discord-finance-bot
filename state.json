@@ -11,6 +11,10 @@
     {
       "time": "2026-07-04T16:33:37.898444+07:00",
       "content": "📊 **BTC & Gold Market Update**\n\n🆕 BTC ต้องการทุนใหม่ $1 ล้านล้านเพื่อ parabolic รอบใหม่\nนักวิเคราะห์ชี้ว่าหาก BTC จะทะลุ"
+    },
+    {
+      "time": "2026-07-05T00:40:53.714374+07:00",
+      "content": "📊 **BTC & Gold Market Update**\n\n🆕 BTC แยกทางหุ้น — นักวิเคราะห์เตือนจะไม่ยั่งยืน\nCoinDesk ชี้ตลาดหุ้นสหรัฐทำ record high ต่อเนื่อง แต่ BTC ยังแกว่งต่ำกว่าจุดสูงสุด สะท้อน correlation break ที่ผิดปกติ นักวิเคราะห์มองว่า gap นี้จะปิดเร็วๆ นี้ ไม่ทางใดก็ทางหนึ่ง\n💡 กระทบ: ₿ Support $62,000 (เดิมเคยเป็น resistance) / Resistance $65,000 — หาก risk-on ตามหุ้นจริง อาจเห็น breakout, แต่ F&G ยังอยู่โซน Extreme Fear (22) เสี่ยง fake move\n\n🆕 นักลงทุนโทเคน Trump ขาดทุนรวม $3.8 พันล้าน\nBlockchain data เผยผู้ถือ Trump-linked token ขาดทุนสะสมมหาศาล สะท้อน sentiment เชิงลบต่อ meme/political crypto โดยรวม แม้ BTC เองจะบวก\n💡 กระทบ: ₿ ไม่กระทบราคาตรง แต่สะท้อน risk appetite รายย่อยยังอ่อนแอ สอดคล้อง F&G 22 (Extreme Fear)\n\n🆕 Jim Cramer มองทองคำขาลง แม้ชอบ Agnico Eagle\nCramer ยังชอบหุ้นเหมืองทอง Agnico Eagle แต่เชื่อว่าราคาทองคำ spot จะปรับตัวลงต่อ สวนทางกับ GLD ETF ที่เพิ่งบวก +2.35%\n💡 กระทบ: 🥇 Support $4,100 / Resistance $4,200 — ราคาทองแทบไม่ขยับ (-0.01%) ท่ามกลาง DXY อ่อนตัว (100.86, -0.25%) และ 10Y Yield 4.48% ยังกดดันสองทาง\n\n🆕 EU เตรียมบล็อกรายย่อยจาก Prediction Markets\nกฎใหม่ EU มุ่งจำกัดนักลงทุนรายย่อยเข้าถึงตลาด prediction market มูลค่าหลายพันล้านดอลลาร์ อาจกระทบ sentiment crypto-adjacent sector โดยรวม\n💡 กระทบ: ไม่กระทบราคาตรง แต่เป็นสัญญาณ regulatory tightening ที่ตลาดคริปโตต้องจับตา\n\n📈 Trend: BTC sideways-to-uptrend (ทดสอบ $62,000 support ใหม่) | Gold sideways ($4,100-$4,200 range)\n⚠️ Risk: ปานกลาง-สูง — F&G ยัง Extreme Fear (22) สวนทางราคา BTC ที่บวก, divergence จากหุ้นเสี่ยง correction กะทันหัน\n🎯 ภาพรวม: BTC ยืนเหนือ $62,000 ได้ยังมีลุ้นไป $65,000 แต่ต้องระวัง sentiment อ่อนฉุดกลับ ส่วนทองแกว่ง sideways รอ catalyst จาก yield/DXY"
     }
   ],
   "posted_urls": [
@@ -25,7 +29,14 @@
     "https://www.coindesk.com/daybook-us/2026/07/03/bitcoin-ether-traders-aren-t-fully-buying-the-bounce-options-markets-show",
     "https://www.coindesk.com/markets/2026/07/03/crypto-bulls-on-firmer-footing-as-u-s-rate-hike-risk-recedes",
     "https://www.coindesk.com/markets/2026/07/04/xrp-climbs-8-as-one-onchain-gauge-signal-shows-favorable-risk-reward-for-buyers",
-    "https://www.coindesk.com/markets/2026/07/04/bitcoin-s-next-parabolic-run-may-need-usd1-trillion-in-fresh-capital"
+    "https://www.coindesk.com/markets/2026/07/04/bitcoin-s-next-parabolic-run-may-need-usd1-trillion-in-fresh-capital",
+    "https://finance.yahoo.com/news/trump-accounts-debut-us-kicks-100434540.html",
+    "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-likes-agnico-143005546.html",
+    "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-cerebras-systems-warned-142341194.html",
+    "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-cardinal-health-real-142048565.html",
+    "https://www.coindesk.com/markets/2026/07/03/why-bitcoin-s-disconnect-from-record-high-stocks-won-t-last",
+    "https://www.coindesk.com/business/2026/07/04/trump-s-crypto-token-buyers-are-down-usd3-8-billion-blockchain-data-shows",
+    "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets"
   ],
   "price_history": [
     {
@@ -123,6 +134,18 @@
         "change_24h": 0.15210421305630037
       },
       "timestamp": "2026-07-04T15:48:23.276508+00:00"
+    },
+    {
+      "btc": {
+        "price": 63108,
+        "change_24h": 1.4865149694220194,
+        "volume_24h": 20204804450.529594
+      },
+      "gold": {
+        "price": 4165.31,
+        "change_24h": -0.008082286141080183
+      },
+      "timestamp": "2026-07-04T17:40:19.960523+00:00"
     }
   ],
   "last_alert": {}
