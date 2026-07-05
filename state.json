@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "time": "2026-07-05T18:59:57.568554+07:00",
+      "content": "### 🆕 Portnoy ประกาศ Hold BTC ลงถึง Zero\nDave Portnoy (Barstool) ยอมรับ timing ผิดพลาดตลอด แต่ประกาศจะถือ BTC ต่อแม้ราคาจะลงไปแตะศูนย์ — สะท้อน retail sentiment ที่อ่อนแรงสุดขีด สอดคล้องกับ F&G Index 23 (Extreme Fear)\n\n💡 กระทบ: 🥇 ไม่กระทบตรง | ₿ BTC — เชิง contrarian indicator: เมื่อ retail รายใหญ่ที่ known สำหรับ timing ผิดยอมจำนน มักเป็นสัญญาณใกล้ bottom มากกว่า bearish จริง แต่ระยะสั้นยังกดดัน sentiment รวม\n\n---\n\n## 🎯 สรุป\n📈 Trend: BTC sideways (แกว่งแคบ $62.6K, momentum อ่อน) | Gold uptrend (GLD +2.35%, DXY อ่อนตัวหนุน)\n⚠️ Risk: กลาง — F&G 23 = Extreme Fear อาจนำไปสู่ capitulation เพิ่มเติม แต่ historically มักตามด้วย reversal\n🎯 ภาพรวม: BTC ยังไซด์เวย์รอ catalyst ใหม่ ขณะทองได้แรงหนุนจาก DXY อ่อน + yield ทรงตัว น่าจับตาว่า extreme fear จะเป็นจุดกลับตัวหรือไม่"
+    }
+  ],
+  "posted_urls": [
+    "https://www.coindesk.com/markets/2026/07/05/barstool-s-portnoy-plans-to-hold-bitcoin-down-to-zero-after-timing-it-wrong-every-time"
+  ],
+  "price_history": [
+    {
+      "btc": {
+        "price": 62617,
+        "change_24h": 0.261775254060716,
+        "volume_24h": 18188260919.618813
+      },
+      "gold": {
+        "price": 4166.79,
+        "change_24h": 0.08217713726197269
+      },
+      "timestamp": "2026-07-05T11:59:35.891884+00:00"
+    }
+  ],
+  "last_alert": {}
+}
