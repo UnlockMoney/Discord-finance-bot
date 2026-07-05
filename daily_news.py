@@ -18,6 +18,7 @@ Modes:
 
 import os
 import json
+import time
 import argparse
 import feedparser
 import requests
@@ -407,7 +408,7 @@ def build_header(prices, fg, macro, perp, levels, events):
         lines.append("")
         lines.append("• " + " | ".join(sentiment_parts))
 
-    lines.append("\n" + "─" * 20 + "\n")
+    lines.append("\n---\n")
     return "\n".join(lines)
 
 
@@ -505,9 +506,10 @@ def ai_summarize_brief(items, prices, fg, macro, perp, levels, previous_posts):
 🎯 ภาพรวม: [สรุปทิศทาง 1 บรรทัด]
 ```
 
-9. ห้ามเกิน 2500 ตัวอักษร
+9. **ห้ามเกิน 1600 ตัวอักษร** (สำคัญ! Discord จำกัดความยาว)
 10. Level ต้องเป็นตัวเลขจริง
 11. **ตรวจสอบก่อนส่ง**: ต้องจบด้วย 🎯 ภาพรวม — ห้ามค้างกลางประโยค
+12. เขียนกระชับ ตัดคำเยิ่นเย้อออก — คุณภาพต้องดี แต่สั้น
 
 ตอบเฉพาะเนื้อหา ห้ามใส่คำนำ ห้ามใส่หัวข้อภาพรวมด้านบน เริ่มด้วย ### ข่าวแรกเลย"""
 
@@ -711,21 +713,69 @@ def ai_weekly_wrap(prices, fg, macro, perp, week_posts):
 # DISCORD
 # ============================================================
 
-def post_discord(summary, title_prefix="📊 อัปเดต BTC & ทอง", color=15844367):
-    now_th = datetime.now(timezone(timedelta(hours=7))).strftime("%d %b %Y %H:%M")
+MAX_CONTENT = 1950  # Discord content limit 2000 chars — เผื่อ 50 chars safety
+
+
+def _post_single(content_text):
+    """ยิงข้อความ 1 ก้อนเข้า Discord แบบ content (font ปกติ ใหญ่)"""
     payload = {
         "username": "AI Bot",
-        "embeds": [{
-            "title": f"{title_prefix} | {now_th}",
-            "description": summary[:4000],
-            "color": color,
-            "footer": {"text": "AI Bot • ไม่ใช่คำแนะนำการลงทุน"},
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-        }]
+        "content": content_text[:MAX_CONTENT],
+        "allowed_mentions": {"parse": []},
     }
     r = requests.post(DISCORD_WEBHOOK, json=payload, timeout=15)
     r.raise_for_status()
-    print(f"[ok] posted ({r.status_code})")
+    print(f"[ok] posted chunk ({len(content_text)} chars)")
+
+
+def _smart_split(text, max_len=MAX_CONTENT):
+    """แบ่งข้อความเป็นชิ้นๆ ตัดตรง section header ก่อน"""
+    if len(text) <= max_len:
+        return [text]
+
+    # หา breakpoint ตามลำดับความสำคัญ
+    breakpoints = ["\n## ", "\n### ", "\n---\n", "\n\n"]
+    parts = []
+    remaining = text
+
+    while len(remaining) > max_len:
+        cut_pos = -1
+        # หา breakpoint ที่ใกล้ max_len ที่สุด (ไม่เกิน)
+        for bp in breakpoints:
+            search_end = max_len
+            pos = remaining.rfind(bp, 0, search_end)
+            if pos > cut_pos:
+                cut_pos = pos
+
+        if cut_pos <= 0:
+            cut_pos = max_len
+
+        parts.append(remaining[:cut_pos].rstrip())
+        remaining = remaining[cut_pos:].lstrip()
+
+    if remaining:
+        parts.append(remaining)
+    return parts
+
+
+def post_discord(summary, title_prefix="📊 อัปเดต BTC & ทอง", color=None):
+    """
+    ส่งเป็น content ปกติ (font ใหญ่) — ถ้ายาวเกิน split เป็นหลายข้อความ
+    color ไม่ได้ใช้แล้ว (เก็บ argument ไว้ compatible)
+    """
+    now_th = datetime.now(timezone(timedelta(hours=7))).strftime("%d %b %Y %H:%M")
+    # สร้างข้อความเต็ม
+    full_text = f"# {title_prefix} | {now_th}\n\n{summary}\n\n-# AI Bot • ไม่ใช่คำแนะนำการลงทุน"
+
+    chunks = _smart_split(full_text)
+    for i, chunk in enumerate(chunks):
+        # ถ้าหลาย chunk เพิ่ม (ต่อ) กำกับ
+        if len(chunks) > 1 and i > 0:
+            chunk = f"*(ต่อ {i+1}/{len(chunks)})*\n\n" + chunk
+        _post_single(chunk)
+        if i < len(chunks) - 1:
+            time.sleep(0.7)  # กัน rate limit
+    print(f"[ok] posted total {len(chunks)} message(s)")
 
 
 # ============================================================
