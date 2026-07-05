@@ -15,6 +15,10 @@
     {
       "time": "2026-07-05T00:40:53.714374+07:00",
       "content": "📊 **BTC & Gold Market Update**\n\n🆕 BTC แยกทางหุ้น — นักวิเคราะห์เตือนจะไม่ยั่งยืน\nCoinDesk ชี้ตลาดหุ้นสหรัฐทำ record high ต่อเนื่อง แต่ BTC ยังแกว่งต่ำกว่าจุดสูงสุด สะท้อน correlation break ที่ผิดปกติ นักวิเคราะห์มองว่า gap นี้จะปิดเร็วๆ นี้ ไม่ทางใดก็ทางหนึ่ง\n💡 กระทบ: ₿ Support $62,000 (เดิมเคยเป็น resistance) / Resistance $65,000 — หาก risk-on ตามหุ้นจริง อาจเห็น breakout, แต่ F&G ยังอยู่โซน Extreme Fear (22) เสี่ยง fake move\n\n🆕 นักลงทุนโทเคน Trump ขาดทุนรวม $3.8 พันล้าน\nBlockchain data เผยผู้ถือ Trump-linked token ขาดทุนสะสมมหาศาล สะท้อน sentiment เชิงลบต่อ meme/political crypto โดยรวม แม้ BTC เองจะบวก\n💡 กระทบ: ₿ ไม่กระทบราคาตรง แต่สะท้อน risk appetite รายย่อยยังอ่อนแอ สอดคล้อง F&G 22 (Extreme Fear)\n\n🆕 Jim Cramer มองทองคำขาลง แม้ชอบ Agnico Eagle\nCramer ยังชอบหุ้นเหมืองทอง Agnico Eagle แต่เชื่อว่าราคาทองคำ spot จะปรับตัวลงต่อ สวนทางกับ GLD ETF ที่เพิ่งบวก +2.35%\n💡 กระทบ: 🥇 Support $4,100 / Resistance $4,200 — ราคาทองแทบไม่ขยับ (-0.01%) ท่ามกลาง DXY อ่อนตัว (100.86, -0.25%) และ 10Y Yield 4.48% ยังกดดันสองทาง\n\n🆕 EU เตรียมบล็อกรายย่อยจาก Prediction Markets\nกฎใหม่ EU มุ่งจำกัดนักลงทุนรายย่อยเข้าถึงตลาด prediction market มูลค่าหลายพันล้านดอลลาร์ อาจกระทบ sentiment crypto-adjacent sector โดยรวม\n💡 กระทบ: ไม่กระทบราคาตรง แต่เป็นสัญญาณ regulatory tightening ที่ตลาดคริปโตต้องจับตา\n\n📈 Trend: BTC sideways-to-uptrend (ทดสอบ $62,000 support ใหม่) | Gold sideways ($4,100-$4,200 range)\n⚠️ Risk: ปานกลาง-สูง — F&G ยัง Extreme Fear (22) สวนทางราคา BTC ที่บวก, divergence จากหุ้นเสี่ยง correction กะทันหัน\n🎯 ภาพรวม: BTC ยืนเหนือ $62,000 ได้ยังมีลุ้นไป $65,000 แต่ต้องระวัง sentiment อ่อนฉุดกลับ ส่วนทองแกว่ง sideways รอ catalyst จาก yield/DXY"
+    },
+    {
+      "time": "2026-07-05T16:57:09.058878+07:00",
+      "content": "📊 **BTC & Gold Market Update**\n\n🆕 Portnoy ประกาศถือ BTC ยัน \"ลงถึงศูนย์\" หลัง timing ผิดมาตลอด\nDave Portnoy (Barstool Sports) ผู้เคยเทรด BTC ผิดจังหวะซ้ำแล้วซ้ำเล่า ออกมาประกาศว่าจะไม่ขายอีกต่อไปไม่ว่าราคาจะลงแค่ไหน — สะท้อน retail sentiment ที่เข้าสู่โหมด \"capitulation fatigue\" มากกว่าความเชื่อมั่นจริง สอดคล้องกับ F&G Index ที่ยังจมอยู่ที่ 23 (Extreme Fear)\n💡 กระทบ: 🥇 ไม่กระทบโดยตรง | ₿ Support $62,000 / Resistance $65,000 — เป็น contrarian signal เชิง sent"
     }
   ],
   "posted_urls": [
@@ -36,7 +40,8 @@
     "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-cardinal-health-real-142048565.html",
     "https://www.coindesk.com/markets/2026/07/03/why-bitcoin-s-disconnect-from-record-high-stocks-won-t-last",
     "https://www.coindesk.com/business/2026/07/04/trump-s-crypto-token-buyers-are-down-usd3-8-billion-blockchain-data-shows",
-    "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets"
+    "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
+    "https://www.coindesk.com/markets/2026/07/05/barstool-s-portnoy-plans-to-hold-bitcoin-down-to-zero-after-timing-it-wrong-every-time"
   ],
   "price_history": [
     {
@@ -182,6 +187,18 @@
         "change_24h": -0.07280493910980926
       },
       "timestamp": "2026-07-05T09:49:50.614384+00:00"
+    },
+    {
+      "btc": {
+        "price": 62545,
+        "change_24h": 0.15222030048809987,
+        "volume_24h": 18214373502.7869
+      },
+      "gold": {
+        "price": 4162.39,
+        "change_24h": -0.06497907591894425
+      },
+      "timestamp": "2026-07-05T09:56:34.174376+00:00"
     }
   ],
   "last_alert": {}
