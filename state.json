@@ -19,6 +19,10 @@
     {
       "time": "2026-07-07T18:33:22.420359+07:00",
       "content": "### 🔄 อัปเดต — BTC ทดสอบ $64K แต่ร่วงกลับ แม้ Strategy ขาย $213M\n📌 เดิม: Strategy ขาย 3,588 BTC (~$216M) กดราคาหลุด $62,000\n🆕 ล่าสุด: BTC bounce ขึ้นแตะใกล้ $64,000 ได้ แต่ร่วงกลับมา sideways — ตลาดเริ่ม shrug off ข่าว Strategy sell แล้ว แต่ยังขาดแรงส่งต่อยืนเหนือ\n💡 กระทบ: 🥇 ไม่กระทบตรง | ₿ BTC — support $62,000 ยังสำคัญ, resistance $64,000 ยังไม่ผ่าน\n\n### 🆕 Open Interest ลดลง — คำถามต่อความแข็งแรงของ Rally\nBitcoin stall หลัง OI ร่วง สะท้อนว่าฝั่ง leverage เริ่มถอยตัว ทำให้ rally ล่าสุดขาด conviction จริง\n💡 กระทบ: 🥇 ไม่กระทบตรง | ₿ BTC — เสี่ยง fakeout ถ้า OI ไม่ฟื้น, จับตา $62,000-$64,000 range\n\n### 🆕 US Demand อ่อนแรง เสี่ยง July Gain ระเหย\nCoinDesk ชี้ demand ในสหรัฐฯ ยังไม่ฟื้นจริง แม้ราคาบวกช่วง July อาจเป็นเพียง bounce ระยะสั้นจาก sentiment การเมือง (Trump) มากกว่า fundamental demand\n💡 กระทบ: 🥇 ไม่กระทบตรง | ₿ BTC — เสี่ยง pullback หากไม่มี fresh demand เข้ามาหนุน\n\n### 🆕 ETF Inflows กลับมาบวก วันจันทร์\nBitcoin และ Ether ETF มี inflow เข้าต่อเนื่อง สวนทาง sentiment fear โดยรวม — สัญญาณบวกจาก institutional side\n💡 กระทบ: 🥇 ไม่กระทบตรง | ₿ BTC — เป็น positive offset ต่อ OI decline, ช่วยพยุง downside\n\n## 🎯 สรุป\n📈 Trend: BTC sideways (แกว่ง $62K-64K, momentum ยังไม่ชัด) | Gold sideways-to-up (GLD +2.27% หนุน แม้ spot -0.33%)\n⚠️ Risk: ปานกลาง — F&G 27 (Fear) + OI ลด + US demand อ่อน กดดัน rally แม้ ETF inflow ช่วยพยุง\n🎯 ภาพรวม: BTC ยังติดกรอบ รอ catalyst ใหม่ยืนยันทิศทาง, Gold ได้แรงหนุนจาก DXY อ่อนและ yield สูง"
+    },
+    {
+      "time": "2026-07-08T01:26:12.625800+07:00",
+      "content": "## 🔥 BREAKING — จับตา Fed wage tracker ศุกร์นี้ + CPI อังคารหน้า\nนักเทรดพันธบัตรเฝ้าดู Fed wage growth gauge ที่จะอัปเดตวันศุกร์ ตามด้วยตัวเลข CPI เดือนมิถุนายนวันอังคารหน้า เพื่อประเมินโอกาสจริงของการปรับลด/ขึ้นดอกเบี้ย Fed — เป็น catalyst สำคัญต่อทิศทาง risk asset ช่วงนี้\n\n💡 กระทบ BTC: risk-on/off ขึ้นกับตัวเลข — ถ้า wage growth/CPI สูงกว่าคาด = ลด odds การลดดอกเบี้ย → กดดัน BTC ทดสอบ support $62,000 ซ้ำ, ถ้าต่ำกว่าคาด = หน"
     }
   ],
   "posted_urls": [
@@ -66,7 +70,8 @@
     "https://www.coindesk.com/markets/2026/07/07/btc-s-recent-macro-relief-faces-a-challenge-from-japanese-interest-rates",
     "https://www.coindesk.com/tech/2026/07/07/live-markets-bitcoin-and-ether-etfs-drew-inflows-on-monday",
     "https://www.coindesk.com/markets/2026/07/07/bonk-faces-usd20-million-treasury-drain-after-attacker-spends-usd4-million-to-pass-malicious-proposal",
-    "https://www.coindesk.com/markets/2026/07/07/bitcoin-drops-after-a-run-at-usd64-000-shrugging-off-strategy-s-usd213-million-btc-sale"
+    "https://www.coindesk.com/markets/2026/07/07/bitcoin-drops-after-a-run-at-usd64-000-shrugging-off-strategy-s-usd213-million-btc-sale",
+    "https://www.marketwatch.com/story/bond-traders-are-watching-this-tracker-to-figure-out-the-real-odds-of-fed-rate-hikes-42fa2742?mod=mw_rss_topstories"
   ],
   "price_history": [
     {
@@ -212,9 +217,22 @@
         "change_24h": -0.3280431400338594
       },
       "timestamp": "2026-07-07T11:32:54.689110+00:00"
+    },
+    {
+      "btc": {
+        "price": 64036,
+        "change_24h": 0.44499323302610105,
+        "volume_24h": 32148954291.087296
+      },
+      "gold": {
+        "price": 4135.2,
+        "change_24h": -0.4436268554067313
+      },
+      "timestamp": "2026-07-07T18:25:50.454544+00:00"
     }
   ],
   "last_alert": {
-    "price": "2026-07-07T02:24:08.280623+07:00"
+    "price": "2026-07-07T02:24:08.280623+07:00",
+    "breaking": "2026-07-08T01:26:12.625800+07:00"
   }
 }
