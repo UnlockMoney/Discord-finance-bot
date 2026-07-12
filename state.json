@@ -155,7 +155,8 @@
     "https://finance.yahoo.com/markets/stocks/articles/upstart-holdings-upst-renews-600m-160024046.html",
     "https://www.coindesk.com/markets/2026/07/11/bitcoin-treasury-company-empery-digital-sold-about-half-of-btc-stack",
     "https://www.coindesk.com/markets/2026/07/12/bitcoin-ether-little-changed-as-u-s-launches-fresh-iran-strikes",
-    "https://www.coindesk.com/tech/2026/07/12/bitcoin-s-bip-110-fork-deadline-nears-with-miner-support-at-zero"
+    "https://www.coindesk.com/tech/2026/07/12/bitcoin-s-bip-110-fork-deadline-nears-with-miner-support-at-zero",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-us-iran-attacks-nvidia-micron-sandisk-taiwan-semiconductor/?src=A00220&yptr=yahoo"
   ],
   "price_history": [
     {
@@ -661,6 +662,18 @@
         "change_24h": -0.2838396363157242
       },
       "timestamp": "2026-07-12T11:45:27.671994+00:00"
+    },
+    {
+      "btc": {
+        "price": 64102,
+        "change_24h": 0.01912868399495394,
+        "volume_24h": 19191045391.422905
+      },
+      "gold": {
+        "price": 4098.1,
+        "change_24h": -0.10143603599819756
+      },
+      "timestamp": "2026-07-12T15:41:26.165402+00:00"
     }
   ],
   "last_alert": {
