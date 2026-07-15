@@ -1,0 +1,69 @@
+{
+  "_comment": "ปฏิทิน events สำคัญ - เพิ่ม/แก้เองได้",
+  "_format": {
+    "date": "YYYY-MM-DD",
+    "time": "HH:MM (เวลาไทย, UTC+7)",
+    "event": "ชื่อ event",
+    "importance": "high / medium / low",
+    "consensus": "ตัวเลขที่คาดการณ์ (optional)"
+  },
+  "events": [
+    {
+      "date": "2026-07-09",
+      "time": "01:00",
+      "event": "FOMC Minutes",
+      "importance": "high"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "19:30",
+      "event": "US CPI (Jun)",
+      "importance": "high",
+      "consensus": "+3.5% YoY"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "19:30",
+      "event": "US PPI (Jun)",
+      "importance": "medium",
+      "consensus": "+2.8% YoY"
+    },
+    {
+      "date": "2026-07-17",
+      "time": "19:30",
+      "event": "US Retail Sales (Jun)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-07-24",
+      "time": "19:15",
+      "event": "ECB Rate Decision",
+      "importance": "high"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "01:00",
+      "event": "FOMC Rate Decision + Statement",
+      "importance": "high"
+    },
+    {
+      "date": "2026-07-29",
+      "time": "10:30",
+      "event": "BOJ Rate Decision",
+      "importance": "high"
+    },
+    {
+      "date": "2026-07-31",
+      "time": "19:30",
+      "event": "US Core PCE (Jun)",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-01",
+      "time": "19:30",
+      "event": "US Non-Farm Payrolls (Jul)",
+      "importance": "high",
+      "consensus": "+110K"
+    }
+  ]
+}
