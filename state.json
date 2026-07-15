@@ -221,21 +221,10 @@
     "https://www.coindesk.com/markets/2026/07/14/bitcoin-steadies-at-usd62-600-as-south-koreans-flee-stocks-rout-for-crypto",
     "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
     "https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories",
-    "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade"
+    "https://www.coindesk.com/markets/2026/07/15/bitcoin-tops-usd64-000-as-cooling-u-s-inflation-guts-the-fed-rate-hike-trade",
+    "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-july-15-2026-gold-prices-not-advancing-as-airstrikes-continue-115451898.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63685,
-        "change_24h": -0.20285815221801987,
-        "volume_24h": 32713467317.538548
-      },
-      "gold": {
-        "price": 4103.45,
-        "change_24h": -1.270690894890783
-      },
-      "timestamp": "2026-07-07T20:32:02.181284+00:00"
-    },
     {
       "btc": {
         "price": 63581,
@@ -799,6 +788,18 @@
         "change_24h": 0.010291645963289122
       },
       "timestamp": "2026-07-15T07:33:19.215080+00:00"
+    },
+    {
+      "btc": {
+        "price": 64603,
+        "change_24h": 2.70447272049808,
+        "volume_24h": 32287587949.348183
+      },
+      "gold": {
+        "price": 4032.09,
+        "change_24h": 0.3383247852661803
+      },
+      "timestamp": "2026-07-15T12:23:29.746316+00:00"
     }
   ],
   "last_alert": {
