@@ -1,0 +1,40 @@
+name: Event Countdown
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # ทุก 15 นาที
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: state-commit
+  cancel-in-progress: false
+
+jobs:
+  countdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - run: python event_countdown.py
+        env:
+          DISCORD_WEBHOOK_EVENT_URL: ${{ secrets.DISCORD_WEBHOOK_EVENT_URL }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add event_state.json economic_events.json || true
+          git diff --staged --quiet || git commit -m "chore: event state [skip ci]"
+          git push
+        continue-on-error: true
