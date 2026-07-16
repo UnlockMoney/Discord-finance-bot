@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-07-14T00:02:34.053386+07:00",
-      "content": "## 🔄 อัปเดต — Fed Policy & Dollar Strength\n📌 เดิม: RBC เตือน Fed อาจถอนท่าที dovish จากแรงกดดัน macro\n🆕 ล่าสุด: Fed's Waller เผยเงินเฟ้อสัปดาห์นี้หากออกมาร้อนแรง (hot) อาจทำให้ Fed ต้องขึ้นดอกเบี้ยเร็วกว่าคาด — เจ้าหน้าที่ Fed เองยังมีความเห็นแตกแยกกันเรื่องทิศทางดอกเบี้ย\n\n💡 กระทบ BTC: risk-off เพิ่มเติมหากตลาดคาด rate hike จริง เงินทุนอาจไหลออกจาก crypto จับตาระดับ $60K-62K เป็นแนวรับสำคัญ\n💡 กระทบทอง: ดอกเบี้ยขาขึ้นมักกดดัน gold (opportunity cost สูงขึ้น) แต่ demand safe-haven จากสงคราม Iran อาจหักล้างบางส่วน จับตา $3,950-4,000\n🎯 รอตัวเลข CPI/inflation สัปดาห์นี้ — หากออก"
-    },
-    {
       "time": "2026-07-14T02:03:47.091159+07:00",
       "content": "### 🔄 อัปเดต — Fed Rate Hike Odds พุ่ง จาก Hormuz Crisis\n📌 เดิม: Waller เตือนเงินเฟ้อร้อนแรงอาจเร่ง Fed ขึ้นดอกเบี้ย\n🆕 ล่าสุด: CNBC รายงานโอกาส Fed ขึ้นดอกเบี้ยเดือนก.ค.เพิ่มชัดเจน จากราคาน้ำมันพุ่งหลัง Iran ปิดช่องแคบ Hormuz — Waller ย้ำเงินเฟ้อขยายวงกว้างเกินแค่ปัจจัยพลังงาน ไม่ใช่แค่ \"fight the last war\"\n💡 กระทบ: 🥇 Gold ร่วง -2.34% เหลือ $3,997 สะท้อน rate hike fear กดดันมากกว่า safe-haven demand | ₿ BTC $61,951 เจอแรงกดดันสองทาง (risk-off + rate hike) จับตา $60K\n\n### 🆕 Bitcoin Panic-Selling อาจใกล้จบแล้ว\nCoinDesk ชี้ profit margin ของผู้ขายเริ่มหดตัวจนใกล้หมด สัญญาณ capitulation อาจใกล้สิ้นสุดรอบนี้\n💡 กระทบ: ₿ BTC $61,951 (-3.38%) แนวรับ $60K-61K อาจเป็นจุดหมดแรงขาย สอดคล้อง F&G 28 (Fear) ที่มักเป็นจุดกลับตัวในอดีต\n\n### 🆕 Strategy หยุดซื้อ BTC หันเก็บเงินสด $3B\nบริษัท Strategy (เดิม MicroStrategy) ประกาศหยุด buying spree ชั่วคราว หันถือเงินสด $3B แทน สะท้อนความระมัดระวังของ institutional buyer รายใหญ่\n💡 กระทบ: ₿ ลดแรงซื้อสถาบันระยะสั้น อาจกดดัน sentiment เพิ่ม แม้ price ยัง"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-07-16T20:08:15.314055+07:00",
       "content": "## 🔄 อัปเดต — Iran conflict ยังไม่จบ กระทบ Safe-haven Metals\n📌 เดิม: PPI ลดจากราคาน้ำมันร่วง ช่วง \"Iran หยุดยิงสั้นๆ\"\n🆕 ล่าสุด: Yah"
+    },
+    {
+      "time": "2026-07-17T00:56:54.537114+07:00",
+      "content": "### 🔥 Dallas Fed Logan หนุนขึ้นดอกเบี้ยเพิ่ม\nLogan ระบุเงินเฟ้อที่ลดลงสัปดาห์นี้ \"ยังไม่ดีพอ\" เรียกร้องขึ้นดอกเบี้ย \"modestly\" สวนทางกับ Williams ที่เพิ่งบอกว่าเงินเฟ้อ \"peaked\" — Fed ยังแบ่งเสียงชัดเจน\n💡 กระทบ: 🥇 Gold $3,982 (-1.75%) เสี่ยงร่วงต่อจาก DXY/Yield หนุน hawkish | ₿ BTC เสี่ยงหลุด $63K ถ้าตลาด price-in rate hike กลับมา\n\n### 🔄 อัปเดต — BTC หลุดโซน $64K เบียร์คุมเกม\n📌 เดิม: BTC เสีย momentum จับตาแนวรับ $63K\n🆕 ล่าสุด: CoinDesk ยืนยันเบียร์เข้าคุมหลังแตะ monthly high, popular BTC call option เลื่อนลง $10,000 สะท้อน trader ลดคาดหวังขาขึ้นชัดเจน\n💡 กระทบ: ₿ BTC $64,017 (-1.53%) แนวรับ $63K สำคัญมาก หลุดเสี่ยงลง $61-62K | 🥇 Gold เผชิญแรงขายพร้อมกัน (GLD -3.34%)\n\n### 🆕 สหรัฐฯ คว่ำบาตร wallet Iran, Tether แช่ง $131M\nUS เพิ่ม sanction 4 wallet ธนาคารกลา"
     }
   ],
   "posted_urls": [
@@ -247,21 +247,22 @@
     "https://www.coindesk.com/markets/2026/07/16/a-bitcoin-wallet-dormant-since-the-2017-peak-just-moved-usd383-million",
     "https://www.coindesk.com/markets/2026/07/16/ether-outruns-bitcoin-as-etf-money-returns-almost-all-of-from-blackrock-s-fund",
     "https://www.coindesk.com/markets/2026/07/16/two-groups-of-bitcoin-investors-sell-on-the-rise-as-inflation-lifts-prices-to-nearly-usd65-000",
-    "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-july-16-2026-prices-cant-crack-60-as-us-airstrikes-continue-in-iran-122242295.html"
+    "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-july-16-2026-prices-cant-crack-60-as-us-airstrikes-continue-in-iran-122242295.html",
+    "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
+    "https://www.cnbc.com/2026/07/16/trumps-cfpb-overhaul-cost-americans-26point5-billion-sen-warren-says.html",
+    "https://www.marketwatch.com/story/palo-alto-networks-stock-has-been-on-a-tear-and-it-could-go-even-higher-according-to-these-bulls-1ddde6f4?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/this-isnt-a-plan-to-save-social-security-its-a-plan-to-have-a-plan-d55860af?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/mortgage-rates-jump-to-the-highest-level-of-2026-7a35f79e?mod=mw_rss_topstories",
+    "https://www.investors.com/stock-lists/stock-spotlight/healthcare-services-group-hcsg-stock/?src=A00220&yptr=yahoo",
+    "https://www.investors.com/research/ibd-stock-of-the-day/oil-tanker-operator-international-seaways-insw-pops-energy-crunch/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/technology/ai/articles/freightwaves-announces-2026-ai-excellence-165648529.html",
+    "https://finance.yahoo.com/economy/articles/goose-egg-cnbc-anchor-stunned-162000953.html",
+    "https://www.coindesk.com/tech/2026/07/16/galaxy-targets-institutional-stablecoin-yield-with-new-defi-vaults",
+    "https://www.coindesk.com/daybook-us/2026/07/16/the-most-popular-bitcoin-call-option-has-slipped-by-usd10-000",
+    "https://www.coindesk.com/markets/2026/07/16/bitcoin-pulls-back-to-usd64-000-after-hitting-monthly-high-as-bears-take-control",
+    "https://www.coindesk.com/business/2026/07/16/u-s-adds-four-iran-central-bank-crypto-wallets-to-sanctions-tether-freezes-usd131-million-of-contents"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 62707,
-        "change_24h": 0.6519924799414262,
-        "volume_24h": 25584437956.849373
-      },
-      "gold": {
-        "price": 4103.6,
-        "change_24h": 0.9180972988045895
-      },
-      "timestamp": "2026-07-09T12:18:04.487849+00:00"
-    },
     {
       "btc": {
         "price": 62727,
@@ -825,6 +826,18 @@
         "change_24h": -1.7463470204357099
       },
       "timestamp": "2026-07-16T17:48:19.235787+00:00"
+    },
+    {
+      "btc": {
+        "price": 64017,
+        "change_24h": -1.5320731439815942,
+        "volume_24h": 28563560209.269585
+      },
+      "gold": {
+        "price": 3982.37,
+        "change_24h": -1.7485923915713266
+      },
+      "timestamp": "2026-07-16T17:56:21.798914+00:00"
     }
   ],
   "last_alert": {
