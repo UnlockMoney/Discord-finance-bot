@@ -242,21 +242,10 @@
     "https://www.coindesk.com/markets/2026/07/15/blackrock-s-crypto-assets-fall-39-despite-usd15-billion-of-net-inflows",
     "https://www.coindesk.com/markets/2026/07/15/strategy-feels-very-secure-until-bitcoin-reaches-usd8-000-usd10-000-says-ceo",
     "https://www.coindesk.com/daybook-us/2026/07/15/bitcoin-rally-cools-as-investors-digest-inflation-data-oil-clouds-outlook",
-    "https://www.coindesk.com/markets/2026/07/15/crypto-steadies-as-middle-east-tensions-counter-u-s-inflation-report-boost"
+    "https://www.coindesk.com/markets/2026/07/15/crypto-steadies-as-middle-east-tensions-counter-u-s-inflation-report-boost",
+    "https://www.coindesk.com/markets/2026/07/16/live-updates-zachxbt-calls-hardware-wallets-complete-garbage-btc-steady-near-usd65-000"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 62181,
-        "change_24h": -2.4395097199444575,
-        "volume_24h": 29234452118.20158
-      },
-      "gold": {
-        "price": 4079.55,
-        "change_24h": -1.0636226001084674
-      },
-      "timestamp": "2026-07-08T18:54:55.133742+00:00"
-    },
     {
       "btc": {
         "price": 62181,
@@ -820,6 +809,18 @@
         "change_24h": 0.0425171578636296
       },
       "timestamp": "2026-07-16T00:08:42.670672+00:00"
+    },
+    {
+      "btc": {
+        "price": 64208,
+        "change_24h": -0.5343393607021418,
+        "volume_24h": 27727793108.93207
+      },
+      "gold": {
+        "price": 4019.27,
+        "change_24h": 0.09256680242705838
+      },
+      "timestamp": "2026-07-16T07:48:26.521054+00:00"
     }
   ],
   "last_alert": {
