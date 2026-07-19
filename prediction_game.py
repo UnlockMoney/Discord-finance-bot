@@ -149,10 +149,14 @@ def get_week_string(dt):
 
 def open_round(state, now):
     """จันทร์ 09:00 - เปิดรอบใหม่"""
-    week = get_week_string(now)
-    friday = now + timedelta(days=(4 - now.weekday()))
+    # หา Friday ถัดไป (ถ้าวันนี้เป็น Fri เย็น = ใช้ Fri สัปดาห์หน้า)
+    days_until_friday = (4 - now.weekday()) % 7
+    if days_until_friday == 0 and now.hour >= 12:
+        days_until_friday = 7
+    friday = now + timedelta(days=days_until_friday)
     target = friday.replace(hour=23, minute=59, second=0, microsecond=0)
-    close = (now + timedelta(days=2)).replace(hour=23, minute=59, second=0)
+    close = target - timedelta(days=2)  # Wed 23:59 (2 วันก่อน Fri)
+    week = get_week_string(target)  # ใช้สัปดาห์ของ target Friday
 
     btc_now = get_price("btc")
     gold_now = get_price("gold")
@@ -375,7 +379,7 @@ def main():
     minute = now.minute
 
     # 1. เปิดรอบ: จันทร์ 09:00-09:30
-    if weekday >= 0 and hour < 24:
+    if weekday == 0 and hour == 9 and minute < 30:
         current = state.get("current_round")
         current_week = current["week"] if current else None
         this_week = get_week_string(now)
