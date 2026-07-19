@@ -6,10 +6,16 @@
     "target_time": "2026-07-17T23:59:00+07:00",
     "status": "open",
     "opener_msg_id": "1528295718320865392",
-    "last_read_msg_id": "1528295718320865392",
+    "last_read_msg_id": "1528296813994573925",
     "btc_open_price": 64667,
     "gold_open_price": 4007.61,
-    "predictions": {}
+    "predictions": {
+      "1195652019302715422": {
+        "username": "Unlock Money",
+        "btc": 65000.0,
+        "btc_msg_id": "1528296813994573925"
+      }
+    }
   },
   "leaderboard": {},
   "history": []
