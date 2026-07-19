@@ -375,7 +375,7 @@ def main():
     minute = now.minute
 
     # 1. เปิดรอบ: จันทร์ 09:00-09:30
-   if True:  # TEST — force open
+    if True:
         current = state.get("current_round")
         current_week = current["week"] if current else None
         this_week = get_week_string(now)
