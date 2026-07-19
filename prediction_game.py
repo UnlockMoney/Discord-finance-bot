@@ -20,6 +20,21 @@ from pathlib import Path
 # ---- Config ----
 DISCORD_BOT_TOKEN = os.environ["DISCORD_BOT_TOKEN"]
 CHANNEL_ID = os.environ["DISCORD_GAME_CHANNEL_ID"]
+GUILD_ID = os.environ.get("DISCORD_GUILD_ID")
+
+# Milestone Roles (optional - ถ้าไม่ตั้งจะข้ามส่วนนี้)
+ROLE_PREDICTOR_ID = os.environ.get("DISCORD_ROLE_PREDICTOR_ID")     # 5 wins
+ROLE_ELITE_ID = os.environ.get("DISCORD_ROLE_ELITE_ID")             # 10 wins
+ROLE_MASTER_ID = os.environ.get("DISCORD_ROLE_MASTER_ID")           # 20 wins
+ROLE_LEGEND_ID = os.environ.get("DISCORD_ROLE_LEGEND_ID")           # 50 wins
+
+# Threshold + Role mapping
+MILESTONES = [
+    (50, "legend", ROLE_LEGEND_ID, "👑 Prediction Legend"),
+    (20, "master", ROLE_MASTER_ID, "💎 Prediction Master"),
+    (10, "elite",  ROLE_ELITE_ID,  "⭐ Elite Predictor"),
+    (5,  "predictor", ROLE_PREDICTOR_ID, "🎯 Predictor"),
+]
 
 STATE_FILE = Path("prediction_state.json")
 TZ = timezone(timedelta(hours=7))
@@ -37,6 +52,8 @@ def load_state():
         "current_round": None,
         "leaderboard": {},
         "history": [],
+        "member_tiers": {},   # {user_id: "predictor"/"elite"/"master"/"legend"}
+        "streaks": {},        # {user_id: {"btc": 3, "gold": 0}}
     }
     if not STATE_FILE.exists():
         return default
@@ -84,6 +101,36 @@ def fetch_messages(after=None, limit=100):
     )
     r.raise_for_status()
     return r.json()
+
+
+def add_role(user_id, role_id):
+    """เพิ่ม role ให้ user"""
+    if not GUILD_ID or not role_id:
+        return
+    try:
+        r = requests.put(
+            f"{API}/guilds/{GUILD_ID}/members/{user_id}/roles/{role_id}",
+            headers=HEADERS, timeout=15,
+        )
+        r.raise_for_status()
+        print(f"[role] +{role_id} to {user_id}")
+    except Exception as e:
+        print(f"[warn] add_role failed: {e}")
+
+
+def remove_role(user_id, role_id):
+    """ลบ role ออกจาก user"""
+    if not GUILD_ID or not role_id:
+        return
+    try:
+        r = requests.delete(
+            f"{API}/guilds/{GUILD_ID}/members/{user_id}/roles/{role_id}",
+            headers=HEADERS, timeout=15,
+        )
+        r.raise_for_status()
+        print(f"[role] -{role_id} from {user_id}")
+    except Exception as e:
+        print(f"[warn] remove_role failed: {e}")
 
 
 # ============================================================
@@ -296,18 +343,89 @@ def announce_winners(state):
     btc_ranked = rank(btc_preds, btc_actual, "btc")
     gold_ranked = rank(gold_preds, gold_actual, "gold")
 
-    # Update leaderboard
+    # Update leaderboard + streak + check milestone
+    state.setdefault("member_tiers", {})
+    state.setdefault("streaks", {})
+    winners_to_check = []
+    streak_bonuses = []  # เก็บคนที่ได้ bonus จาก streak
+
+    def calc_bonus(streak):
+        """streak หลังจากบวก win นี้แล้ว → คืน bonus (จำนวน wins ที่ได้)"""
+        if streak >= 5:
+            return 3, "🔥🔥"  # Super streak
+        elif streak >= 3:
+            return 2, "🔥"    # Streak
+        return 1, ""
+
+    # BTC winner
+    btc_winner_id = None
     if btc_ranked:
         wid, wp = btc_ranked[0]
+        btc_winner_id = wid
+        # อัปเดต streak
+        state["streaks"].setdefault(wid, {"btc": 0, "gold": 0})
+        state["streaks"][wid]["btc"] += 1
+        streak = state["streaks"][wid]["btc"]
+        wins_gained, streak_emoji = calc_bonus(streak)
+        # เพิ่ม wins
         state["leaderboard"].setdefault(wid, {"username": wp["username"], "wins": 0})
-        state["leaderboard"][wid]["wins"] += 1
+        state["leaderboard"][wid]["wins"] += wins_gained
         state["leaderboard"][wid]["username"] = wp["username"]
+        winners_to_check.append((wid, wp["username"]))
+        if wins_gained > 1:
+            streak_bonuses.append((wp["username"], "BTC", streak, wins_gained, streak_emoji))
 
+    # Gold winner
+    gold_winner_id = None
     if gold_ranked:
         wid, wp = gold_ranked[0]
+        gold_winner_id = wid
+        state["streaks"].setdefault(wid, {"btc": 0, "gold": 0})
+        state["streaks"][wid]["gold"] += 1
+        streak = state["streaks"][wid]["gold"]
+        wins_gained, streak_emoji = calc_bonus(streak)
         state["leaderboard"].setdefault(wid, {"username": wp["username"], "wins": 0})
-        state["leaderboard"][wid]["wins"] += 1
+        state["leaderboard"][wid]["wins"] += wins_gained
         state["leaderboard"][wid]["username"] = wp["username"]
+        winners_to_check.append((wid, wp["username"]))
+        if wins_gained > 1:
+            streak_bonuses.append((wp["username"], "Gold", streak, wins_gained, streak_emoji))
+
+    # Reset streak ของคนที่ทายรอบนี้แต่แพ้
+    for uid, p in round_["predictions"].items():
+        state["streaks"].setdefault(uid, {"btc": 0, "gold": 0})
+        if "btc" in p and uid != btc_winner_id:
+            state["streaks"][uid]["btc"] = 0
+        if "gold" in p and uid != gold_winner_id:
+            state["streaks"][uid]["gold"] = 0
+
+    # เช็ค milestone และย้าย role
+    promoted = []  # เก็บคนที่ถูกโปรโมท เพื่อประกาศ
+    for wid, uname in winners_to_check:
+        wins = state["leaderboard"][wid]["wins"]
+        current_tier = state["member_tiers"].get(wid)
+        # หา tier สูงสุดที่ผ่านเกณฑ์
+        new_tier = None
+        new_role_id = None
+        new_role_name = None
+        for threshold, tier, role_id, role_name in MILESTONES:
+            if wins >= threshold:
+                new_tier = tier
+                new_role_id = role_id
+                new_role_name = role_name
+                break
+        # ถ้ามี tier ใหม่ + ต่างจากเดิม → ย้าย role
+        if new_tier and new_tier != current_tier:
+            # ลบ role เก่า (ถ้ามี)
+            for _, tier, role_id, _ in MILESTONES:
+                if tier == current_tier and role_id:
+                    remove_role(wid, role_id)
+                    break
+            # เพิ่ม role ใหม่
+            if new_role_id:
+                add_role(wid, new_role_id)
+            state["member_tiers"][wid] = new_tier
+            promoted.append((uname, new_role_name, wins))
 
     week_num = round_["week"].split("-W")[1]
     lines = [
@@ -345,6 +463,20 @@ def announce_winners(state):
         medals = ["🥇", "🥈", "🥉", "4.", "5."]
         for i, e in enumerate(top5):
             lines.append(f"{medals[i]} {e['username']} — **{e['wins']} wins**")
+        lines.append("")
+
+    # ประกาศ Streak Bonus
+    if streak_bonuses:
+        lines.append("## 🔥 Streak Bonus!")
+        for uname, asset, streak, gained, emoji in streak_bonuses:
+            lines.append(f"{emoji} **{uname}** ชนะ {asset} ติดกัน **{streak} สัปดาห์** → +{gained} wins!")
+        lines.append("")
+
+    # ประกาศ milestone promotion
+    if promoted:
+        lines.append("## 🎉 Milestone Achievement!")
+        for uname, role_name, wins in promoted:
+            lines.append(f"🏆 **{uname}** ปลดล็อค role **{role_name}** ({wins} wins)")
         lines.append("")
 
     lines.append("รอบใหม่เริ่ม **จันทร์เช้า 09:00** 🎮")
