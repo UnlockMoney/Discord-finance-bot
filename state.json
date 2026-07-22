@@ -339,21 +339,10 @@
     "https://www.marketwatch.com/story/heres-the-surprising-twist-to-the-news-openai-products-went-rogue-and-tried-to-steal-an-exam-660e0128?mod=mw_rss_topstories",
     "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
     "https://www.coindesk.com/tech/2026/07/22/live-updates-bitcoin-under-usd66-000-as-traders-await-alphabet-earnings-to-gauge-ai-trade",
-    "https://www.coindesk.com/markets/2026/07/22/bitcoin-holds-near-usd66-300-as-chips-extend-their-rally-and-the-yen-hits-a-40-year-low"
+    "https://www.coindesk.com/markets/2026/07/22/bitcoin-holds-near-usd66-300-as-chips-extend-their-rally-and-the-yen-hits-a-40-year-low",
+    "https://finance.yahoo.com/markets/stocks/articles/tidewater-tdw-slid-amid-u-144804088.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64498,
-        "change_24h": 3.116810626391302,
-        "volume_24h": 31046553100.29444
-      },
-      "gold": {
-        "price": 4017.3,
-        "change_24h": 0.010291645963289122
-      },
-      "timestamp": "2026-07-15T07:33:19.215080+00:00"
-    },
     {
       "btc": {
         "price": 64603,
@@ -917,6 +906,18 @@
         "change_24h": 1.1763935314143465
       },
       "timestamp": "2026-07-22T10:07:13.677325+00:00"
+    },
+    {
+      "btc": {
+        "price": 65969,
+        "change_24h": -1.028973069153913,
+        "volume_24h": 29633501777.46223
+      },
+      "gold": {
+        "price": 4144.28,
+        "change_24h": 1.8840682828453896
+      },
+      "timestamp": "2026-07-22T15:23:26.416010+00:00"
     }
   ],
   "last_alert": {
