@@ -405,21 +405,10 @@
     "https://finance.yahoo.com/markets/stocks/articles/shein-reveals-key-financials-ahead-134128865.html",
     "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-26-2026-rates-up-since-last-week-100000833.html",
     "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-july-26-2026-lock-in-up-to-420-apy-100000233.html",
-    "https://www.coindesk.com/policy/2026/07/24/u-s-regulator-warns-prediction-markets-against-cutting-corners-in-event-contracts"
+    "https://www.coindesk.com/policy/2026/07/24/u-s-regulator-warns-prediction-markets-against-cutting-corners-in-event-contracts",
+    "https://finance.yahoo.com/economy/policy/articles/tariff-textile-mechanism-clause-disadvantage-121031497.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64510,
-        "change_24h": 0.6258828750174887,
-        "volume_24h": 16582119924.139185
-      },
-      "gold": {
-        "price": 4005.06,
-        "change_24h": -0.10702442306552803
-      },
-      "timestamp": "2026-07-19T16:39:46.592788+00:00"
-    },
     {
       "btc": {
         "price": 64420,
@@ -983,6 +972,18 @@
         "change_24h": 1.135110429735271
       },
       "timestamp": "2026-07-27T00:12:28.457847+00:00"
+    },
+    {
+      "btc": {
+        "price": 64924,
+        "change_24h": 0.713378668932839,
+        "volume_24h": 21178502832.668224
+      },
+      "gold": {
+        "price": 4077.92,
+        "change_24h": 0.5587547492781118
+      },
+      "timestamp": "2026-07-27T12:42:41.200149+00:00"
     }
   ],
   "last_alert": {
