@@ -1078,7 +1078,11 @@
         "price": 4059.52,
         "change_24h": 0.4961701710485331
       },
+<<<<<<< Updated upstream
       "timestamp": "2026-08-02T17:42:57.344668+00:00"
+=======
+      "timestamp": "2026-08-02T17:43:43.077135+00:00"
+>>>>>>> Stashed changes
     }
   ],
   "last_alert": {
