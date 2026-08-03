@@ -1,6 +1,32 @@
 {
-  "posts": [],
-  "posted_urls": [],
+  "posts": [
+    {
+      "time": "2026-08-03T23:16:27.801791+07:00",
+      "content": "### 🔥 US-Japan ร่วมแทรกแซงพยุงเยน\nFed + Treasury จับมือ BOJ อุ้มเยนครั้งประวัติศาสตร์ กระทบ dollar-yen carry trade โดยตรง — เงินทุนที่เคยกู้เยนดอกเบี้ยต่ำไปลงทุนสินทรัพย์เสี่ยง (รวม BTC) อาจถูกถอนคืนฉับพลัน\nDXY อ่อนตัว -0.87% สู่ 99.93 วันนี้ สอดคล้องทิศทางเยนแข็ง\n💡 กระทบ: 🥇 ทองบวกจาก DXY อ่อน (แนวรับ $4,000) | ₿ เสี่ยง sell-off ระยะสั้นถ้า carry trade unwind เร็ว (แนวรับ $62,000)\n\n### 🆕 Coldcard hardware wallet ถูกเจาะ 5 วันติด\nช่องโหว่ยังไม่ถูกแก้ นักขุดเดี่ยวรายหนึ่งได้กำไร $200,000 จากสถานการณ์นี้ แต่ sentiment โดยรวมเสียหาย — นักลงทุนกังวลความปลอดภัย self-custody\n💡 กระทบ: ₿ กดดัน sentiment ระยะสั้น โดยเฉพาะกลุ่ม retail holder (จับตาแนวรับ $62,500)\n\n### 🆕 Bitcoin futures yield ร่วงต่ำกว่า Treasury notes\nYield จาก BTC futures เคยพุ่งเกิน 20% ตอนนี้ต่ำกว่าผลตอบแทนพันธบัตรรัฐบาล 10Y (4.69%) แล้ว — สะท้อนความสนใจเก็งกำไรใน BTC ลดลงชัดเจน demand เชิงสถาบันเริ่มแผ่ว\n💡 กระทบ: ₿ สัญญาณลบต่อ momentum ขาขึ้น เสี่ยง sideways-to-down ต่อ (แนวต้าน $65,000)\n\n### 🔄 อัปเดต — Strategy (MicroStrategy) ยังคงขาย BTC\n📌 เดิม: บริษัทสะสม BTC ต่อเนื่องมาตลอด\n🆕 ล่าสุด: ขายออกอีก $105M สัปดาห์ที่ผ่านมา พร้อมซื้อคืน STRC $81.2M — เปลี่ยนกลยุทธ์จัดพอร์ตชัดเจน\n💡 กระทบ: ₿ กดดันราคาระยะสั้นจาก supply เพิ่ม แต่ไม่ใช่สัญญาณ bearish รุนแรง (จับตา $62,000-$65,000)\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-down | Gold sideways-to-up\n⚠️ Risk: ปานกลาง-สูง — F&G 28 (Fear) + yen carry trade unwind + Coldcard exploit กดดัน sentiment BTC\n🎯 ภาพรวม: จับตาแนวรับ BTC $62,000 และแนวต้านทอง $4,080 ใกล้ชิด สัปดาห์นี้มีข่าว jobs report กระทบทั้งคู่"
+    }
+  ],
+  "posted_urls": [
+    "https://www.cnbc.com/2026/08/03/kalshi-traders-think-july-jobs-will-come-in-cooler-than-estimates.html",
+    "https://www.cnbc.com/2026/08/03/californias-diesel-prices-have-jumped-since-the-iran-war-started-with-ripple-effects-across-the-country.html",
+    "https://www.cnbc.com/2026/08/03/china-price-demand-tourism-hotel.html",
+    "https://www.marketwatch.com/story/joint-u-s-japanese-intervention-boosts-the-yen-but-will-it-be-enough-069451f5?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/why-tech-stocks-are-likely-to-take-a-back-seat-for-the-rest-of-2026-according-to-jpmorgan-strategists-93e1c61f?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/they-spent-tens-of-thousands-of-dollars-on-home-remodels-only-to-regret-it-8cfa23e6?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/american-manufacturers-grow-at-fastest-clip-in-4-years-due-to-ai-boom-but-all-is-not-well-c49eb383?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/markets/article/semiconductor-stocks-pair-losses-amid-fears-of-increased-competition-from-china-133938642.html",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-comments-oil-prices-plunge/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/research/reports/ARGUS_3613_AnalystReport_1785755814000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+    "https://finance.yahoo.com/technology/ai/articles/datadog-ddog-grows-revenue-over-153259286.html",
+    "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+    "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
+    "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
+    "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc",
+    "https://www.coindesk.com/daybook-us/2026/08/03/solo-bitcoin-miner-nets-usd200-000-as-coldcard-hardware-wallet-drains-rocks-sentiment",
+    "https://www.coindesk.com/markets/2026/08/03/bitcoin-ether-decline-as-coldcard-exploit-enters-a-fifth-day",
+    "https://www.coindesk.com/business/2026/08/03/live-updates-traders-say-bitcoin-sell-off-from-usd65-000-points-to-thin-volume-not-panic-selling",
+    "https://www.coindesk.com/markets/2026/08/03/the-bitcoin-futures-yield-collapse-once-over-20-now-less-than-treasury-notes",
+    "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead"
+  ],
   "price_history": [
     {
       "btc": {
@@ -121,6 +147,18 @@
         "change_24h": -0.2881070147798547
       },
       "timestamp": "2026-08-03T10:58:58.414847+00:00"
+    },
+    {
+      "btc": {
+        "price": 63725,
+        "change_24h": 1.0703823268164312,
+        "volume_24h": 23828929813.239204
+      },
+      "gold": {
+        "price": 4032.22,
+        "change_24h": -0.6216242926500203
+      },
+      "timestamp": "2026-08-03T16:15:55.517293+00:00"
     }
   ],
   "last_alert": {}
