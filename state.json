@@ -11,6 +11,10 @@
     {
       "time": "2026-08-04T23:08:53.381991+07:00",
       "content": "### 🔄 อัปเดต — Coldcard exploit ยังไม่ปิด แต่ BTC ดีดกลับ\n📌 เดิม: ช่องโหว่ Coldcard ยังไม่ถูกแก้ นักขุดเดี่ยวทำกำไร $200,000\n🆕 ล่าสุด: Coldcard เตือนผู้ใช้ย้าย BTC ด่วน แต่ตลาดกลับสงบผิดคาด — BTC ดีดขึ้นสู่ $64,000 หลังแรงกังวล Strategy sales ซาลง\n💡 กระทบ: ₿ Sentiment ผสม แนวรับ $62,000 สำคัญ ถ้าทะลุ $64,000 อาจเห็นแรงซื้อไล่ต่อ\n\n### 🆕 Iran deal optimism หนุน risk-on ทั่วโลก\nN"
+    },
+    {
+      "time": "2026-08-05T00:02:16.694412+07:00",
+      "content": "## 🔥 BREAKING — Bessent ปกป้อง Warsh ตั้งคำถามขึ้นดอกเบี้ย\n\nรมว.คลังสหรัฐฯ Bessent ระบุตลาดกำลังอยู่ในช่วง \"detox\" จาก Fed guidance ที่มากเกินไป และตั้งคำถามถึงความจำเป็นในการขึ้นดอกเบี้ยรอบนี้ — สัญญาณ dovish จากฝั่ง Treasury สวนทางความกังวลก่อนหน้าเรื่อง Fed policy เข้ม\n\n💡 กระทบ BTC: บวกต่อ sentiment ระยะสั้น หากตลาดตีความว่าโอกาสขึ้นดอกเบี้ยลดลง ลดแรงกดดันจาก dollar strength ช่วยหนุนแนวรับ $62,000 แต่ยังต้องจับตา carry trade unwind ควบคู่\n💡 กระทบทอง: บวกชัดเจน — ท่าที dovish จาก Treasury ลดโอกาสดอกเบ"
     }
   ],
   "posted_urls": [
@@ -51,7 +55,8 @@
     "https://www.coindesk.com/daybook-us/2026/08/04/the-bitcoin-market-has-plenty-of-reasons-to-freak-out-yet-calm-pervades",
     "https://www.coindesk.com/markets/2026/08/04/bitcoin-rises-toward-usd64-000-as-coldcard-exploit-strategy-sales-recede-ada-advances",
     "https://www.coindesk.com/business/2026/08/04/blackrock-debuts-tokenized-access-to-usd311-billion-of-money-market-funds-in-europe",
-    "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears"
+    "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears",
+    "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories"
   ],
   "price_history": [
     {
@@ -341,9 +346,21 @@
         "change_24h": 1.1145183388415647
       },
       "timestamp": "2026-08-04T16:08:19.475369+00:00"
+    },
+    {
+      "btc": {
+        "price": 63898,
+        "change_24h": 0.3517258715774143,
+        "volume_24h": 22892004782.068527
+      },
+      "gold": {
+        "price": 4083.98,
+        "change_24h": 1.2580095516601295
+      },
+      "timestamp": "2026-08-04T17:01:55.285973+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-04T17:18:35.615287+07:00"
+    "breaking": "2026-08-05T00:02:16.694412+07:00"
   }
 }
