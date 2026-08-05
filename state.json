@@ -15,6 +15,10 @@
     {
       "time": "2026-08-05T00:02:16.694412+07:00",
       "content": "## 🔥 BREAKING — Bessent ปกป้อง Warsh ตั้งคำถามขึ้นดอกเบี้ย\n\nรมว.คลังสหรัฐฯ Bessent ระบุตลาดกำลังอยู่ในช่วง \"detox\" จาก Fed guidance ที่มากเกินไป และตั้งคำถามถึงความจำเป็นในการขึ้นดอกเบี้ยรอบนี้ — สัญญาณ dovish จากฝั่ง Treasury สวนทางความกังวลก่อนหน้าเรื่อง Fed policy เข้ม\n\n💡 กระทบ BTC: บวกต่อ sentiment ระยะสั้น หากตลาดตีความว่าโอกาสขึ้นดอกเบี้ยลดลง ลดแรงกดดันจาก dollar strength ช่วยหนุนแนวรับ $62,000 แต่ยังต้องจับตา carry trade unwind ควบคู่\n💡 กระทบทอง: บวกชัดเจน — ท่าที dovish จาก Treasury ลดโอกาสดอกเบ"
+    },
+    {
+      "time": "2026-08-05T10:57:25.339388+07:00",
+      "content": "### 🆕 หุ้นสหรัฐฯ ทำ record close ครั้งที่ 25 ปี 2026\nS&P 500 กลับมาทำจุดสูงสุดใหม่หลังหยุดพัก 42 วัน นักลงทุนที่ถือยาวช่วง momentum crash ได้กำไรคืน — สัญญาณ risk appetite ฟื้น แต่ทองยังบวก +1.68% วันนี้ แสดงว่าเงินยังไหลเข้าสินทรัพย์ปลอดภัยคู่ขนาน\n💡 กระทบ: 🥇 ทองยังแข็งแรงแม้หุ้นดีดกลับ (แนวรับ $4,000 แนวต้าน $4,150) | ₿ risk-on หนุน sentiment แต่ยังต้องแย่งเงินทุนกับหุ้น AI (แนวต้าน $65,000)\n\n### 🆕 SpaceX ขาดทุนบัญชี $540M จากการถือ Bitcoin\nSpaceX รายงานรายได้เกินคาด แต่บันทึกขาดทุน $540M จาก BTC holdings ในไตรมาสนี้ — ตอกย้ำความผันผวนของ corporate treasury ที่ถือ BTC เป็นสินทรัพย์สำรอง\n💡 กระทบ: ₿ กดดัน sentiment ระยะสั้น อาจเพิ่มความระมัดระวังบริษัทอื่นๆ ต่อการถือ BTC (แนวรับ $62,000 ยังสำคัญ) | 🥇 ไม่กระทบตรง\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold uptrend\n⚠️ Risk: ปานกลาง — F&G ยัง Fear (27), 10Y yield สูง 4.63% กดดัน risk asset แม้ DXY อ่อนลงเล็กน้อย\n🎯 ภาพรวม: BTC แกว่งตัวรอทิศทางชัดเจน ทองยังเป็นสินทรัพย์เด่นรับแรงหนุน dovish Fed และ safe haven demand"
     }
   ],
   "posted_urls": [
@@ -56,7 +60,9 @@
     "https://www.coindesk.com/markets/2026/08/04/bitcoin-rises-toward-usd64-000-as-coldcard-exploit-strategy-sales-recede-ada-advances",
     "https://www.coindesk.com/business/2026/08/04/blackrock-debuts-tokenized-access-to-usd311-billion-of-money-market-funds-in-europe",
     "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears",
-    "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+    "https://www.coindesk.com/business/2026/08/04/spacex-tops-wall-street-revenue-forecast-posts-usd540-million-decline-on-bitcoin-holding-value"
   ],
   "price_history": [
     {
@@ -418,6 +424,18 @@
         "change_24h": 0.7362874526759894
       },
       "timestamp": "2026-08-05T01:03:25.269307+00:00"
+    },
+    {
+      "btc": {
+        "price": 64127,
+        "change_24h": 0.5951128040517351,
+        "volume_24h": 23363725950.53734
+      },
+      "gold": {
+        "price": 4116.56,
+        "change_24h": 1.6833274603818074
+      },
+      "timestamp": "2026-08-05T03:56:55.995280+00:00"
     }
   ],
   "last_alert": {
