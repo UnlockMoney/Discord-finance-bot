@@ -81,7 +81,8 @@
     "https://www.coindesk.com/daybook-us/2026/08/05/the-usd120-million-coldcard-hack-lights-up-bitcoin-s-memory-pool",
     "https://www.coindesk.com/markets/2026/08/05/bitcoin-broader-market-fail-to-keep-pace-as-global-equities-hit-record-highs",
     "https://www.coindesk.com/markets/2026/08/05/why-bitcoin-s-500-day-rule-faces-its-biggest-test-yet",
-    "https://www.coindesk.com/markets/2026/08/05/live-updates-an-ai-credit-bubble-could-set-up-bitcoin-s-path-to-usd1-million"
+    "https://www.coindesk.com/markets/2026/08/05/live-updates-an-ai-credit-bubble-could-set-up-bitcoin-s-path-to-usd1-million",
+    "https://finance.yahoo.com/economy/policy/articles/amazon-says-share-600-million-161500550.html"
   ],
   "price_history": [
     {
@@ -527,6 +528,18 @@
         "change_24h": 3.7568563885409496
       },
       "timestamp": "2026-08-05T15:56:12.486878+00:00"
+    },
+    {
+      "btc": {
+        "price": 64589,
+        "change_24h": 0.9846713484989019,
+        "volume_24h": 23552188034.20008
+      },
+      "gold": {
+        "price": 4232.07,
+        "change_24h": 3.6299848666458945
+      },
+      "timestamp": "2026-08-05T16:51:17.635010+00:00"
     }
   ],
   "last_alert": {
