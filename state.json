@@ -27,6 +27,10 @@
     {
       "time": "2026-08-06T04:54:52.674318+07:00",
       "content": "## 🔄 อัปเดต — ท่าที Fed เรื่องขึ้นดอกเบี้ยขัดแย้งกันเอง\n📌 เดิม: Bessent (รมว.คลัง) ตั้งคำถามความจำเป็นขึ้นดอกเบี้ย — สัญญาณ dovish\n🆕 ล่าสุด: Fed Governor Cook ระบุ \"พร้อมจะact\" ขึ้นดอกเบี้ยสู้เงินเฟ้อ แม้ล่าสุด Fed มติ 9-3 คงอัตราไว้ที่ 3.5-3.75% — ความเห็นใน Fed เองแตกกัน dovish (Treasury) vs hawkish (Fed insider)\n\n💡 กระทบ BTC: ลบต่อ sentiment ระยะสั้น ความไม่แน่นอนเรื่องทิศทางดอกเบี้ยกลับมา หลัง Bessent หนุนขึ้นไปแล้ว แนวรับ $62,000 สำคัญขึ้น ต้องระวังแรงเทขายถ้าตลาดตีความว่าโอกาสขึ้นดอกเบี้ยยังไม่หมด\n💡 กระทบทอง: บวกเล็กน้อย ความไม่แน่นอนดอกเบี้ยหนุน safe-haven demand ต่อเนื่อง แนวต้าน $4,250\n🎯 จับตาถ้อยแถลง FOMC members คนอื่นเพิ่มเติม และปฏิกิริยา DXY"
+    },
+    {
+      "time": "2026-08-06T11:09:01.291685+07:00",
+      "content": "### 🔥 ทองพุ่งแรง +3.10% ทำนิวไฮต่อเนื่อง\nGold แตะ $4,254.69 (+3.10% 24h) ขณะ GLD ETF บวก +5.00% แรงซื้อสินทรัพย์ปลอดภัยเข้มข้นสุด สวนทาง DXY อ่อนตัว -0.23% แม้ 10Y Yield ยืนสูง 4.62%\n💡 กระทบ: 🥇 โมเมนตัมแข็งแรงมาก แนวรับ $4,150 แนวต้านใหม่ $4,300 | ₿ เงินไหลเข้าทองแย่งซีนชัดเจน แนวรับ $62,000 ยังสำคัญ\n\n### 🆕 Warsh ปรับลดจำนวนประชุม Fed เขย่าโครงสร้างเดิม\nFed ภายใต้ Warsh พิจารณาลดจำนวนการประชุมประจำปี เปลี่ยนวัฒนธรรม Fed ที่ยึดมาหลายทศวรรษ ตลาดเตือนความผันผวนสูงขึ้นจากความไม่แน่นอนด้าน forward guidance\n💡 กระทบ: 🥇 บวกหาก dovish ต่อเ"
     }
   ],
   "posted_urls": [
@@ -87,7 +91,9 @@
     "https://www.coindesk.com/markets/2026/08/05/why-bitcoin-s-500-day-rule-faces-its-biggest-test-yet",
     "https://www.coindesk.com/markets/2026/08/05/live-updates-an-ai-credit-bubble-could-set-up-bitcoin-s-path-to-usd1-million",
     "https://finance.yahoo.com/economy/policy/articles/amazon-says-share-600-million-161500550.html",
-    "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html"
+    "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+    "https://www.cnbc.com/2026/08/05/as-warsh-and-the-fed-contemplate-fewer-meetings-markets-brace-for-potential-volatility-ahead.html",
+    "https://www.marketwatch.com/story/figmas-push-into-ai-agents-drives-an-earnings-beat-1f6e200a?mod=mw_rss_topstories"
   ],
   "price_history": [
     {
@@ -605,6 +611,18 @@
         "change_24h": 5.382535622205937
       },
       "timestamp": "2026-08-06T01:03:31.165589+00:00"
+    },
+    {
+      "btc": {
+        "price": 64476,
+        "change_24h": 0.5909029727045376,
+        "volume_24h": 22033524291.78157
+      },
+      "gold": {
+        "price": 4254.69,
+        "change_24h": 3.097831565186428
+      },
+      "timestamp": "2026-08-06T04:08:26.367947+00:00"
     }
   ],
   "last_alert": {
