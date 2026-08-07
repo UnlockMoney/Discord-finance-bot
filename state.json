@@ -113,21 +113,10 @@
     "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
     "https://www.coindesk.com/tech/2026/08/07/ethereum-staking-token-weeth-splits-from-restaking-as-rewards-debate-heats-up",
     "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind",
-    "https://finance.yahoo.com/economy/policy/articles/us-rate-futures-cut-chances-124656547.html"
+    "https://finance.yahoo.com/economy/policy/articles/us-rate-futures-cut-chances-124656547.html",
+    "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63774,
-        "change_24h": 1.4058352566094021,
-        "volume_24h": 26137338677.595898
-      },
-      "gold": {
-        "price": 4052.19,
-        "change_24h": -0.21424670484685554
-      },
-      "timestamp": "2026-08-04T04:29:04.512778+00:00"
-    },
     {
       "btc": {
         "price": 63486,
@@ -691,6 +680,18 @@
         "change_24h": 2.1460421580149776
       },
       "timestamp": "2026-08-07T19:13:21.255526+00:00"
+    },
+    {
+      "btc": {
+        "price": 64926,
+        "change_24h": 0.8280676101942015,
+        "volume_24h": 21244291317.184875
+      },
+      "gold": {
+        "price": 4332.02,
+        "change_24h": 2.152179586329879
+      },
+      "timestamp": "2026-08-07T19:59:36.365833+00:00"
     }
   ],
   "last_alert": {
