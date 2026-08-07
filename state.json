@@ -97,21 +97,24 @@
     "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
     "https://www.marketwatch.com/story/gold-prices-are-breaking-higher-after-a-tough-stretch-could-fresh-records-be-within-reach-1e1a872f?mod=mw_rss_topstories",
     "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
-    "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000"
+    "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
+    "https://www.cnbc.com/2026/08/07/odds-the-fed-hikes-in-september-tumble-following-big-july-jobs-miss.html",
+    "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+    "https://www.marketwatch.com/story/im-an-unemployed-software-developer-who-is-skeptical-of-ai-can-i-still-find-a-job-in-tech-4413875e?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/how-to-wish-social-security-a-happy-91st-birthday-865d71a8?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/kevin-oleary-aka-mr-wonderful-on-crypto-winning-in-ai-and-3-things-all-business-owners-must-know-5339ff6c?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/optical-stocks-have-a-china-problem-that-most-investors-are-missing-45523981?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/there-are-good-reasons-why-higher-bond-yields-are-here-to-stay-this-strategist-says-2a89d5ae?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/news/asian-shares-pause-us-jobs-021601155.html",
+    "https://www.coindesk.com/policy/2026/08/07/russia-cracks-down-on-unlicensed-crypto-exchanges-it-claims-are-linked-to-ukraine",
+    "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
+    "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
+    "https://www.coindesk.com/markets/2026/08/07/cmt",
+    "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
+    "https://www.coindesk.com/tech/2026/08/07/ethereum-staking-token-weeth-splits-from-restaking-as-rewards-debate-heats-up",
+    "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63850,
-        "change_24h": 0.9175746389490482,
-        "volume_24h": 24859030503.534588
-      },
-      "gold": {
-        "price": 4035.14,
-        "change_24h": -0.6768672773058964
-      },
-      "timestamp": "2026-08-03T18:25:17.903982+00:00"
-    },
     {
       "btc": {
         "price": 63848,
@@ -675,6 +678,18 @@
         "change_24h": 1.962407840808915
       },
       "timestamp": "2026-08-07T13:57:43.776626+00:00"
+    },
+    {
+      "btc": {
+        "price": 65071,
+        "change_24h": 0.5600486342944381,
+        "volume_24h": 21255920081.417683
+      },
+      "gold": {
+        "price": 4335.54,
+        "change_24h": 1.6751769673648313
+      },
+      "timestamp": "2026-08-07T14:46:48.418395+00:00"
     }
   ],
   "last_alert": {
