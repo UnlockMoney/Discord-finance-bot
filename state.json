@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-04T23:08:53.381991+07:00",
-      "content": "### 🔄 อัปเดต — Coldcard exploit ยังไม่ปิด แต่ BTC ดีดกลับ\n📌 เดิม: ช่องโหว่ Coldcard ยังไม่ถูกแก้ นักขุดเดี่ยวทำกำไร $200,000\n🆕 ล่าสุด: Coldcard เตือนผู้ใช้ย้าย BTC ด่วน แต่ตลาดกลับสงบผิดคาด — BTC ดีดขึ้นสู่ $64,000 หลังแรงกังวล Strategy sales ซาลง\n💡 กระทบ: ₿ Sentiment ผสม แนวรับ $62,000 สำคัญ ถ้าทะลุ $64,000 อาจเห็นแรงซื้อไล่ต่อ\n\n### 🆕 Iran deal optimism หนุน risk-on ทั่วโลก\nN"
-    },
-    {
       "time": "2026-08-05T00:02:16.694412+07:00",
       "content": "## 🔥 BREAKING — Bessent ปกป้อง Warsh ตั้งคำถามขึ้นดอกเบี้ย\n\nรมว.คลังสหรัฐฯ Bessent ระบุตลาดกำลังอยู่ในช่วง \"detox\" จาก Fed guidance ที่มากเกินไป และตั้งคำถามถึงความจำเป็นในการขึ้นดอกเบี้ยรอบนี้ — สัญญาณ dovish จากฝั่ง Treasury สวนทางความกังวลก่อนหน้าเรื่อง Fed policy เข้ม\n\n💡 กระทบ BTC: บวกต่อ sentiment ระยะสั้น หากตลาดตีความว่าโอกาสขึ้นดอกเบี้ยลดลง ลดแรงกดดันจาก dollar strength ช่วยหนุนแนวรับ $62,000 แต่ยังต้องจับตา carry trade unwind ควบคู่\n💡 กระทบทอง: บวกชัดเจน — ท่าที dovish จาก Treasury ลดโอกาสดอกเบ"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-07T16:40:00.204004+07:00",
       "content": "## 🔥 BREAKING — Wintermute ได้ไฟเขียว SEC เทรด Equities/ETF\nWintermute (market maker รายใหญ่ฝั่ง crypto) ได้รับอนุมัติจาก SEC ให้เทรดหุ้นและ ETF blocks ได้ — สัญญาณบวกเชิงโครงสร้าง สะท้อนการยอมรับผู้เล่น crypto เข้าสู่ตลาดการเงินกระแสหลักมากขึ้น\n\n💡 กระทบ BTC: บวกเชิง sentiment ระยะยาว (institutional adoption) แต่ผลระยะสั้นจำกัด ไม่กระทบราคาทันที ยังต้องจับตาแนวรับ $62,000\n🎯 ติดตามว่า Wintermute จะขยาย liquidity คาบเกี่ยวกับ crypto-equity arbitrage หรือไม่ อาจหนุน volume ตลาดในระยะกลาง"
+    },
+    {
+      "time": "2026-08-07T20:58:05.952352+07:00",
+      "content": "## 🔄 อัปเดต — Nonfarm Payrolls พลิกลบ! สหรัฐเสียงาน -23,000\n📌 เดิม: นักวิเคราะห์คาด NFP ก.ค. จะเพิ่มเพียง 83,000 ตำแหน่ง อัตราว่างงานทรงที่ 4.2%\n🆕 ล่าสุด: ตัวเลขจริงพลิกเป็น **ติดลบ -23,000 ตำแหน่ง** แย่กว่าคาดมาก ทำให้ตลาดตั้งคำถามต่อแผนขึ้นดอกเบี้ย Fed — เป็นสัญญาณ dovish surprise รุนแรง\n\n💡 กระทบ BTC: บวกระยะสั้นจาก dovish repricing — คาด Fed หันไปลดดอกเบี้ยเร็วขึ้น หนุน risk asset แต่ F&G ยัง Fear (29) ต้องระวังแรงขายทำกำไร แนวรับ $62,000 ยังสำคัญ แนวต้าน $66,000\n💡 กระทบทอง: บวกแรง — ข้อมูลจ้างงานแย่ + คาด Fed dovish หนุนทองต่อเนื่อง เงินไหลเข้าสินทรัพย์ปลอดภัยเข้มข้นขึ้น แนวต้าน $4,300 มีโอกาสทะลุ แนวรับ $4,250\n\n🎯 จับตาปฏิกิริยา Fed Warsh และ 10Y Yield ว่าจะร่วงตามหรือไม่ — ถ้า yield ลงแรง จะยืนยัน dovish pivot ชัดเจน"
     }
   ],
   "posted_urls": [
@@ -96,21 +96,10 @@
     "https://www.marketwatch.com/story/figmas-push-into-ai-agents-drives-an-earnings-beat-1f6e200a?mod=mw_rss_topstories",
     "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
     "https://www.marketwatch.com/story/gold-prices-are-breaking-higher-after-a-tough-stretch-could-fresh-records-be-within-reach-1e1a872f?mod=mw_rss_topstories",
-    "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push"
+    "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
+    "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63765,
-        "change_24h": 1.0302486006125289,
-        "volume_24h": 24127414622.802296
-      },
-      "gold": {
-        "price": 4033.97,
-        "change_24h": -0.5884426185577212
-      },
-      "timestamp": "2026-08-03T16:39:39.539066+00:00"
-    },
     {
       "btc": {
         "price": 63850,
@@ -674,9 +663,21 @@
         "change_24h": 1.2182871640659458
       },
       "timestamp": "2026-08-07T12:27:09.779595+00:00"
+    },
+    {
+      "btc": {
+        "price": 65088,
+        "change_24h": 1.0111489261188629,
+        "volume_24h": 20428447539.92162
+      },
+      "gold": {
+        "price": 4342.32,
+        "change_24h": 1.962407840808915
+      },
+      "timestamp": "2026-08-07T13:57:43.776626+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-07T16:40:00.204004+07:00"
+    "breaking": "2026-08-07T20:58:05.952352+07:00"
   }
 }
