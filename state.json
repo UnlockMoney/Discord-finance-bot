@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-06T11:09:01.291685+07:00",
-      "content": "### 🔥 ทองพุ่งแรง +3.10% ทำนิวไฮต่อเนื่อง\nGold แตะ $4,254.69 (+3.10% 24h) ขณะ GLD ETF บวก +5.00% แรงซื้อสินทรัพย์ปลอดภัยเข้มข้นสุด สวนทาง DXY อ่อนตัว -0.23% แม้ 10Y Yield ยืนสูง 4.62%\n💡 กระทบ: 🥇 โมเมนตัมแข็งแรงมาก แนวรับ $4,150 แนวต้านใหม่ $4,300 | ₿ เงินไหลเข้าทองแย่งซีนชัดเจน แนวรับ $62,000 ยังสำคัญ\n\n### 🆕 Warsh ปรับลดจำนวนประชุม Fed เขย่าโครงสร้างเดิม\nFed ภายใต้ Warsh พิจารณาลดจำนวนการประชุมประจำปี เปลี่ยนวัฒนธรรม Fed ที่ยึดมาหลายทศวรรษ ตลาดเตือนความผันผวนสูงขึ้นจากความไม่แน่นอนด้าน forward guidance\n💡 กระทบ: 🥇 บวกหาก dovish ต่อเ"
-    },
-    {
       "time": "2026-08-07T10:47:41.303049+07:00",
       "content": "### 🆕 ตลาดจับตา Nonfarm Payrolls ศุกร์นี้ ตัวเลขคาดอ่อนแอ\nนักวิเคราะห์คาด NFP เดือนก.ค. เพิ่มเพียง 83,000 ตำแหน่ง อัตราว่างงานทรงที่ 4.2% ตัวเลขอ่อนกว่าค่าเฉลี่ยอาจกดดัน Fed เอนไป dovish ท่ามกลางความเห็นแตกในเฟดเรื่องทิศทางดอกเบี้ย\n💡 กระทบ: 🥇 ถ้าตัวเลขอ่อน หนุนทองต่อ แนวต้าน $4,300 | ₿ dovish surprise อาจหนุน risk asset แต่ต้องรอผลจริง แนวรับ $62,000\n\n### 🔄 อัปเดต — โมเมนตัมทองชะลอหลังพุ่งแรง\n📌 เดิม: ทองพุ่ง +3.10% ทำนิวไฮแตะ $4,254.69\n🆕 ล่าสุด: ราคาทรงตัวที่ $4,252.95 (+0.02% 24h) แต่ GLD ETF ยังบวกแรง +3.32% สะท้อนแรงซื้อสถาบันยังไม่หยุด แม้ spot cool down"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-09T10:00:08.277077+07:00",
       "content": "### 🆕 BIP-110 Soft Fork เริ่ม Mandatory Signaling — Miner Support ต่ำกว่า 3%\nBitcoin block 961,632 เข้าสู่ช่วง mandatory signaling ของ BIP-110 soft fork ที่เป็นข้อถกเถียง แต่ miner support รองรับไม่ถึง 3% — เสี่ยงสร้างความไม่แน่นอนด้าน network consensus และอาจกระทบ sentiment นักขุด/นักลงทุนระยะสั้น\n💡 กระทบ: 🥇 ไม่เกี่ยวข้องโดยตรง | ₿ ผสม — technical uncertainty กดดันจิตวิทยาตลาดช่วงสั้น ท่ามกลาง F&G ที่ยัง Fear (31) แนวรับ $62,000 แนวต้าน $66,000\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold uptrend\n⚠️ Risk: ปานกลาง — BTC เจอทั้งแรงหนุน dovish Fed และความไม่แน่นอนจาก soft fork กดดันพร้อมกัน ส่วนทองยังได้แรงหนุนจาก DXY อ่อนและ GLD inflow แรง (+7.25%)\n🎯 ภาพรวม: ทองยังแข็งแกร่งจาก dollar อ่อน+เงินไหลเข้า ETF ส่วน BTC แกว่งในกรอบ $62K-$66K รอความชัดเจนทั้งเชิงนโยบายและเทคนิคัล"
+    },
+    {
+      "time": "2026-08-09T21:27:02.017721+07:00",
+      "content": "### 🔥 สถาบันแห่ซื้อ BTC ETF — เงินไหลเข้า $853M ในวันเดียว\nนักลงทุนสถาบันอัดฉีดเงินเข้า Spot Bitcoin ETF รวม $853 ล้าน โดย BlackRock IBIT กวาดสัดส่วนใหญ่สุด สะท้อนภาพ institutional demand ที่ยังแข็งแกร่ง แม้ BTC ราคานิ่งที่ $65,118 (+0.08%) และ F&G ยังอยู่โซน Fear (31)\nข่าวนี้สอดคล้องกับมุมมอง Bitwise ก่อนหน้าเรื่อง \"trillions\" เงินสถาบันไหลเข้า — เริ่มเห็นสัญญาณจริงเป็นรูปธรรมแล้ว\n💡 กระทบ: 🥇 อ้อม — เงินอาจเบนไป BTC มากขึ้นในระยะสั้น กดดัน gold แต่ DXY อ่อน (99.60) ยังหนุนทองระยะกลาง แนวต้าน $4,350 | ₿ บวก — เงินสถาบันไหลเข้าหนาแน่นหนุน demand แนวรับ $62,000 แนวต้าน $66,000\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold uptrend\n⚠️ Risk: ปานกลาง — F&G ยัง Fear จำกัด upside, ตัวเลข Fed/yield (4.66%) ยังกดดันความเชื่อมั่นระยะสั้น\n🎯 ภาพรวม: เงินสถาบันไหลเข้า BTC ต่อเนื่องเป็นแรงหนุนเชิงโครงสร้าง แต่ short-term ยังต้องรอ breakout เหนือ $66,000 ส่วนทองแข็งจากดอลลาร์อ่อน"
     }
   ],
   "posted_urls": [
@@ -130,21 +130,10 @@
     "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
     "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
     "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
-    "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support"
+    "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
+    "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64937,
-        "change_24h": 0.8140113874490926,
-        "volume_24h": 21508422038.25921
-      },
-      "gold": {
-        "price": 4334.86,
-        "change_24h": 2.4079994968667786
-      },
-      "timestamp": "2026-08-07T21:53:55.748666+00:00"
-    },
     {
       "btc": {
         "price": 64863,
@@ -708,6 +697,18 @@
         "change_24h": 0.270321872379169
       },
       "timestamp": "2026-08-09T13:59:28.422928+00:00"
+    },
+    {
+      "btc": {
+        "price": 65118,
+        "change_24h": 0.07705959913870329,
+        "volume_24h": 12219325528.618547
+      },
+      "gold": {
+        "price": 4350.64,
+        "change_24h": 0.2538589305135622
+      },
+      "timestamp": "2026-08-09T14:26:43.365421+00:00"
     }
   ],
   "last_alert": {
