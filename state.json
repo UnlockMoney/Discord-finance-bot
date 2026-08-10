@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-07T20:58:05.952352+07:00",
-      "content": "## 🔄 อัปเดต — Nonfarm Payrolls พลิกลบ! สหรัฐเสียงาน -23,000\n📌 เดิม: นักวิเคราะห์คาด NFP ก.ค. จะเพิ่มเพียง 83,000 ตำแหน่ง อัตราว่างงานทรงที่ 4.2%\n🆕 ล่าสุด: ตัวเลขจริงพลิกเป็น **ติดลบ -23,000 ตำแหน่ง** แย่กว่าคาดมาก ทำให้ตลาดตั้งคำถามต่อแผนขึ้นดอกเบี้ย Fed — เป็นสัญญาณ dovish surprise รุนแรง\n\n💡 กระทบ BTC: บวกระยะสั้นจาก dovish repricing — คาด Fed หันไปลดดอกเบี้ยเร็วขึ้น หนุน risk asset แต่ F&G ยัง Fear (29) ต้องระวังแรงขายทำกำไร แนวรับ $62,000 ยังสำคัญ แนวต้าน $66,000\n💡 กระทบทอง: บวกแรง — ข้อมูลจ้างงานแย่ + คาด Fed dovish หนุนทองต่อเนื่อง เงินไหลเข้าสินทรัพย์ปลอดภัยเข้มข้นขึ้น แนวต้าน $4,300 มีโอกาสทะลุ แนวรับ $4,250\n\n🎯 จับตาปฏิกิริยา Fed Warsh และ 10Y Yield ว่าจะร่วงตามหรือไม่ — ถ้า yield ลงแรง จะยืนยัน dovish pivot ชัดเจน"
-    },
-    {
       "time": "2026-08-08T00:05:43.212310+07:00",
       "content": "## 🔄 อัปเดต — ตลาด Rate Futures ตอบรับ NFP ลบ ลดโอกาสขึ้นดอกเบี้ยก.ย.\n📌 เดิม: NFP ก.ค. พลิกลบ -23,000 ตำแหน่ง สวนทางคาดการณ์ ทำให้ตลาดตั้งคำถามต่อแผนดอกเบี้ย Fed\n🆕 ล่าสุด: Rate futures สะท้อนชัดแล้ว — โอกาสขึ้นดอกเบี้ยเดือนก.ย.ลดฮวบ ตลาดเริ่ม price-in แนวทาง dovish มากขึ้น ยืนยันสัญญาณจากตัวเลขจ้างงานอ่อนแอ\n\n💡 กระทบ BTC: บวกต่อเนื่องจาก dovish repricing ชัดเจนขึ้น เงินทุนอาจไหลเข้า risk asset แต่ F&G ยังอยู่โซน Fear (29) จำกัด upside แนวรับ $62,000 แนวต้าน $66,000\n💡 กระทบทอง: หนุนแรง — ดอกเบี้ยต่ำ = ต้นทุนถือทองลดลง เงินดอลลาร์อ่อนตัวหนุนราคาทอง จับตาแนวต้าน $4,350\n🎯 ติดตามถ้อยแถลง Fed สัปดาห์หน้าและ CPI เดือนถัดไปว่าจะยืนยันทิศทาง dovish นี้หรือไม่"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-10T21:52:10.551189+07:00",
       "content": "### 🔄 อัปเดต — Iran-Oman Deal คลาย Hormuz Fear\n📌 เดิม: Iran ยกเงื่อนไขใหม่ ทำให้ risk-off กลับมา กดดันตลาด\n🆕 ล่าสุด: ข่าว Iran-Oman deal talk ช่วยคลายกังวล Strait of Hormuz, BTC เคยยืน $65,000 ได้ก่อนร่วงลงมา $64,750 ท่ามกลาง WTI oil +5% แตะ $80\n💡 กระทบ: 🥇 ผสม — oil สูงหนุน inflation hedge แต่ risk-on กดดัน safe haven | ₿ บวกเล็กน้อย แนวรับ $63,500 แนวต้าน $65,500\n\n### 🆕 Strategy (MSTR) ขาย BTC 1,690 เหรียญ ระดม $653M\nMichael Saylor's Strategy ขาย bitcoin บางส่วนเพื่อระดมทุนผ่านหุ้น MSTR — ตลาดจับตาว่าเป็นสัญญาณ profit-taking หรือแค่ balance sheet management ท่ามกลาง BTC อ่อนตัวลงมาต่ำกว่า $65,000\n💡 กระทบ: 🥇 ไม่เกี่ยวข้องตรง | ₿ กดดันสั้น — sentiment ผสม แนวรับ $63,000 แนวต้าน $65,500\n\n### 🔥 Hedge Funds เปลี่ยนขั้ว CME — เลิก Short หันเก็ง Rally\nสัญญาณหายากจาก CME data: hedge funds ที่เคย structural short BTC มานาน เริ่ม abandon position หันมาเดิมพัน rally — สวนทางกับ F&G ที่ยังอยู่โซน Fear (30) ชี้ smart money มองต่างจาก retail\n💡 กระทบ: 🥇 อ้อม — เงินอาจไหลกลับ BTC มากขึ้น | ₿ บวก แนวรับ $63,500 แนวต้าน $66,000\n\n### 🆕 ตลาดจับตา CPI สัปดาห์นี้ — Jobs อ่อนตัวหนุนคาด Fed Cut\nข้อมูลจ้างงานสหรัฐฯอ่อนตัว (-23,000 jobs) ตลาดมองเป็นข่าวดีเพราะเพิ่มโอกาส Fed ลดดอกเบี้ย ท่ามกลาง 10Y Yield ยืนสูง 4.68% และ DXY แทบไม่ขยับ (99.71)\n💡 กระทบ: 🥇 บวก — cut hopes หนุนทอง แนวต้าน $4,400 | ₿ บวกเชิง risk-on แนวรับ $63,500\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-bullish | Gold sideways\n⚠️ Risk: กลาง — รอ CPI สัปดาห์นี้ + MSTR selling อาจกดดันสั้น\n🎯 ภาพรวม: Smart money เริ่มเก็ง BTC rally ขณะตลาดรอ CPI ชี้ทาง Fed cut ซึ่งหนุนทั้งทองและ risk asset"
+    },
+    {
+      "time": "2026-08-11T01:02:02.767347+07:00",
+      "content": "## 🔥 BREAKING — Fed เผยต้องขึ้นดอกเบี้ยมากกว่า 1 ครั้ง เพื่อคุมเงินเฟ้อ\nCleveland Fed President Beth Hammack ระบุว่าการขึ้นดอกเบี้ยเพียงครั้งเดียวไม่เพียงพอที่จะกดเงินเฟ้อลงมาสู่เป้าหมาย ส่งสัญญาณ Fed อาจต้อง hawkish ต่อเนื่อง สวนทางกับความหวังตลาดที่รอ Fed ผ่อนคลายนโยบาย ท่ามกลาง 10Y Yield ที่ยืนสูงอยู่แล้วที่ 4.66%\n\n💡 กระทบ BTC: ลบ — risk asset เผชิญแรงขายจาก \"higher for longer\" narrative, จับตาแนวรับ $63,500 หากหลุดเสี่ยงลงต่อ\n💡 กระทบทอง: ลบ — ดอกเบี้ยสูงต่อเนื่องเพิ่ม opportunity cost ถือทอง กดดัน $4,346 แม้ demand เชิง geopolitical/inflation hedge ยังหนุนอยู่บ้าง\n🎯 จับตาข้อมูลเงินเฟ้อสัปดาห์นี้ และท่าทีเพิ่มเติมจากสมาชิก FOMC คนอื่นๆ ว่าจะยืนยันแนวโน้ม hawkish นี้หรือไม่"
     }
   ],
   "posted_urls": [
@@ -151,21 +151,10 @@
     "https://www.coindesk.com/markets/2026/08/10/bitcoin-volatility-is-in-meltdown-but-downside-protection-still-commands-a-premium",
     "https://www.coindesk.com/markets/2026/08/10/a-rare-cme-shift-hedge-funds-abandon-structural-shorts-to-bet-on-a-bitcoin-rally",
     "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
-    "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall"
+    "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall",
+    "https://finance.yahoo.com/economy/policy/article/cleveland-feds-hammack-it-will-take-more-than-one-interest-rate-hike-to-bring-down-inflation-173530729.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64989,
-        "change_24h": 0.04585298635633678,
-        "volume_24h": 12651941140.480621
-      },
-      "gold": {
-        "price": 4339.99,
-        "change_24h": 0.07223026265041604
-      },
-      "timestamp": "2026-08-08T19:42:48.631194+00:00"
-    },
     {
       "btc": {
         "price": 65027,
@@ -729,9 +718,21 @@
         "change_24h": -0.20991348886429118
       },
       "timestamp": "2026-08-10T17:07:11.896734+00:00"
+    },
+    {
+      "btc": {
+        "price": 63892,
+        "change_24h": -1.9392570045967208,
+        "volume_24h": 20347514054.502457
+      },
+      "gold": {
+        "price": 4346.42,
+        "change_24h": -0.09945272703123546
+      },
+      "timestamp": "2026-08-10T18:01:42.658269+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-08T00:05:43.212310+07:00"
+    "breaking": "2026-08-11T01:02:02.767347+07:00"
   }
 }
