@@ -163,21 +163,10 @@
     "https://finance.yahoo.com/markets/stocks/articles/market-now-says-rate-hike-151256941.html",
     "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
     "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
-    "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move"
+    "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move",
+    "https://finance.yahoo.com/economy/policy/articles/cleveland-feds-beth-hammack-warns-100000049.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 65049,
-        "change_24h": 0.4286191626913289,
-        "volume_24h": 13711545710.20176
-      },
-      "gold": {
-        "price": 4312.36,
-        "change_24h": -0.7310656952847931
-      },
-      "timestamp": "2026-08-10T02:58:02.335551+00:00"
-    },
     {
       "btc": {
         "price": 64997,
@@ -741,6 +730,18 @@
         "change_24h": 0.9469336558807905
       },
       "timestamp": "2026-08-12T09:30:49.671389+00:00"
+    },
+    {
+      "btc": {
+        "price": 64059,
+        "change_24h": -0.2498733338207377,
+        "volume_24h": 22047334612.84761
+      },
+      "gold": {
+        "price": 4409.01,
+        "change_24h": 0.7839354351376738
+      },
+      "timestamp": "2026-08-12T10:42:01.057513+00:00"
     }
   ],
   "last_alert": {
