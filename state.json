@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-09T10:00:08.277077+07:00",
-      "content": "### 🆕 BIP-110 Soft Fork เริ่ม Mandatory Signaling — Miner Support ต่ำกว่า 3%\nBitcoin block 961,632 เข้าสู่ช่วง mandatory signaling ของ BIP-110 soft fork ที่เป็นข้อถกเถียง แต่ miner support รองรับไม่ถึง 3% — เสี่ยงสร้างความไม่แน่นอนด้าน network consensus และอาจกระทบ sentiment นักขุด/นักลงทุนระยะสั้น\n💡 กระทบ: 🥇 ไม่เกี่ยวข้องโดยตรง | ₿ ผสม — technical uncertainty กดดันจิตวิทยาตลาดช่วงสั้น ท่ามกลาง F&G ที่ยัง Fear (31) แนวรับ $62,000 แนวต้าน $66,000\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold uptrend\n⚠️ Risk: ปานกลาง — BTC เจอทั้งแรงหนุน dovish Fed และความไม่แน่นอนจาก soft fork กดดันพร้อมกัน ส่วนทองยังได้แรงหนุนจาก DXY อ่อนและ GLD inflow แรง (+7.25%)\n🎯 ภาพรวม: ทองยังแข็งแกร่งจาก dollar อ่อน+เงินไหลเข้า ETF ส่วน BTC แกว่งในกรอบ $62K-$66K รอความชัดเจนทั้งเชิงนโยบายและเทคนิคัล"
-    },
-    {
       "time": "2026-08-09T21:27:02.017721+07:00",
       "content": "### 🔥 สถาบันแห่ซื้อ BTC ETF — เงินไหลเข้า $853M ในวันเดียว\nนักลงทุนสถาบันอัดฉีดเงินเข้า Spot Bitcoin ETF รวม $853 ล้าน โดย BlackRock IBIT กวาดสัดส่วนใหญ่สุด สะท้อนภาพ institutional demand ที่ยังแข็งแกร่ง แม้ BTC ราคานิ่งที่ $65,118 (+0.08%) และ F&G ยังอยู่โซน Fear (31)\nข่าวนี้สอดคล้องกับมุมมอง Bitwise ก่อนหน้าเรื่อง \"trillions\" เงินสถาบันไหลเข้า — เริ่มเห็นสัญญาณจริงเป็นรูปธรรมแล้ว\n💡 กระทบ: 🥇 อ้อม — เงินอาจเบนไป BTC มากขึ้นในระยะสั้น กดดัน gold แต่ DXY อ่อน (99.60) ยังหนุนทองระยะกลาง แนวต้าน $4,350 | ₿ บวก — เงินสถาบันไหลเข้าหนาแน่นหนุน demand แนวรับ $62,000 แนวต้าน $66,000\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold uptrend\n⚠️ Risk: ปานกลาง — F&G ยัง Fear จำกัด upside, ตัวเลข Fed/yield (4.66%) ยังกดดันความเชื่อมั่นระยะสั้น\n🎯 ภาพรวม: เงินสถาบันไหลเข้า BTC ต่อเนื่องเป็นแรงหนุนเชิงโครงสร้าง แต่ short-term ยังต้องรอ breakout เหนือ $66,000 ส่วนทองแข็งจากดอลลาร์อ่อน"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-12T10:21:32.741488+07:00",
       "content": "### 🔄 อัปเดต — BTC นิ่งกลางแรงซื้อ-ขาย รอ Inflation Data ชี้ทาง\n📌 เดิม: ตลาดจับตา inflation report เดือน ก.ค. เป็นตัวชี้ขาด Fed hike ต่อหรือหยุด\n🆕 ล่าสุด: CoinDesk รายงาน BTC ETF inflows หักลบแรงขายพอดี ทำราคาทรงตัวโซนแคบ ตลาด wait-and-see รอ CPI เป็นตัวจุดชนวนเทรนด์ถัดไป\n💡 กระทบ: 🥇 เป็นกลาง | ₿ Sideways แนวรับ $63,500 แนวต้าน $65,500\n\n### 🆕 Nvidia ปั้นแผน AI Financing $500B เจอโจทย์เสี่ยงจากจีน\nJensen Huang เสนอใช้ GPU เป็น collateral ปลดล็อกเงินทุนระยะยาว แต่ตลาดกังวลอัตราเสื่อมของชิปเร็วกว่าคาด ท่ามกลาง China risk กดดัน tech sector โดยรวม\n💡 กระทบ: 🥇 เป็นกลาง | ₿ ลบเล็กน้อย — risk-asset sentiment สั่นคลอน หาก AI trade สะดุดอาจลามมา crypto\n\n## 🎯 สรุป\n📈 Trend: B"
+    },
+    {
+      "time": "2026-08-12T18:30:14.084415+07:00",
+      "content": "## 🔄 อัปเดต — CPI ออกแล้ว: สัญญาณ Fed อาจ \"หยุด\" ขึ้นดอกเบี้ย\n📌 เดิม: ตลาดรอ inflation report เดือน ก.ค. เป็นตัวชี้ขาดว่า Fed จะขึ้นดอกเบี้ยต่อหรือหยุด\n🆕 ล่าสุด: Yahoo Finance รายงานสด CPI ออกมาในทิศทางที่อาจทำให้ Fed \"keep rate hikes on hold\" — ตรงข้ามกับสัญญาณ hawkish จาก Cleveland Fed ก่อนหน้า ตลาดเริ่มตีความว่าเงินเฟ้อ \"tame\" ตามที่คาด\n\n💡 กระทบ BTC: บวก — หาก Fed ส่งสัญญาณหยุดขึ้นดอกเบี้ยจริง จะเป็นบวกต่อ risk asset จับตาแนวต้าน $65,500 หากทะลุเปิดทาง $67,000\n💡 กระทบทอง: บวก — Fed dovish หนุนทองเพราะ real yield ลดลง จับตาแนวต้าน $4,450\n🎯 รอ reaction ตลาดเต็มรูปแบบหลัง CPI ประกาศจริง และท่าที Fed officials ตอบกลับ"
     }
   ],
   "posted_urls": [
@@ -164,21 +164,12 @@
     "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html",
     "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
     "https://www.coindesk.com/markets/2026/08/11/bitcoin-stuck-as-etf-inflows-offset-selling-but-inflation-data-could-spark-a-move",
-    "https://finance.yahoo.com/economy/policy/articles/cleveland-feds-beth-hammack-warns-100000049.html"
+    "https://finance.yahoo.com/economy/policy/articles/cleveland-feds-beth-hammack-warns-100000049.html",
+    "https://www.investors.com/news/cpi-inflation-july-federal-reserve-rate-hike-apple-sp-500/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/markets/crypto/articles/first-spot-bitcoin-etf-closing-110500813.html",
+    "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64997,
-        "change_24h": 0.35035201640726116,
-        "volume_24h": 13706566662.999754
-      },
-      "gold": {
-        "price": 4310.67,
-        "change_24h": -0.7767756315625913
-      },
-      "timestamp": "2026-08-10T03:09:15.916669+00:00"
-    },
     {
       "btc": {
         "price": 64989,
@@ -742,9 +733,21 @@
         "change_24h": 0.7839354351376738
       },
       "timestamp": "2026-08-12T10:42:01.057513+00:00"
+    },
+    {
+      "btc": {
+        "price": 64145,
+        "change_24h": -0.22419301321816223,
+        "volume_24h": 21919535404.349735
+      },
+      "gold": {
+        "price": 4407.77,
+        "change_24h": 0.5864477170514714
+      },
+      "timestamp": "2026-08-12T11:29:50.964075+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-11T22:38:58.174672+07:00"
+    "breaking": "2026-08-12T18:30:14.084415+07:00"
   }
 }
