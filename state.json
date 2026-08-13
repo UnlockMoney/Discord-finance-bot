@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-11T22:38:58.174672+07:00",
-      "content": "## 🔄 อัปเดต — Fed Rate Hike เงื่อนไขชัดขึ้น: จับตา Inflation Report เดือนก.ค.\n📌 เดิม: Cleveland Fed Hammack ส่งสัญญาณต้องขึ้นดอกเบี้ยมากกว่า 1 ครั้ง เพื่อคุมเงินเฟ้อ\n🆕 ล่าสุด: MarketWatch ชี้ตัวเลขจ้างงานที่อ่อนแอเดือนที่แล้วไม่พอหยุด Fed ขึ้นดอกเบี้ย แต่หาก inflation report เดือนก.ค. (2 เดือนติดกัน) ออกมา \"tame\" อาจเปลี่ยนใจ Fed ได้ — ตลาดจับตาตัวเลขนี้เป็นตัวชี้ขาด\n\n💡 กระทบ BTC: ลบ-ผสม — ตลาดเข้าสู่ wait-and-see ก่อนข้อมูล CPI, หาก inflation ยังร้อนจะกดดันหนัก BTC เสี่ยงหลุด $63,500 sasaran ต่อไป $62,000 แต่หาก tame อาจ bounce กลับ $65,000\n💡 กระทบทอง: ผสม — ความไม่แน่นอนเรื่องดอกเบี้ยหนุน safe-haven demand บางส่วน แต่ higher-for-longer risk กดดัน gold ระยะสั้น แนวรับ $4,350\n🎯 จับตา CPI/inflation report เดือนก.ค. เป็นตัวชี้ทิศทางถัดไปของ Fed policy"
-    },
-    {
       "time": "2026-08-12T10:21:32.741488+07:00",
       "content": "### 🔄 อัปเดต — BTC นิ่งกลางแรงซื้อ-ขาย รอ Inflation Data ชี้ทาง\n📌 เดิม: ตลาดจับตา inflation report เดือน ก.ค. เป็นตัวชี้ขาด Fed hike ต่อหรือหยุด\n🆕 ล่าสุด: CoinDesk รายงาน BTC ETF inflows หักลบแรงขายพอดี ทำราคาทรงตัวโซนแคบ ตลาด wait-and-see รอ CPI เป็นตัวจุดชนวนเทรนด์ถัดไป\n💡 กระทบ: 🥇 เป็นกลาง | ₿ Sideways แนวรับ $63,500 แนวต้าน $65,500\n\n### 🆕 Nvidia ปั้นแผน AI Financing $500B เจอโจทย์เสี่ยงจากจีน\nJensen Huang เสนอใช้ GPU เป็น collateral ปลดล็อกเงินทุนระยะยาว แต่ตลาดกังวลอัตราเสื่อมของชิปเร็วกว่าคาด ท่ามกลาง China risk กดดัน tech sector โดยรวม\n💡 กระทบ: 🥇 เป็นกลาง | ₿ ลบเล็กน้อย — risk-asset sentiment สั่นคลอน หาก AI trade สะดุดอาจลามมา crypto\n\n## 🎯 สรุป\n📈 Trend: B"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-13T21:51:15.637707+07:00",
       "content": "### 🔄 อัปเดต — Dollar อ่อนจาก PPI แต่ Gold กลับย่อตัว\n📌 เดิม: PPI ก.ค. flat เปิดทาง Fed หยุดขึ้นดอกเบี้ย หนุน BTC รีบาวด์\n🆕 ล่าสุด: Yahoo Finance ยืนยัน Dollar อ่อนค่าต่อจาก cooling rate hike bets แต่ DXY ล่าสุดกลับทรงตัว 99.84 (+0.03%) ส่วน Gold ย่อลง -0.76% มาที่ $4,379 หลัง overbought จากโมเมนตัม Silver +70% YoY ก่อนหน้า ขณะ 10Y Yield ลดลงเหลือ 4.62%\n💡 กระทบ: 🥇 Gold พักฐานสั้นหลังพุ่งแรง แนวรับ $4,350 | ₿ Yield ลดหนุน risk asset แนวต้าน $64,000\n\n### 🆕 Goldman Sachs ขยายธุรกิจ Bitcoin ดีล $2.25B\nGoldman Sachs เข้าซื้อกิจการ asset manager มูลค่า $2.25B เพื่อขยายธุรกิจ Bitcoin — สัญญาณสถาบันการเงินใหญ่เพิ่ม exposure BTC ต่อเนื่อง แม้ตลาดยังอยู่ในโซน Fear (F&G 29)\n💡 กระทบ: ₿ บวกระยะกลาง — narrative institutional adoption หนุนแนวรับ $63,500\n\n### 🆕 BTC ยืนราคานิ่งใกล้ $64,000 ขณะ Monero, Hyperliquid วิ่งแซง\nCoinDesk รายงาน BTC เคลื่อนไหวแคบใกล้ $64,000 ล่าสุด $63,862 (+0.50%) ขณะ altcoin บางตัวอย่าง Monero และ Hyperliquid outperform สะท้อน rotation เงินทุนบางส่วนออกจาก BTC\n💡 กระทบ: ₿ Sideways โซน $63,500-$64,200 รอ catalyst ใหม่\n\n### 🆕 Strategy, Metaplanet ขาดทุนสะสมจาก BTC concentration\nCoinDesk เตือนความเสี่ยงบริษัท treasury อย่าง Strategy และ Metaplanet ถือ BTC unrealized loss หนัก จากการกระจุกตัวในสินทรัพย์เดียว\n💡 กระทบ: ₿ ลบเล็กน้อย — เพิ่มความกังวลเชิง systemic risk ของ corporate BTC holders\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold sideways-to-down\n⚠️ Risk: กลาง — F&G 29 (Fear) + BTC treasury concentration risk กดดันความเชื่อมั่น\n🎯 ภาพรวม: BTC แกว่งตัวรอ catalyst ใหม่ ขณะ Gold พักฐานหลังพุ่งแรงจากรอบ CPI/PPI"
+    },
+    {
+      "time": "2026-08-13T22:13:20.248196+07:00",
+      "content": "## 🔄 อัปเดต — เงินเฟ้อชะลอ 2 เดือนติดต่อกัน คำถาม Fed hike ก.ย. ยังอยู่ไหม\n📌 เดิม: PPI ก.ค. flat เดือนเดียว เปิดทาง Fed หยุดขึ้นดอกเบี้ย, Dollar อ่อนแต่ DXY ทรงตัว 99.84\n🆕 ล่าสุด: Yahoo Finance ชี้ Inflation ชะลอตัวต่อเนื่อง 2 เดือนติดกันแล้ว ตอกย้ำ dovish narrative แข็งแกร่งขึ้น คำถามตลาดเปลี่ยนจาก \"จะ pause ไหม\" เป็น \"September hike ยังมีโอกาสจริงหรือไม่\" — เพิ่มความมั่นใจตลาดว่า Fed จะไม่ขึ้นดอกเบี้ยรอบหน้า\n\n💡 กระทบ BTC: บวกต่อเนื่อง — dovish confirm 2 เดือนหนุน risk-on, จับตา reclaim $64,500-65,000\n💡 กระทบทอง: หนุนกลับจากพักฐาน — เงินเฟ้อชะลอย้ำ real yield ต่ำ, แนวรับ $4,370 หากยืนได้เป้าถัดไป $4,400\n🎯 จับตา Fed speakers/FOMC minutes สัปดาห์นี้ยืนยัน pause ชัดเจนหรือไม่"
     }
   ],
   "posted_urls": [
@@ -204,21 +204,10 @@
     "https://www.coindesk.com/markets/2026/08/13/bitcoin-holds-steady-near-usd64-000-as-monero-hyperliquid-outperform",
     "https://www.coindesk.com/business/2026/08/13/brazil-s-largest-bitcoin-treasury-firm-plans-etf-with-95-allocation-to-strategy-s-strc",
     "https://www.coindesk.com/tech/2026/08/13/live-markets-u-s-inflation-is-stickier-than-july-s-mild-cpi-suggests",
-    "https://www.coindesk.com/markets/2026/08/13/bitcoin-treasury-company-metaplanet-unveils-bitbonds-with-usd1-3-million-private-debt-sale"
+    "https://www.coindesk.com/markets/2026/08/13/bitcoin-treasury-company-metaplanet-unveils-bitbonds-with-usd1-3-million-private-debt-sale",
+    "https://finance.yahoo.com/economy/policy/articles/inflation-falls-2-months-straight-144453057.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64024,
-        "change_24h": -1.7705053080480613,
-        "volume_24h": 20683049270.35198
-      },
-      "gold": {
-        "price": 4355.16,
-        "change_24h": 0.1719663557031505
-      },
-      "timestamp": "2026-08-11T07:53:21.842565+00:00"
-    },
     {
       "btc": {
         "price": 64072,
@@ -782,9 +771,21 @@
         "change_24h": -0.7582083600720811
       },
       "timestamp": "2026-08-13T14:50:48.742289+00:00"
+    },
+    {
+      "btc": {
+        "price": 63782,
+        "change_24h": 0.5136821227316782,
+        "volume_24h": 18510447049.37534
+      },
+      "gold": {
+        "price": 4366.82,
+        "change_24h": -1.1178701021114603
+      },
+      "timestamp": "2026-08-13T15:13:00.623651+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-13T21:07:16.299858+07:00"
+    "breaking": "2026-08-13T22:13:20.248196+07:00"
   }
 }
