@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-13T10:25:06.540697+07:00",
-      "content": "### 🔄 อัปเดต — BTC จ่อหลุดแนวรับ $63,500 จริง, DXY แข็งค่าซ้ำเติม\n📌 เดิม: CPI ตรงคาด 3.4% แต่ BTC sell-the-news หลุด $64,000 แนวรับ $63,500 เสี่ยงหลุด\n🆕 ล่าสุด: BTC ล่าสุด $63,552 (-0.21%) แทบเทสแนวรับพอดี ขณะ DXY แข็งค่าขึ้น +0.41% แตะ 100.00 และ 10Y Yield ยืน 4.68% กดดันสินทรัพย์เสี่ยงต่อเนื่อง F&G Index อยู่ที่ 29 (Fear) สะท้อนตลาดยังระมัดระวัง\n💡 กระทบ: 🥇 Gold ทรงตัว $4,399 (-0.03%) แต่ GLD ETF ยัง +3.92% เงินไหลเข้าต่อเนื่อง | ₿ เสี่ยงหลุด $63,500 หากหลุดจริงเปิดทาง $62,000\n\n### 🆕 Zerohash ถูกปฏิเสธ Trust Bank Charter — สัญญาณ regulatory friction\nพันธมิตร infrastructure ของ Morgan Stanley ยื่นขอ trust bank charter ในสหรัฐฯ แต่ถูกปฏิเสธ สะท้อนกำแพง regulatory ต่อ crypto infrastructure ยังสูง แม้สถาบันใหญ่หนุนหลัง\n💡 กระทบ: 🥇 เป็นกลาง | ₿ ลบเล็กน้อย — บั่นทอน sentiment ฝั่ง institutional adoption ระยะสั้น\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-downtrend | Gold sideways-to-uptrend\n⚠️ Risk: สูง — DXY แข็งค่า, Yield สูง, F&G ยังอยู่โซน Fear กดดัน BTC\n🎯 ภาพรวม: BTC เสี่ยงหลุดแนวรับ $63,500 ขณะทองยังได้แรงหนุนจากเงินไหลเข้า ETF ต่อเนื่อง"
-    },
-    {
       "time": "2026-08-13T19:31:58.979644+07:00",
       "content": "## 🔥 BREAKING — Silver พุ่ง +70% YoY, Gold +10% MoM ก่อนเปิด PPI รายงาน\n\nYahoo Finance รายงานสด: Silver ทำผลงานร้อนแรง +70% YoY ขณะที่ Gold บวกเกือบ 10% ในรอบเดือนเดียว ทั้งคู่วิ่งขึ้นแรงก่อนตลาดจะรับรู้ตัวเลข PPI (Producer Price Index) ที่กำลังจะประกาศ — reflecting โมเมนตัมเงินไหลเข้าสินทรัพย์ปลอดภัย/โลหะมีค่าต่อเนื่องจากรอบ CPI ก่อนหน้า แม้ Gold ปัจจุบันจะย่อลงมาที่ $4,381.43 จากที่เคยแตะ $4,399\n\n💡 กระทบ BTC: เป็นกลาง-ลบเล็กน้อย — เงินยังคงไหลเข้า precious metals แทน crypto ในภาวะ Fear (F&G 29) ต้องจับตาว่า BTC จะหลุดแนวรับ $63,500 หรือฟื้นตัว หาก PPI ออกมา cool ลงอาจช่วยหนุน risk asset กลับมาได้บ้าง\n💡 กระทบทอง: บวกแรง — momentum MoM +10% และ Silver +70% YoY สะท้อน demand โลหะมีค่าแข็งแกร่งมาก จับตาว่า PPI จะยืนยัน trend เงินเฟ้อชะลอหรือไม่ ถ้า PPI ต่ำกว่าคาดจะยิ่งหนุน Gold ต่อเนื่อง\n\n🎯 ต่อไป: จับตา PPI ก.ค. ที่กำลังจะประกาศ — ถ้าออกมา soft จะยืนยัน narrative \"Fed หยุดขึ้นดอกเบี้ย\" และหนุนทั้ง G"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-15T00:09:34.728075+07:00",
       "content": "## 🔥 BREAKING — Trump ประกาศ Tariffs ใหม่ หนุนหุ้น Drone/Defense พุ่ง\n\nMarketWatch รายงานหุ้นกลุ่ม drone (นำโดย Unusual Machines ที่มี Donald Trump Jr. เป็นที่ปรึกษา) พุ่งแรงจากนโยบาย tariffs ใหม่ของ Trump ขณะ Yahoo Finance ระบุข่าว tariffs นี้หนุนหุ้นกลุ่ม defense โดยรวม แต่กดดัน Nasdaq หลัง retail sales อ่อนตัว\n\n💡 กระทบ BTC: กลาง-"
+    },
+    {
+      "time": "2026-08-15T09:12:21.110740+07:00",
+      "content": "### 🔄 อัปเดต — Gold ดีดกลับแรง หลังหลุด $4,300 เมื่อวาน\n📌 เดิม: Gold ร่วง -1.70% หลุดแนวรับ $4,350 เสี่ยงทดสอบ"
     }
   ],
   "posted_urls": [
@@ -212,21 +212,14 @@
     "https://www.coindesk.com/policy/2026/08/13/sec-cancels-long-awaited-proposal-of-reg-crypto-postponing-meeting-without-new-date",
     "https://www.investors.com/news/federal-reserve-retail-sales-amazon-prime-day-wmt-tgt-tariff-refunds/?src=A00220&yptr=yahoo",
     "https://www.marketwatch.com/story/drone-stocks-are-soaring-thanks-to-trumps-new-tariffs-895c6658?mod=mw_rss_topstories",
-    "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-applied-materials-stock-amat/?src=A00220&yptr=yahoo"
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-applied-materials-stock-amat/?src=A00220&yptr=yahoo",
+    "https://www.cnbc.com/2026/08/14/goldmans-latest-cash-cow-is-all-about-funding-the-ai-infrastructure-boom.html",
+    "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/parents-putting-money-in-trump-accounts-could-get-a-2-500-tax-break-heres-how-fb6fb2f7?mod=mw_rss_topstories",
+    "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
+    "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63359,
-        "change_24h": -0.2487353514903369,
-        "volume_24h": 21558471578.97279
-      },
-      "gold": {
-        "price": 4398.45,
-        "change_24h": 0.7518518348671366
-      },
-      "timestamp": "2026-08-12T23:21:45.290067+00:00"
-    },
     {
       "btc": {
         "price": 63513,
@@ -790,6 +783,18 @@
         "change_24h": 1.2357059828146935
       },
       "timestamp": "2026-08-15T01:47:58.671434+00:00"
+    },
+    {
+      "btc": {
+        "price": 62991,
+        "change_24h": -0.8682592542969138,
+        "volume_24h": 19890307220.742683
+      },
+      "gold": {
+        "price": 4372.54,
+        "change_24h": 1.270756754643294
+      },
+      "timestamp": "2026-08-15T02:11:47.728660+00:00"
     }
   ],
   "last_alert": {
