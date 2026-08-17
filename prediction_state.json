@@ -1,5 +1,16 @@
 {
-  "current_round": null,
+  "current_round": {
+    "week": "2026-W34",
+    "open_time": "2026-08-17T09:07:50.815356+07:00",
+    "close_time": "2026-08-19T23:59:00+07:00",
+    "target_time": "2026-08-21T23:59:00+07:00",
+    "status": "open",
+    "opener_msg_id": "1538731052980375672",
+    "last_read_msg_id": "1538731052980375672",
+    "btc_open_price": 63010,
+    "gold_open_price": 4389.63,
+    "predictions": {}
+  },
   "leaderboard": {},
   "history": [],
   "member_tiers": {},
