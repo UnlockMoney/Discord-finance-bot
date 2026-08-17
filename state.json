@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-14T22:06:08.821805+07:00",
-      "content": "## 🔄 อัปเดต — Retail Sales อ่อนตัวจาก Amazon Prime Day Effect ซ้ำเติม Dovish Narrative\n📌 เดิม: Inflation ชะลอ 2 เดือนติด คำถามเปลี่ยนเป็น \"Sept hike ยังมีโอกาสจริงหรือไม่\"\n🆕 ล่าสุด: Yahoo Finance รายงาน Fed rate hike odds ร่วงเพิ่ม หลัง retail sales อ่อนตัวจาก Amazon Prime Day effect บิดเบือนตัวเลข consumer spending — เสริม dovish case ให้แข็งแกร่งขึ้นอีกชั้น หลังจากตัวเลข PPI/Inflation ที่ชะลอมาก่อนหน้า\n\n💡 กระทบ BTC: บวก — dovish narrative สะสมต่อเนื่องหนุน risk asset, จับตาแนวต้าน $63,000-63,500 หากยืน F&G เหนือ 30\n💡 กระทบทอง: ผสม — Rate-cut bet หนุนระยะยาว แต่ short-term ยังกดดันจาก spot vs ETF divergence, ต้องรอดูว่ายืน $4,300 ได้ไหม\n🎯 จับตา Retail Sales ตัวเต็มสัปดาห์หน้า ว่าเป็น one-time effect หรือสัญญาณ slowdown จริง"
-    },
-    {
       "time": "2026-08-15T00:09:34.728075+07:00",
       "content": "## 🔥 BREAKING — Trump ประกาศ Tariffs ใหม่ หนุนหุ้น Drone/Defense พุ่ง\n\nMarketWatch รายงานหุ้นกลุ่ม drone (นำโดย Unusual Machines ที่มี Donald Trump Jr. เป็นที่ปรึกษา) พุ่งแรงจากนโยบาย tariffs ใหม่ของ Trump ขณะ Yahoo Finance ระบุข่าว tariffs นี้หนุนหุ้นกลุ่ม defense โดยรวม แต่กดดัน Nasdaq หลัง retail sales อ่อนตัว\n\n💡 กระทบ BTC: กลาง-"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-17T16:55:39.112448+07:00",
       "content": "## 🔄 อัปเดต — Dollar อ่อนสุดตั้งแต่ต้นมิถุนา rate hike bets เริ่มจาง\n📌 เดิม: DXY อ่อนตัวต่อเนื่องที่ 99.51 (-0.31%) หนุนโครงสร้างขาขึ้น Gold/BTC\n🆕 ล่าสุด: Yahoo Finance รายงาน Dollar ร่วง"
+    },
+    {
+      "time": "2026-08-17T21:20:04.459266+07:00",
+      "content": "### 🔥 Goldman Sachs: Fed ไม่ขึ้นดอกเบี้ยกันยายน\nGoldman ชี้ \"very unlikely\" ที่ Fed จะขึ้นดอกเบี้ยรอบก.ย. เว้นแต่ data พลิกผันหนัก สอดคล้อง DXY อ่อนตัวต่อเนื่อง (99.43, -0.58%) และ 10Y Yield ยังสูง 4.70%\n💡 กระทบ: 🥇 หนุนขาขึ้น breakout $4,400 | ₿ Dollar อ่อนเป็นบวกรอง แต่รอ catalyst ชัด\n\n### 🆕 BTC ETF Outflow $390 ล้าน แม้ตาม Equity Bounce\nCoinDesk รายงาน BTC ขยับตามการดีดตัวของหุ้น แต่ ETF outflow สัปดาห์ที่แล้วรวม $390M กดดัน bulls ให้ยังระมัดระวัง สอดคล้อง F&G Index 31 (Fear)\n💡 กระทบ: ₿ แนวรับ $63,000 แนวต้าน $65,000 | Sentiment สถาบันยังอ่อนแอ\n\n### 🔄 อัปเดต — Gold ทะยานแรงหลัง Retail Sales อ่อ"
     }
   ],
   "posted_urls": [
@@ -237,21 +237,22 @@
     "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
     "https://finance.yahoo.com/markets/currencies/articles/yen-edges-traders-push-back-004148952.html",
     "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
-    "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned"
+    "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned",
+    "https://www.marketwatch.com/story/the-ai-productivity-payoff-is-coming-here-are-20-stocks-primed-to-capture-the-gains-as-adoption-spreads-443842ac?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/investor-dubbed-ai-stock-god-had-56-of-his-funds-in-these-two-stocks-before-it-blew-up-07472f46?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/why-goldman-sachs-thinks-the-fed-wont-be-hiking-interest-rates-in-september-718275e7?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-17-2026-crypto-prices-down-slightly-as-analysts-question-timing-of-bear-market-bottom-135747407.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-17-2026-gold-ticks-up-after-lower-retail-sales-report-134755206.html",
+    "https://finance.yahoo.com/markets/crypto/articles/strategy-leaves-bitcoin-holdings-unchanged-133000030.html",
+    "https://www.coindesk.com/markets/2026/08/17/no-change-in-bitcoin-holdings-as-strategy-lifted-dollar-reserve-and-bought-back-more-strc-last-week",
+    "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
+    "https://www.coindesk.com/markets/2026/08/17/bitcoin-options-remain-expensive-despite-summer-calm-here-s-why-it-matters",
+    "https://www.coindesk.com/daybook-us/2026/08/17/bitcoin-s-biggest-holders-strategy-and-metaplanet-are-betting-on-math-not-price",
+    "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
+    "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
+    "https://www.coindesk.com/markets/2026/08/17/september-fed-interest-rate-increase-is-very-unlikely-goldman-sachs-says"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63007,
-        "change_24h": -0.025832465267452646,
-        "volume_24h": 8841099350.201
-      },
-      "gold": {
-        "price": 4375.73,
-        "change_24h": 0.015177342452192651
-      },
-      "timestamp": "2026-08-16T08:00:59.281627+00:00"
-    },
     {
       "btc": {
         "price": 63015,
@@ -815,6 +816,18 @@
         "change_24h": 0.3187081949556999
       },
       "timestamp": "2026-08-17T13:51:29.633234+00:00"
+    },
+    {
+      "btc": {
+        "price": 63626,
+        "change_24h": 0.9814551026818118,
+        "volume_24h": 16373301487.102892
+      },
+      "gold": {
+        "price": 4405.72,
+        "change_24h": 0.7605556867988491
+      },
+      "timestamp": "2026-08-17T14:19:32.599421+00:00"
     }
   ],
   "last_alert": {
