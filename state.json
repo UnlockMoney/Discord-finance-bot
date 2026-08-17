@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-15T00:09:34.728075+07:00",
-      "content": "## 🔥 BREAKING — Trump ประกาศ Tariffs ใหม่ หนุนหุ้น Drone/Defense พุ่ง\n\nMarketWatch รายงานหุ้นกลุ่ม drone (นำโดย Unusual Machines ที่มี Donald Trump Jr. เป็นที่ปรึกษา) พุ่งแรงจากนโยบาย tariffs ใหม่ของ Trump ขณะ Yahoo Finance ระบุข่าว tariffs นี้หนุนหุ้นกลุ่ม defense โดยรวม แต่กดดัน Nasdaq หลัง retail sales อ่อนตัว\n\n💡 กระทบ BTC: กลาง-"
-    },
-    {
       "time": "2026-08-15T09:12:21.110740+07:00",
       "content": "### 🔄 อัปเดต — Gold ดีดกลับแรง หลังหลุด $4,300 เมื่อวาน\n📌 เดิม: Gold ร่วง -1.70% หลุดแนวรับ $4,350 เสี่ยงทดสอบ"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-17T21:20:04.459266+07:00",
       "content": "### 🔥 Goldman Sachs: Fed ไม่ขึ้นดอกเบี้ยกันยายน\nGoldman ชี้ \"very unlikely\" ที่ Fed จะขึ้นดอกเบี้ยรอบก.ย. เว้นแต่ data พลิกผันหนัก สอดคล้อง DXY อ่อนตัวต่อเนื่อง (99.43, -0.58%) และ 10Y Yield ยังสูง 4.70%\n💡 กระทบ: 🥇 หนุนขาขึ้น breakout $4,400 | ₿ Dollar อ่อนเป็นบวกรอง แต่รอ catalyst ชัด\n\n### 🆕 BTC ETF Outflow $390 ล้าน แม้ตาม Equity Bounce\nCoinDesk รายงาน BTC ขยับตามการดีดตัวของหุ้น แต่ ETF outflow สัปดาห์ที่แล้วรวม $390M กดดัน bulls ให้ยังระมัดระวัง สอดคล้อง F&G Index 31 (Fear)\n💡 กระทบ: ₿ แนวรับ $63,000 แนวต้าน $65,000 | Sentiment สถาบันยังอ่อนแอ\n\n### 🔄 อัปเดต — Gold ทะยานแรงหลัง Retail Sales อ่อ"
+    },
+    {
+      "time": "2026-08-18T03:41:42.175138+07:00",
+      "content": "## 🔥 BREAKING — Trump เตรียมขึ้นภาษีนำเข้าแคนาดา 50% มีผลพุธนี้\n\nMarketWatch รายงาน สินค้ากลุ่มเหล้า, อุปกรณ์ฮ็อกกี้ และไม้แปรรูป (particle board) เข้าข่าย tariff ใหม่ 50% เพิ่มความตึงเครียดการค้าสหรัฐ-แคนาดา ท่ามกลาง F&G ที่ต่ำอยู่แล้วที่ 31 (Fear)\n\n💡 กระทบ BTC: ลบเล็กน้อย/เป็นกลาง — risk-off sentiment อาจกดดันสินทรัพย์เสี่ยงระยะสั้น จับตาแนวรับ $63,500-64,000\n💡 กระทบทอง: บวกรอง — trade war fear หนุน safe haven demand เสริมโมเมนตัมขาขึ้นที่กำลังทดสอบ $4,400 อยู่แล้ว\n🎯 จับตาปฏิกิริยาตลาดหุ้นสหรัฐและแคนาดาช่วงเปิดตลาด และท่าที Fed ที่อาจถูกกดดันเพิ่มจาก trade tension"
     }
   ],
   "posted_urls": [
@@ -250,21 +250,10 @@
     "https://www.coindesk.com/daybook-us/2026/08/17/bitcoin-s-biggest-holders-strategy-and-metaplanet-are-betting-on-math-not-price",
     "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
     "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
-    "https://www.coindesk.com/markets/2026/08/17/september-fed-interest-rate-increase-is-very-unlikely-goldman-sachs-says"
+    "https://www.coindesk.com/markets/2026/08/17/september-fed-interest-rate-increase-is-very-unlikely-goldman-sachs-says",
+    "https://www.marketwatch.com/story/a-new-set-of-trump-tariffs-for-canada-could-take-effect-wednesday-heres-whats-at-stake-8aa0eeb8?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63007,
-        "change_24h": 0.030024606191120018,
-        "volume_24h": 8691674211.813786
-      },
-      "gold": {
-        "price": 4372.4,
-        "change_24h": -0.02109824082148464
-      },
-      "timestamp": "2026-08-16T14:15:14.543750+00:00"
-    },
     {
       "btc": {
         "price": 63034,
@@ -828,9 +817,21 @@
         "change_24h": 0.7978948211177361
       },
       "timestamp": "2026-08-17T19:58:33.729228+00:00"
+    },
+    {
+      "btc": {
+        "price": 64317,
+        "change_24h": 2.0240507424135497,
+        "volume_24h": 21634857935.432377
+      },
+      "gold": {
+        "price": 4406.59,
+        "change_24h": 0.8123708278044978
+      },
+      "timestamp": "2026-08-17T20:41:27.094681+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-17T16:55:39.112448+07:00"
+    "breaking": "2026-08-18T03:41:42.175138+07:00"
   }
 }
