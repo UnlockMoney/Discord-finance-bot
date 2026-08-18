@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-15T09:12:21.110740+07:00",
-      "content": "### 🔄 อัปเดต — Gold ดีดกลับแรง หลังหลุด $4,300 เมื่อวาน\n📌 เดิม: Gold ร่วง -1.70% หลุดแนวรับ $4,350 เสี่ยงทดสอบ"
-    },
-    {
       "time": "2026-08-15T21:15:20.341338+07:00",
       "content": "### 🔄 อัปเดต — Gold ดีดกลับแรง ทะลุ $4,373 คืนโซนก่อนร่วง\n📌 เดิม: หลุด $4,300 เสี่ยงทดสอบ $4,280"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-18T03:41:42.175138+07:00",
       "content": "## 🔥 BREAKING — Trump เตรียมขึ้นภาษีนำเข้าแคนาดา 50% มีผลพุธนี้\n\nMarketWatch รายงาน สินค้ากลุ่มเหล้า, อุปกรณ์ฮ็อกกี้ และไม้แปรรูป (particle board) เข้าข่าย tariff ใหม่ 50% เพิ่มความตึงเครียดการค้าสหรัฐ-แคนาดา ท่ามกลาง F&G ที่ต่ำอยู่แล้วที่ 31 (Fear)\n\n💡 กระทบ BTC: ลบเล็กน้อย/เป็นกลาง — risk-off sentiment อาจกดดันสินทรัพย์เสี่ยงระยะสั้น จับตาแนวรับ $63,500-64,000\n💡 กระทบทอง: บวกรอง — trade war fear หนุน safe haven demand เสริมโมเมนตัมขาขึ้นที่กำลังทดสอบ $4,400 อยู่แล้ว\n🎯 จับตาปฏิกิริยาตลาดหุ้นสหรัฐและแคนาดาช่วงเปิดตลาด และท่าที Fed ที่อาจถูกกดดันเพิ่มจาก trade tension"
+    },
+    {
+      "time": "2026-08-18T09:14:10.567552+07:00",
+      "content": "### 🆕 Treasury Bond ETF ร่วงต่ำสุดในรอบ 20 ปี\nMarketWatch รายงาน ETF ตราสารหนี้สหรัฐยอดนิยมแตะระดับต่ำสุดตั้งแต่ปี 2004 สะท้อน 10Y Yield ที่ยังทรงตัวสูง 4.72% แม้ DXY อ่อนตัว (99.59, -0.41%) กดดัน bond market ต่อเนื่อง\n💡 กระทบ: 🥇 Yield สูงกดดัน gold ระยะสั้น แต่ dollar อ่อนช่วยหักล้าง แนวรับ $4,350 | ₿ Yield สูงเป็นลบต่อ risk asset จับตาแนวรับ $63,500\n\n### 🆕 Saylor ยันไม่ทำ Buyback เก็บเงินสด $4.8B แทน\nCoinDesk รายงาน Michael Saylor ระบุ Strategy ไม่ให้ความสำคัญกับ share buyback ตอนนี้ เลือกสะสมเงินสด $4.8 พันล้านไว้ก่อน สะท้อนท่าที conservative ท่ามกลาง BTC ETF outflow ที่ยังกดดัน sentiment\n💡 กระทบ: ₿ เป็นกลาง-บวกรอง — สัญญาณ institutional confidence ระยะยาว แต่ไม่ใช่ buying pressure ทันที แนวต้าน $65,000\n\n### 🆕 Kraken เข้าร่วม Anthropic Project Glasswing ด้าน AI Security\nPayward (บริษัทแม่ Kraken) ผนึก Anthropic เสริมความปลอดภัยด้าน AI สำหรับ crypto infrastructure สะท้อน trend สถาบัน crypto ลงทุนด้าน security/AI ต่อเนื่อง\n💡 กระทบ: ₿ กลาง — บวกต่อ long-term infrastructure trust ไม่กระทบราคาระยะสั้น\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-up | Gold sideways\n⚠️ Risk: กลาง — Yield สูง 4.72% กดดัน risk asset, F&G ยังอยู่โซน Fear (41)\n🎯 ภาพรวม: BTC ฟื้นตัว +1.81% แต่ยังรอ catalyst ชัดเจน ส่วน Gold ทรงตัวรอทดสอบ $4,400 อีกครั้ง"
     }
   ],
   "posted_urls": [
@@ -251,21 +251,13 @@
     "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
     "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
     "https://www.coindesk.com/markets/2026/08/17/september-fed-interest-rate-increase-is-very-unlikely-goldman-sachs-says",
-    "https://www.marketwatch.com/story/a-new-set-of-trump-tariffs-for-canada-could-take-effect-wednesday-heres-whats-at-stake-8aa0eeb8?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/a-new-set-of-trump-tariffs-for-canada-could-take-effect-wednesday-heres-whats-at-stake-8aa0eeb8?mod=mw_rss_topstories",
+    "https://www.cnbc.com/2026/08/17/synchrony-openai-chatgpt-shopping.html",
+    "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
+    "https://www.coindesk.com/tech/2026/08/17/kraken-parent-payward-joins-anthropic-s-project-glasswing-for-ai-security-push",
+    "https://www.coindesk.com/markets/2026/08/17/saylor-says-share-buyback-isn-t-a-priority-as-it-builds-its-usd4-8-billion-cash-reserve-though-a-possibility"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 63093,
-        "change_24h": 0.1632318244390945,
-        "volume_24h": 9123466800.237122
-      },
-      "gold": {
-        "price": 4373.69,
-        "change_24h": -0.008024939334094464
-      },
-      "timestamp": "2026-08-16T18:45:01.392458+00:00"
-    },
     {
       "btc": {
         "price": 63091,
@@ -829,6 +821,18 @@
         "change_24h": 0.2854075549772111
       },
       "timestamp": "2026-08-18T01:48:37.184054+00:00"
+    },
+    {
+      "btc": {
+        "price": 64166,
+        "change_24h": 1.8100647743153984,
+        "volume_24h": 21101660351.915607
+      },
+      "gold": {
+        "price": 4393.46,
+        "change_24h": 0.1256017154070611
+      },
+      "timestamp": "2026-08-18T02:13:45.600203+00:00"
     }
   ],
   "last_alert": {
