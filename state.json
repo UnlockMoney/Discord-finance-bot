@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-17T21:20:04.459266+07:00",
-      "content": "### 🔥 Goldman Sachs: Fed ไม่ขึ้นดอกเบี้ยกันยายน\nGoldman ชี้ \"very unlikely\" ที่ Fed จะขึ้นดอกเบี้ยรอบก.ย. เว้นแต่ data พลิกผันหนัก สอดคล้อง DXY อ่อนตัวต่อเนื่อง (99.43, -0.58%) และ 10Y Yield ยังสูง 4.70%\n💡 กระทบ: 🥇 หนุนขาขึ้น breakout $4,400 | ₿ Dollar อ่อนเป็นบวกรอง แต่รอ catalyst ชัด\n\n### 🆕 BTC ETF Outflow $390 ล้าน แม้ตาม Equity Bounce\nCoinDesk รายงาน BTC ขยับตามการดีดตัวของหุ้น แต่ ETF outflow สัปดาห์ที่แล้วรวม $390M กดดัน bulls ให้ยังระมัดระวัง สอดคล้อง F&G Index 31 (Fear)\n💡 กระทบ: ₿ แนวรับ $63,000 แนวต้าน $65,000 | Sentiment สถาบันยังอ่อนแอ\n\n### 🔄 อัปเดต — Gold ทะยานแรงหลัง Retail Sales อ่อ"
-    },
-    {
       "time": "2026-08-18T03:41:42.175138+07:00",
       "content": "## 🔥 BREAKING — Trump เตรียมขึ้นภาษีนำเข้าแคนาดา 50% มีผลพุธนี้\n\nMarketWatch รายงาน สินค้ากลุ่มเหล้า, อุปกรณ์ฮ็อกกี้ และไม้แปรรูป (particle board) เข้าข่าย tariff ใหม่ 50% เพิ่มความตึงเครียดการค้าสหรัฐ-แคนาดา ท่ามกลาง F&G ที่ต่ำอยู่แล้วที่ 31 (Fear)\n\n💡 กระทบ BTC: ลบเล็กน้อย/เป็นกลาง — risk-off sentiment อาจกดดันสินทรัพย์เสี่ยงระยะสั้น จับตาแนวรับ $63,500-64,000\n💡 กระทบทอง: บวกรอง — trade war fear หนุน safe haven demand เสริมโมเมนตัมขาขึ้นที่กำลังทดสอบ $4,400 อยู่แล้ว\n🎯 จับตาปฏิกิริยาตลาดหุ้นสหรัฐและแคนาดาช่วงเปิดตลาด และท่าที Fed ที่อาจถูกกดดันเพิ่มจาก trade tension"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-19T21:25:11.772725+07:00",
       "content": "### 🔥 Treasury Buybacks ดัน Yield ร่วง — BTC ทะลุ $65,000\nกระทรวงคลังสหรัฐฯ ประกาศเพิ่ม bond buyback เป็น 2 เท่า กด 10Y Yield ร่วงจากจุดสูงสุดในรอบหลายสิบปี หนุน stock/risk asset ฟื้นตัวทันที CoinDesk ยืนยัน BTC ทะลุแนวต้าน $65,000 ได้แล้ว\n💡 กระทบ: 🥇 กลาง"
+    },
+    {
+      "time": "2026-08-19T23:45:11.297351+07:00",
+      "content": "## 🔥 BREAKING — Iran Ceasefire ล่ม ดันราคาน้ำมัน + ทองแข็งค่าก่อน FOMC Minutes\nYahoo Finance รายงาน Iran ceasefire สิ้นสุดลง ราคาน้ำมันพุ่งต่อเนื่อง หนุนหุ้นกลุ่มพลังงานทะยาน สะท้อน geopolitical risk กลับมาอีกครั้งหลังเคยผ่อนคลายจาก tariff pause ก่อนหน้า ขณะเดียวกันราคาทองแข็งค่าขึ้นจากแรงซื้อสินทรัพย์ปลอดภัย รอดูสัญญาณ Fed จาก FOMC Minutes ที่จะประกาศคืนนี้\n\n💡 กระทบ BTC: กลาง-ลบ — geopolitical risk กลับมา อาจกดดัน risk sentiment สวนทาง trade war ที่เพิ่งคลี่คลาย จับตาแนวรับ $65,000\n💡 กระทบทอง: บวก — safe-haven demand หนุนราคาทองใกล้ $4,483.80 รอ FOMC Minutes ชี้ทิศทางดอกเบี้ยเป็นตัวแปรถัดไป\n🎯 จับตา FOMC Minutes คืนนี้ และสถานการณ์ Iran ว่าจะบานปลายหรือกลับสู่โต๊ะเจรจา"
     }
   ],
   "posted_urls": [
@@ -295,21 +295,11 @@
     "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
     "https://www.coindesk.com/markets/2026/08/19/bitcoin-stuck-in-a-six-week-range-as-global-bond-yields-hit-highest-levels-for-decades",
     "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
-    "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million"
+    "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million",
+    "https://www.investors.com/news/oil-prices-iran-us-hormuz-shell-suncor-ecopetrol-frontline-oneok/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-wednesday-august-19-2026-gold-strengthens-ahead-of-fomc-minutes-release-161123813.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64143,
-        "change_24h": 1.0491533696188826,
-        "volume_24h": 21575018702.11355
-      },
-      "gold": {
-        "price": 4394.06,
-        "change_24h": -0.18608651190639935
-      },
-      "timestamp": "2026-08-18T07:52:18.142311+00:00"
-    },
     {
       "btc": {
         "price": 64190,
@@ -873,10 +863,22 @@
         "change_24h": 2.6691702960064037
       },
       "timestamp": "2026-08-19T16:03:24.916493+00:00"
+    },
+    {
+      "btc": {
+        "price": 68608,
+        "change_24h": 5.962454712439561,
+        "volume_24h": 31327642362.62475
+      },
+      "gold": {
+        "price": 4483.8,
+        "change_24h": 2.728056881265463
+      },
+      "timestamp": "2026-08-19T16:44:54.281292+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-08-19T10:09:58.825705+07:00",
+    "breaking": "2026-08-19T23:45:11.297351+07:00",
     "price": "2026-08-19T22:44:19.003281+07:00"
   }
 }
