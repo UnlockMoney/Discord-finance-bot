@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-17T16:55:39.112448+07:00",
-      "content": "## 🔄 อัปเดต — Dollar อ่อนสุดตั้งแต่ต้นมิถุนา rate hike bets เริ่มจาง\n📌 เดิม: DXY อ่อนตัวต่อเนื่องที่ 99.51 (-0.31%) หนุนโครงสร้างขาขึ้น Gold/BTC\n🆕 ล่าสุด: Yahoo Finance รายงาน Dollar ร่วง"
-    },
-    {
       "time": "2026-08-17T21:20:04.459266+07:00",
       "content": "### 🔥 Goldman Sachs: Fed ไม่ขึ้นดอกเบี้ยกันยายน\nGoldman ชี้ \"very unlikely\" ที่ Fed จะขึ้นดอกเบี้ยรอบก.ย. เว้นแต่ data พลิกผันหนัก สอดคล้อง DXY อ่อนตัวต่อเนื่อง (99.43, -0.58%) และ 10Y Yield ยังสูง 4.70%\n💡 กระทบ: 🥇 หนุนขาขึ้น breakout $4,400 | ₿ Dollar อ่อนเป็นบวกรอง แต่รอ catalyst ชัด\n\n### 🆕 BTC ETF Outflow $390 ล้าน แม้ตาม Equity Bounce\nCoinDesk รายงาน BTC ขยับตามการดีดตัวของหุ้น แต่ ETF outflow สัปดาห์ที่แล้วรวม $390M กดดัน bulls ให้ยังระมัดระวัง สอดคล้อง F&G Index 31 (Fear)\n💡 กระทบ: ₿ แนวรับ $63,000 แนวต้าน $65,000 | Sentiment สถาบันยังอ่อนแอ\n\n### 🔄 อัปเดต — Gold ทะยานแรงหลัง Retail Sales อ่อ"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-19T10:09:58.825705+07:00",
       "content": "## 🔄 อัปเดต — Trump ชะลอ Tariff แคนาดา 50%\n📌 เดิม: Trade war fear จาก Canada tariff ซ้อนกับ Iran conflict กดดัน dollar และ risk sentiment\n🆕 ล่าสุด: MarketWatch รายงาน Trump administration **holds off** แผนขึ้นภาษี 50% สินค้าแคนาดา — ยังไม่ยกเลิกถาวร แต่ผ่อนคลายความตึงเครียดระยะสั้น ลด trade war risk ที่เคยซ้อนกับ geopolitical risk (Iran)\n\n💡 กระทบ BTC: กลางบวกเล็กน้อย — ลด risk-off จาก trade war, อาจหนุน sentiment กลับมาทดสอบ $65,000 ถ้าไม่มีปัจจัยลบใหม่\n💡 กระทบทอง: กลางลบเล็กน้อย — safe-haven demand จาก trade war ลดลง แต่ Iran conflict ยังหนุนอยู่ ทองอาจแกว่งแคบ\n🎯 จับตาว่า Trump จะยกเลิกถาวรหรือแค่เลื่อน, และ Iran conflict จะทวีความรุนแรงหรือไม่"
+    },
+    {
+      "time": "2026-08-19T21:25:11.772725+07:00",
+      "content": "### 🔥 Treasury Buybacks ดัน Yield ร่วง — BTC ทะลุ $65,000\nกระทรวงคลังสหรัฐฯ ประกาศเพิ่ม bond buyback เป็น 2 เท่า กด 10Y Yield ร่วงจากจุดสูงสุดในรอบหลายสิบปี หนุน stock/risk asset ฟื้นตัวทันที CoinDesk ยืนยัน BTC ทะลุแนวต้าน $65,000 ได้แล้ว\n💡 กระทบ: 🥇 กลาง"
     }
   ],
   "posted_urls": [
@@ -274,21 +274,30 @@
     "https://www.marketwatch.com/story/ai-chip-stocks-were-riding-high-heres-why-micron-and-others-are-now-pulling-back-cb4fd5af?mod=mw_rss_topstories",
     "https://www.coindesk.com/policy/2026/08/18/it-has-to-pass-andrew-cuomo-warns-u-s-is-falling-behind-on-crypto-rules",
     "https://www.coindesk.com/policy/2026/08/18/r",
-    "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories",
+    "https://www.cnbc.com/2026/08/19/goldman-ai-impact-employment-jobs.html",
+    "https://www.marketwatch.com/story/mortgage-rates-could-move-even-higher-dealing-a-fresh-blow-to-home-buyers-ad8d0f3d?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/pressure-on-bonds-abates-as-treasury-announces-buybacks-what-may-come-next-af7d7c76?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/the-bond-selloff-is-rattling-investors-but-heres-why-they-shouldnt-expect-a-deeper-stock-downturn-43139350?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/markets/stocks/articles/dividend-stocks-lost-yield-war-140730677.html",
+    "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-august-19-2026-earn-up-to-435-apy-100000814.html",
+    "https://finance.yahoo.com/news/bond-selloff-slows-stocks-wobble-025827451.html",
+    "https://finance.yahoo.com/markets/stocks/article/spacex-stock-in-focus-after-china-rocket-milestone-share-unlock-ahead-134536527.html",
+    "https://finance.yahoo.com/news/instant-view-us-treasury-double-134328359.html",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-sk-hynix-skhy/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-company-tsm-133617895.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-19-dow-sp-500-nasdaq-081116064.html",
+    "https://finance.yahoo.com/markets/crypto/articles/gemini-cameron-winklevoss-says-bitcoin-132200813.html",
+    "https://finance.yahoo.com/economy/articles/freight-distress-report-more-7-131619573.html",
+    "https://www.coindesk.com/business/2026/08/19/beyond-crypto-funding-rates-ethena-diversifies-usde-backing-with-usd1-billion-falconx-facility",
+    "https://www.coindesk.com/markets/2026/08/19/bitcoin-is-flashing-8-of-12-capitulation-signals-but-its-not-a-bottom-yet",
+    "https://www.coindesk.com/business/2026/08/19/china-triples-digital-yuan-bank-roster-year-to-date-as-eight-more-banks-join-network",
+    "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
+    "https://www.coindesk.com/markets/2026/08/19/bitcoin-stuck-in-a-six-week-range-as-global-bond-yields-hit-highest-levels-for-decades",
+    "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
+    "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 64135,
-        "change_24h": 1.0108173706239652,
-        "volume_24h": 21091663178.80637
-      },
-      "gold": {
-        "price": 4386.94,
-        "change_24h": -0.09770459657001826
-      },
-      "timestamp": "2026-08-18T04:49:26.627142+00:00"
-    },
     {
       "btc": {
         "price": 64127,
@@ -852,6 +861,18 @@
         "change_24h": 1.291011337744812
       },
       "timestamp": "2026-08-19T13:55:45.906895+00:00"
+    },
+    {
+      "btc": {
+        "price": 65309,
+        "change_24h": 1.1891893211993794,
+        "volume_24h": 19163097141.537266
+      },
+      "gold": {
+        "price": 4464.72,
+        "change_24h": 1.6210677894519945
+      },
+      "timestamp": "2026-08-19T14:24:35.464152+00:00"
     }
   ],
   "last_alert": {
