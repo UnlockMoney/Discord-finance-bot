@@ -4,7 +4,7 @@
     "open_time": "2026-08-17T09:07:50.815356+07:00",
     "close_time": "2026-08-19T23:59:00+07:00",
     "target_time": "2026-08-21T23:59:00+07:00",
-    "status": "open",
+    "status": "closed",
     "opener_msg_id": "1538731052980375672",
     "last_read_msg_id": "1539325359160426657",
     "btc_open_price": 63010,
