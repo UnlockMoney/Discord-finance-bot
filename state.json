@@ -346,21 +346,10 @@
     "https://www.coindesk.com/markets/2026/08/21/bitcoin-tops-usd77-000-as-best-week-since-2023-pulls-altcoins-along-for-the-ride",
     "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
     "https://www.coindesk.com/markets/2026/08/21/strategy-sits-on-usd1-4-billion-profit-on-bitcoin-holdings-as-price-surges",
-    "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day"
+    "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+    "https://www.marketwatch.com/story/the-u-s-and-canada-are-scrambling-to-avoid-new-tariffs-and-seal-a-trade-deal-heres-what-could-be-in-it-f01dd61c?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 69324,
-        "change_24h": 7.822787651901134,
-        "volume_24h": 49019594903.697044
-      },
-      "gold": {
-        "price": 4472.67,
-        "change_24h": 3.0328348440385136
-      },
-      "timestamp": "2026-08-20T04:51:09.656226+00:00"
-    },
     {
       "btc": {
         "price": 69501,
@@ -924,6 +913,18 @@
         "change_24h": 2.082606982322561
       },
       "timestamp": "2026-08-21T15:46:34.836066+00:00"
+    },
+    {
+      "btc": {
+        "price": 77394,
+        "change_24h": 6.695754746251399,
+        "volume_24h": 68267032080.48743
+      },
+      "gold": {
+        "price": 4610.79,
+        "change_24h": 2.4662656927185194
+      },
+      "timestamp": "2026-08-21T16:49:55.013461+00:00"
     }
   ],
   "last_alert": {
