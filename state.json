@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-19T21:25:11.772725+07:00",
-      "content": "### 🔥 Treasury Buybacks ดัน Yield ร่วง — BTC ทะลุ $65,000\nกระทรวงคลังสหรัฐฯ ประกาศเพิ่ม bond buyback เป็น 2 เท่า กด 10Y Yield ร่วงจากจุดสูงสุดในรอบหลายสิบปี หนุน stock/risk asset ฟื้นตัวทันที CoinDesk ยืนยัน BTC ทะลุแนวต้าน $65,000 ได้แล้ว\n💡 กระทบ: 🥇 กลาง"
-    },
-    {
       "time": "2026-08-19T23:45:11.297351+07:00",
       "content": "## 🔥 BREAKING — Iran Ceasefire ล่ม ดันราคาน้ำมัน + ทองแข็งค่าก่อน FOMC Minutes\nYahoo Finance รายงาน Iran ceasefire สิ้นสุดลง ราคาน้ำมันพุ่งต่อเนื่อง หนุนหุ้นกลุ่มพลังงานทะยาน สะท้อน geopolitical risk กลับมาอีกครั้งหลังเคยผ่อนคลายจาก tariff pause ก่อนหน้า ขณะเดียวกันราคาทองแข็งค่าขึ้นจากแรงซื้อสินทรัพย์ปลอดภัย รอดูสัญญาณ Fed จาก FOMC Minutes ที่จะประกาศคืนนี้\n\n💡 กระทบ BTC: กลาง-ลบ — geopolitical risk กลับมา อาจกดดัน risk sentiment สวนทาง trade war ที่เพิ่งคลี่คลาย จับตาแนวรับ $65,000\n💡 กระทบทอง: บวก — safe-haven demand หนุนราคาทองใกล้ $4,483.80 รอ FOMC Minutes ชี้ทิศทางดอกเบี้ยเป็นตัวแปรถัดไป\n🎯 จับตา FOMC Minutes คืนนี้ และสถานการณ์ Iran ว่าจะบานปลายหรือกลับสู่โต๊ะเจรจา"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-22T09:14:16.030852+07:00",
       "content": "### 🔄 อัปเดต — BTC ทะลุ $78,000 โซน Greed แข็งแกร่ง\n📌 เดิม: เมื่อคืนย่อจาก $80,000 มาที่ $76,982\n🆕 ล่าสุด: BTC ดีดกลับแตะ $78,054 (+4.47% 24h) F&G Index คงโซน Greed ที่ 71 ต่อเนื่อง แรงหนุนจาก DXY อ่อนตัว -0.80% สู่ 98.84\n💡 กระทบ: 🥇 Gold วิ่งตาม $4,593 (+1.92%) | ₿ Bull ต่อเนื่อง แนวต้าน $80,000 แนวรับ $76,000\n\n### 🆕 Bessent's Treasury Intervention สั่นคลอนความน่าเชื่อถือ Fed\nMarketWatch ชี้การแทรกแซงตลาดพันธบัตรของ Treasury Secretary Bessent เพื่อลดต้นทุนหน"
+    },
+    {
+      "time": "2026-08-22T21:16:24.519792+07:00",
+      "content": "### 🔄 อัปเดต — BTC ย่อจาก $78,000 มาที่ $77,000 โซน Greed ทรงตัว\n📌 เดิม: เช้านี้ดีดกลับแตะ $78,054\n🆕 ล่าสุด: BTC เทรดที่ $77,053 (+0.19% 24h) ย่อเล็กน้อยหลังพุ่งแรงทั้งสัปดาห์ F&G ยังอยู่โซน Greed (71) DXY อ่อนต่อเนื่อง -0.80% สู่ 98.84 หนุน risk asset\n💡 กระทบ: 🥇 Gold แตะ $4,584.95 ใกล้ high | ₿ แนวรับ $76,000 แนวต้าน $80,000\n\n### 🆕 Treasury Buyback จุดชนวน Rally ทองคำ-บิตคอยน์\nMarketWatch ยืนยันแผน Treasury เพิ่ม bond buyback เป็น 2 เท่า ทำให้ dollar อ่อน หนุนทั้ง gold และ crypto พุ่งพร้อมกันทั้งสัปดาห์ นักลงทุนมอง fiat debasement trade\n💡 กระทบ: 🥇"
     }
   ],
   "posted_urls": [
@@ -350,21 +350,19 @@
     "https://www.marketwatch.com/story/the-u-s-and-canada-are-scrambling-to-avoid-new-tariffs-and-seal-a-trade-deal-heres-what-could-be-in-it-f01dd61c?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/move-over-credit-cards-social-media-stars-are-tapping-magic-wands-to-buy-things-62e475d4?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/a-massive-corporate-welfare-program-is-underway-and-consumers-want-a-bigger-cut-of-it-0ff06d67?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-gold-went-slump-mvp-135908904.html",
+    "https://finance.yahoo.com/economy/policy/articles/india-leaves-door-ajar-china-123300050.html",
+    "https://finance.yahoo.com/economy/policy/articles/tax-loophole-turns-trump-account-123000413.html",
+    "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+    "https://finance.yahoo.com/markets/stocks/articles/arbor-realty-icahn-enterprises-herzfeld-140001614.html",
+    "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 75254,
-        "change_24h": 8.302822080204287,
-        "volume_24h": 60614755100.391014
-      },
-      "gold": {
-        "price": 4524.53,
-        "change_24h": 1.3481615590036062
-      },
-      "timestamp": "2026-08-21T05:46:18.906941+00:00"
-    },
     {
       "btc": {
         "price": 75738,
@@ -928,6 +926,18 @@
         "change_24h": 0.32142575237904925
       },
       "timestamp": "2026-08-22T13:58:50.710216+00:00"
+    },
+    {
+      "btc": {
+        "price": 77053,
+        "change_24h": 0.19084273511997396,
+        "volume_24h": 49024859300.2431
+      },
+      "gold": {
+        "price": 4584.95,
+        "change_24h": 0.18912283359051077
+      },
+      "timestamp": "2026-08-22T14:13:37.009379+00:00"
     }
   ],
   "last_alert": {
