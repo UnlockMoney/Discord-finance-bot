@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-20T01:51:40.677852+07:00",
-      "content": "## 🔄 อัปเดต — FOMC Minutes ออกแล้ว เผย Fed เอียง Hawkish\n📌 เดิม: รอดูสัญญาณ Fed จาก FOMC Minutes คืนนี้ ท่ามกลาง Iran ceasefire ล่มดันราคาน้ำมัน+ทองขึ้นจาก safe-haven flow\n🆕 ล่าสุด: CNBC และ MarketWatch รายงาน Fed minutes (ประชุม 28-29 ก.ค.) เผยเจ้าหน้าที่ Fed หลายคนเห็นความจำเป็นต้อง**ขึ้นดอกเบี้ยเพิ่ม**หากเงินเฟ้อไม่ชะลอตัว — committee ยังแตกแยกความเห็นเรื่อง inflation outlook สะท้อน hawkish tone มากกว่าที่ตลาดคาด\n\n💡 กระทบ BTC: ลบ — hawkish Fed หนุน dollar แข็ง กดดัน risk asset ซ้ำ geopolitical risk จาก Iran, จับตาแนวรับ $65,000-66,000\n💡 กระทบทอง: ผสม — hawkish Fed กดดัน gold ระยะสั้น (yield/dollar แข็ง) แต่ safe-haven demand จาก Iran ยังหนุนอยู่ ทองอาจแกว่งแคบรอทิศทางชัดเจน\n🎯 จับตา dollar index และ 10Y yield ตอบสนองต่อ minutes, รอดูว่า Fed statement ถัดไปจะ hawkish ต่อเนื่องหรือไม่"
-    },
-    {
       "time": "2026-08-20T09:15:17.160029+07:00",
       "content": "### 🔥 BREAKING — BTC ทะลุ $70,000 ครั้งแรกตั้งแต่มิ.ย.\nCoinDesk รายงาน BTC แตะ $70,000 ระยะสั้นก่อนย่อมาที่ $69,638 (+8.20% 24h) แรงหนุนจาก Treasury buyback + tariff pause แม้ FOMC minutes เมื่อคืนจะ hawkish\n💡 กระทบ: 🥇 ทรงตัวแข็งจาก safe-haven flow | ₿ Bull"
     },
@@ -31,6 +27,10 @@
     {
       "time": "2026-08-22T22:56:02.136139+07:00",
       "content": "## 🔥 BREAKING — Trump ประกาศภาษีนำเข้าใหม่ต่อแคนาดา กดดัน Market Rally\nYahoo Finance รายงาน Dow Jones Futures พยายามฟื้นตัวจากความเสียหายก่อนหน้า ท่ามกลางความกังวลก่อนประกาศผลประกอบการ Nvidia และข่าว Trump ประกาศภาษีนำเข้าใหม่ (Tariffs) ต่อแคนาดา — เพิ่มความไม่แน่นอนด้านการค้าและ risk sentiment ในตลาดโดยรวม\n\n💡 กระทบ BTC: ⚠️ เสี่ยงผันผวนระยะสั้น หาก risk-off แรงจาก tariff news อาจกดดัน BTC หลุดแนวรับ $76,000 แต่หาก DXY อ่อนต่อจาก trade tension อาจหนุน bull ต่อ แนวต้าน $80,000\n💡 กระทบทอง: 🥇 บวกเชิงบวก — ความไม่แน่นอนจาก tariffs หนุน safe-haven demand อาจดัน Gold ทดสอบ high ใหม่เหนือ $4,590\n🎯 จับตา Nvidia earnings + ปฏิกิริยาตลาดต่อ tariffs แคนาดา คืนนี้"
+    },
+    {
+      "time": "2026-08-23T09:22:31.674661+07:00",
+      "content": "### 🔄 อัปเดต — Canada ตอบโต้ Trump ด้วยภาษีแบบ Dollar-for-Dollar\n📌 เดิม: คืนก่อน Trump ประกาศภาษีนำเข้าใหม่ต่อแคนาดา สร้างความไม่แน่นอนการค้า\n🆕 ล่าสุด: PM Mark Carney ประกาศแคนาดาจะเก็บภาษีตอบโต้สหรัฐฯ แบบ \"dollar-for-dollar\" หลังเจรจาการค้าล่มเมื่อวันเสาร์ — ยกระดับสู่สงครามภาษีเต็มรูปแบบ เพิ่มความเสี่ยง risk-off ทั่วตลาด\n💡 กระทบ: 🥇 Gold ได้แรงหนุน safe-haven เพิ่ม เป้าถัดไป $4,600 | ₿ เสี่ยง sell-off ตาม risk sentiment แนวรับ $76,000 หากหลุดอาจไป $74,000\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-downtrend (ย่อจาก high หลัง tariff shock) | Gold uptrend (safe-haven flow แรง GLD +5.45%)\n⚠️ Risk: กลาง-สูง — trade war ยกระดับ + F&G ยังอยู่โซน Greed (66) เสี่ยง profit-taking แรง แม้ DXY อ่อน (-0.80%) แต่ BTC ไม่ตอบรับบวก สะท้อน risk-off มากกว่า dollar weakness benefit\n🎯 ภาพรวม: จับตาการเมืองการค้า US-Canada ใกล้ชิด — ทองยังแข็งแกร่งกว่า BTC ในสถานการณ์ risk-off นี้"
     }
   ],
   "posted_urls": [
@@ -361,21 +361,10 @@
     "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
     "https://finance.yahoo.com/markets/stocks/articles/arbor-realty-icahn-enterprises-herzfeld-140001614.html",
     "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
-    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo",
+    "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 77483,
-        "change_24h": 6.665875042632639,
-        "volume_24h": 68392510937.935776
-      },
-      "gold": {
-        "price": 4593.77,
-        "change_24h": 1.907667493960127
-      },
-      "timestamp": "2026-08-21T20:59:12.470179+00:00"
-    },
     {
       "btc": {
         "price": 78374,
@@ -939,6 +928,18 @@
         "change_24h": -0.14731067840171375
       },
       "timestamp": "2026-08-23T01:58:17.982073+00:00"
+    },
+    {
+      "btc": {
+        "price": 77097,
+        "change_24h": -1.3538381647228608,
+        "volume_24h": 35004943827.7047
+      },
+      "gold": {
+        "price": 4585.81,
+        "change_24h": -0.2046578158413167
+      },
+      "timestamp": "2026-08-23T02:21:59.648670+00:00"
     }
   ],
   "last_alert": {
