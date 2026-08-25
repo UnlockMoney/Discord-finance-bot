@@ -391,21 +391,10 @@
     "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
     "https://www.cnbc.com/2026/08/24/prediction-market-traders-skeptical-bessent-will-send-yields-lower.html",
     "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
-    "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key"
+    "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
+    "https://finance.yahoo.com/technology/articles/interview-bunq-chief-evangelist-joe-113636810.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 77986,
-        "change_24h": 1.131026552916089,
-        "volume_24h": 28734458025.15844
-      },
-      "gold": {
-        "price": 4608.91,
-        "change_24h": 0.5011842180147641
-      },
-      "timestamp": "2026-08-23T21:33:51.603092+00:00"
-    },
     {
       "btc": {
         "price": 77823,
@@ -969,6 +958,18 @@
         "change_24h": -0.41072354898435937
       },
       "timestamp": "2026-08-25T11:41:08.071335+00:00"
+    },
+    {
+      "btc": {
+        "price": 79125,
+        "change_24h": 1.1189281037923333,
+        "volume_24h": 54853772070.55584
+      },
+      "gold": {
+        "price": 4633.25,
+        "change_24h": -0.3031860177109194
+      },
+      "timestamp": "2026-08-25T12:02:23.313792+00:00"
     }
   ],
   "last_alert": {
