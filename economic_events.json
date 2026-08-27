@@ -9,61 +9,90 @@
   },
   "events": [
     {
-      "date": "2026-07-09",
+      "date": "2026-08-07",
+      "time": "19:30",
+      "event": "US Non-Farm Payrolls (Jul)",
+      "importance": "high",
+      "consensus": "+110K"
+    },
+    {
+      "date": "2026-08-12",
+      "time": "19:30",
+      "event": "US CPI (Jul)",
+      "importance": "high",
+      "consensus": "+3.4% YoY"
+    },
+    {
+      "date": "2026-08-13",
+      "time": "19:30",
+      "event": "US PPI (Jul)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-08-14",
+      "time": "19:30",
+      "event": "US Retail Sales (Jul)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-08-19",
       "time": "01:00",
       "event": "FOMC Minutes",
       "importance": "high"
     },
     {
-      "date": "2026-07-15",
-      "time": "19:30",
-      "event": "US CPI (Jun)",
-      "importance": "high",
-      "consensus": "+3.5% YoY"
-    },
-    {
-      "date": "2026-07-16",
-      "time": "19:30",
-      "event": "US PPI (Jun)",
-      "importance": "medium",
-      "consensus": "+2.8% YoY"
-    },
-    {
-      "date": "2026-07-17",
-      "time": "19:30",
-      "event": "US Retail Sales (Jun)",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-07-24",
-      "time": "19:15",
-      "event": "ECB Rate Decision",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "event": "Jackson Hole - Powell Speech",
       "importance": "high"
     },
     {
-      "date": "2026-07-29",
+      "date": "2026-08-28",
+      "time": "19:30",
+      "event": "US Core PCE (Jul)",
+      "importance": "high"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "19:30",
+      "event": "US Non-Farm Payrolls (Aug)",
+      "importance": "high"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:30",
+      "event": "US CPI (Aug)",
+      "importance": "high"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "19:30",
+      "event": "US PPI (Aug)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-09-16",
       "time": "01:00",
       "event": "FOMC Rate Decision + Statement",
       "importance": "high"
     },
     {
-      "date": "2026-07-29",
-      "time": "10:30",
-      "event": "BOJ Rate Decision",
+      "date": "2026-09-25",
+      "time": "19:30",
+      "event": "US Core PCE (Aug)",
       "importance": "high"
     },
     {
-      "date": "2026-07-31",
+      "date": "2026-10-02",
       "time": "19:30",
-      "event": "US Core PCE (Jun)",
+      "event": "US Non-Farm Payrolls (Sep)",
       "importance": "high"
     },
     {
-      "date": "2026-08-01",
+      "date": "2026-10-15",
       "time": "19:30",
-      "event": "US Non-Farm Payrolls (Jul)",
-      "importance": "high",
-      "consensus": "+110K"
+      "event": "US CPI (Sep)",
+      "importance": "high"
     }
   ]
 }
