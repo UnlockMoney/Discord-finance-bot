@@ -515,7 +515,7 @@ def ai_summarize_brief(items, prices, fg, macro, perp, levels, previous_posts):
 
     msg = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=2000,
+        max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
     return _extract_text(msg)
@@ -585,7 +585,7 @@ def ai_breaking_alert(breaking_items, prices, fg, previous_posts):
 
     msg = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=1000,
+        max_tokens=2500,
         messages=[{"role": "user", "content": prompt}],
     )
     return _extract_text(msg)
@@ -653,7 +653,7 @@ Trigger: {', '.join(triggered)} ใน 1 ชม.
 
     msg = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=800,
+        max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
     return _extract_text(msg)
@@ -703,7 +703,7 @@ def ai_weekly_wrap(prices, fg, macro, perp, week_posts):
 
     msg = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=1500,
+        max_tokens=3000,
         messages=[{"role": "user", "content": prompt}],
     )
     return _extract_text(msg)
@@ -719,7 +719,7 @@ MAX_CONTENT = 1950  # Discord content limit 2000 chars — เผื่อ 50 ch
 def _post_single(content_text):
     """ยิงข้อความ 1 ก้อนเข้า Discord แบบ content (font ปกติ ใหญ่)"""
     payload = {
-        "username": "AI Bot",
+        "username": "ยาม AI เฝ้าตลาด",
         "content": content_text[:MAX_CONTENT],
         "allowed_mentions": {"parse": []},
     }
@@ -765,7 +765,7 @@ def post_discord(summary, title_prefix="📊 อัปเดต BTC & ทอง"
     """
     now_th = datetime.now(timezone(timedelta(hours=7))).strftime("%d %b %Y %H:%M")
     # สร้างข้อความเต็ม
-    full_text = f"# {title_prefix} | {now_th}\n\n{summary}\n\n-# AI Bot • ไม่ใช่คำแนะนำการลงทุน"
+    full_text = f"# {title_prefix} | {now_th}\n\n{summary}\n\n-# ยาม AI • ไม่ใช่คำแนะนำการลงทุน"
 
     chunks = _smart_split(full_text)
     for i, chunk in enumerate(chunks):
