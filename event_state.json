@@ -1,9 +1,21 @@
 {
   "posted": {
     "weekly_2026-31": true,
-    "2026-07-29_01:00_FOMC Rate Decision + Statement": [],
-    "2026-07-29_10:30_BOJ Rate Decision": [],
     "2026-07-31_19:30_US Core PCE (Jun)": [],
-    "2026-08-01_19:30_US Non-Farm Payrolls (Jul)": []
+    "2026-08-01_19:30_US Non-Farm Payrolls (Jul)": [],
+    "2026-08-07_19:30_US Non-Farm Payrolls (Jul)": [],
+    "2026-08-12_19:30_US CPI (Jul)": [],
+    "2026-08-13_19:30_US PPI (Jul)": [],
+    "2026-08-14_19:30_US Retail Sales (Jul)": [],
+    "2026-08-19_01:00_FOMC Minutes": [],
+    "2026-08-22_21:00_Jackson Hole - Powell Speech": [],
+    "2026-08-28_19:30_US Core PCE (Jul)": [],
+    "2026-09-04_19:30_US Non-Farm Payrolls (Aug)": [],
+    "2026-09-10_19:30_US CPI (Aug)": [],
+    "2026-09-11_19:30_US PPI (Aug)": [],
+    "2026-09-16_01:00_FOMC Rate Decision + Statement": [],
+    "2026-09-25_19:30_US Core PCE (Aug)": [],
+    "2026-10-02_19:30_US Non-Farm Payrolls (Sep)": [],
+    "2026-10-15_19:30_US CPI (Sep)": []
   }
 }
