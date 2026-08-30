@@ -479,21 +479,10 @@
     "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-30-2026-purchase-rates-higher-than-last-week-100000187.html",
     "https://finance.yahoo.com/markets/articles/clark-howard-advises-against-using-170024527.html",
     "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
-    "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction"
+    "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+    "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 78783,
-        "change_24h": -0.004141869373111328,
-        "volume_24h": 42940033147.416084
-      },
-      "gold": {
-        "price": 4662.06,
-        "change_24h": 0.18412229771539762
-      },
-      "timestamp": "2026-08-25T22:43:03.691955+00:00"
-    },
     {
       "btc": {
         "price": 78932,
@@ -1057,6 +1046,18 @@
         "change_24h": 0.08455216641527316
       },
       "timestamp": "2026-08-30T21:02:20.403619+00:00"
+    },
+    {
+      "btc": {
+        "price": 78030,
+        "change_24h": -0.2439486392208528,
+        "volume_24h": 17418630223.17788
+      },
+      "gold": {
+        "price": 4454.6,
+        "change_24h": -0.17341364922045213
+      },
+      "timestamp": "2026-08-30T23:28:04.480416+00:00"
     }
   ],
   "last_alert": {
