@@ -513,21 +513,10 @@
     "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead-ec3eb664?mod=mw_rss_topstories",
     "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff",
     "https://www.coindesk.com/markets/2026/09/02/bitcoin-withstands-usd90-oil-and-rising-yields-as-gold-slides-a-firm-dollar-is-the-catch",
-    "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading"
+    "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading",
+    "https://finance.yahoo.com/markets/article/bond-yields-still-high-as-investors-weigh-rate-hike-risk-alphacheck-135357686.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 78111,
-        "change_24h": -1.4715611887330309,
-        "volume_24h": 29830553079.743546
-      },
-      "gold": {
-        "price": 4602.76,
-        "change_24h": -0.8682376939640831
-      },
-      "timestamp": "2026-08-26T15:50:42.584132+00:00"
-    },
     {
       "btc": {
         "price": 78010,
@@ -1091,6 +1080,18 @@
         "change_24h": -1.1458877865903088
       },
       "timestamp": "2026-09-02T11:43:33.665171+00:00"
+    },
+    {
+      "btc": {
+        "price": 76815,
+        "change_24h": -1.2132740451578548,
+        "volume_24h": 29685015509.796097
+      },
+      "gold": {
+        "price": 4378.42,
+        "change_24h": 0.2877670685303506
+      },
+      "timestamp": "2026-09-02T15:18:11.228892+00:00"
     }
   ],
   "last_alert": {
