@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-08-31T14:39:07.881003+07:00",
-      "content": "## 🔄 อัปเดต — Fed Rate Hike Odds ก.ย. ไม่ได้สูงอย่างที่กลัว\n📌 เดิม: Warsh hawkish ดัน odds ขึ้นดอกเบี้ยก.ย. เป็น 50/50, ตลาดกังวลหนัก BTC ร่วง $77,966\n🆕 ล่าสุด: CoinDesk ชี้ตลาดตีความเกินจริง — probability ขึ้นดอกเบี้ยจริงอยู่ที่ 58% เท่านั้น ไม่ใช่ 90% ที่หลายฝ่ายกลัว สะท้อน fear ที่ผ่านมา overblown กว่าความเป็นจริง\n\n💡 กระทบ BTC: เชิงบวก — ลด hawkish pressure, อาจช่วยดันกลับเหนือ $78,000 หากตลาดคลาย fear\n💡 กระทบทอง: เชิงบวก — real yield อาจไม่พุ่งแรงตามที่กลัว ลดแรงกดดันทดสอบ $4,400\n🎯 จับตา DXY-Yield ตอบสนองข่าวนี้ หากอ่อนตัวลง จะยืนยัน sentiment เปลี่ยนทิศ"
-    },
-    {
       "time": "2026-08-31T22:27:11.902846+07:00",
       "content": "## 🔥 BREAKING — สหรัฐ-อิหร่านปะทะกันครั้งแรกในรอบเดือน ดันราคาน้ำมันทะลุ $91\n\nMarketWatch รายงานสหรัฐฯและอิหร่านแลกการยิงกันเป็นครั้งแรกในรอบ 1 เดือน ส่งผลราคาน้ำมันดิบโลกพุ่งทะลุ $91/บาร์เรล ทุกๆ $1 ที่เพิ่มขึ้นตอนนี้กระทบตลาดที่กำลังกังวล rate hike รอบใหม่อยู่แล้ว — สวนทางกับข่าวก่อนหน้าที่ CoinDesk ชี้ probability ขึ้นดอกเบี้ยจริงแค่ 58% (ไม่ใช่ 90%)\n\n💡 กระทบ BTC: เชิงลบ — oil-driven inflation หนุน hawkish narrative กลับมา เสี่ยงดันดอกเบี้ยขึ้น กดดัน BTC หลุด $77,000 อีกรอบ\n💡 กระทบทอง: เชิงบวก (safe-haven) แต่ถูกจำกัดจาก real yield สูง — จับตาแนวต้าน $4,450-4,500\n🎯 ติดตาม escalation สงคราม US-Iran และ Fed reaction ต่อ inflation จาก oil shock"
     },
@@ -31,10 +27,13 @@
     {
       "time": "2026-09-02T12:24:58.205506+07:00",
       "content": "### 🔄 อัปเดต — BTC ทนแรงกด Oil/Yield ได้ แต่ Gold ร่วงหนักจาก Dollar แข็ง\n📌 เดิม: น้ำมันทะลุ $94 จาก US-Iran ยกระดับความเสี่ยง inflation กดดันทั้งตลาด\n🆕 ล่าสุด: CoinDesk รายงาน BTC ยืนได้แม้เจอ oil $90+ และ yield พุ่ง (10Y 4.80%) แต่ทองร่วงหนักเพราะ dollar แข็ง (DXY 99.78, +0.35%) กดทับ safe-haven demand — GLD ETF ร่วงแรง -7.32% สะท้อนแรงขายสถาบัน\n💡 กระทบ: 🥇 ทอง $4,319 หลุดไว ระวังหลุด $4,300 | ₿ BTC $77,637 ยังพอยืนเหนือ $77,000\n\n### 🆕 Altcoins ร่วงหนักกว่า BTC จาก Iran-driven Risk Selloff\nSolana, ETH, XRP นำขบวนร่วงจากแรงขายทั่วตลาด crypto หลัง Iran strikes ยกระดับความตึงเครียด ขณะที่เงินไหลเข้า BTC มากกว่า สะท้อน dominance เพิ่มขึ้นในภาวะ risk-off\n💡 กระทบ: ₿ BTC dominance เพิ่ม แนวรับ $77,000 | Altcoins เสี่ยงร่วงต่อ\n\n### 🆕 Dow หลุดแนว 50-day MA เตือนสัญญาณเสี่ยงเพิ่ม\nDow ปิดต่ำกว่าเส้น 50-day MA ครั้งแรกนับจาก 10 เม.ย. ที่เคยเป็นจุดจบ correction phase (ร่วงกว่า 5,000 จุด) — สัญญาณเทคนิคัลลบต่อ risk asset โดยรวม เพิ่มความกังวลตลาดกว้าง\n💡 กระทบ: 🥇 ทองอาจได้ bid บางส่วนหากหุ้นร่วงต่อ | ₿ BTC เสี่ยง correlation กับ equity risk-off\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-downtrend | Gold downtrend\n⚠️ Risk: สูง — hawkish Fed + oil เหนือ $90 + dollar แข็ง กดทั้ง BTC และทองพร้อมกัน\n🎯 ภาพรวม: BTC ยังทนแรงกดได้ดีกว่าทองและ altcoins แต่ risk-off จาก equity + geopolitics ยังกดดันภาพรวมตลาด"
+    },
+    {
+      "time": "2026-09-03T00:32:24.920135+07:00",
+      "content": "### 🔄 อัปเดต — BTC หลุด $76,500 จาก Iran Strikes ระลอกใหม่ + Bart Simpson Pattern โผล่\n📌 เดิม: BTC ยืนเหนือ $77,000 ได้แม้ oil $90+ และ yield พุ่ง\n🆕 ล่าสุด: CoinDesk รายงาน BTC หลุด $76,500 หลังสหรัฐโจมตีอิหร่านเพิ่ม oil ดันขึ้น $93+ นักวิเคราะห์เริ่มพูดถึง bearish \"Bart Simpson\" pattern ใน BTC/XRP — สัญญาณ technical แย่ลง\n💡 กระทบ: 🥇 ทอง $4,378 ยังโดนกดจาก dollar/hawkish | ₿ BTC $77,059 เสี่ยงหลุด $76,500 ซ้ำ ระวังแนวรับถัดไป $75,000\n\n### 🆕 ADP Payrolls อ่อนแอกว่าคาด — สัญญาณ Labor Market ชะลอตัว\nเพิ่มงานเอกชนแค่ 38,000 ตำแหน่งในสิงหาคม ต่ำกว่าคาดและต่ำสุดตั้งแต่ม.ค. — ขัดแย้งกับ hawkish narrative ที่ Fed พยายามผลัก\n💡 กระทบ: ตัวเลขอ่อนอาจลด odds rate hike ก.ย. ถ้าตามด้วย inflation data เย็นลง — เป็นแรงหนุน BTC/Gold ระยะสั้นถ้าตลาดตีความเป็น dovish signal\n\n### 🔄 อัปเดต — Fed Williams หนุน Hawkish แต่ยังไม่ฟันธง\n📌 เดิม: Barr ประกาศชัดสนับสนุนขึ้นดอกเบี้ย\n🆕 ล่าสุด: NY Fed Williams บอกว่า yield surge สะท้อนเศรษฐกิจแข็งแกร่ง กำลังชั่งใจว่าจะขึ้นดอกเบี้ยอีกหรือไม่ — MarketWatch ชี้ว่าการเปิดช่องนี้อาจเป็น \"bad trade\" หาก ADP/jobs report อ่อนแอลงเรื่อยๆ\n💡 กระทบ: 🥇 ทอง เสี่ยง sideways-down ถ้า hawkish ยังชนะ | ₿ BTC ผันผวนสูงรอ jobs report + CPI ถัดไป\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend (short-term) | Gold downtrend\n⚠️ Risk: สูง — Iran war escalation + hawkish Fed ชนกับ labor data อ่อนแอ สร้างความผันผวนสองทาง\n🎯 ภาพรวม: ตลาดอยู่ในโหมด risk-off จาก geopolitical + rate uncertainty รอ jobs report/CPI ชี้ทิศทางถัดไป"
     }
   ],
   "posted_urls": [
-    "https://www.cnbc.com/2026/08/03/kalshi-traders-think-july-jobs-will-come-in-cooler-than-estimates.html",
     "https://www.cnbc.com/2026/08/03/californias-diesel-prices-have-jumped-since-the-iran-war-started-with-ripple-effects-across-the-country.html",
     "https://www.cnbc.com/2026/08/03/china-price-demand-tourism-hotel.html",
     "https://www.marketwatch.com/story/joint-u-s-japanese-intervention-boosts-the-yen-but-will-it-be-enough-069451f5?mod=mw_rss_topstories",
@@ -514,21 +513,29 @@
     "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff",
     "https://www.coindesk.com/markets/2026/09/02/bitcoin-withstands-usd90-oil-and-rising-yields-as-gold-slides-a-firm-dollar-is-the-catch",
     "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading",
-    "https://finance.yahoo.com/markets/article/bond-yields-still-high-as-investors-weigh-rate-hike-risk-alphacheck-135357686.html"
+    "https://finance.yahoo.com/markets/article/bond-yields-still-high-as-investors-weigh-rate-hike-risk-alphacheck-135357686.html",
+    "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
+    "https://www.cnbc.com/2026/09/02/berkshire-ceo-says-japanese-bond-yields-not-a-challenge-for-trading-houses.html",
+    "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
+    "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/feds-williams-is-opening-options-to-interest-rate-hikes-why-that-could-be-a-bad-trade-4ba6b32f?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/chevron-outlines-7-billion-plan-to-expand-in-venezuela-3cc5ef7c?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/markets/article/goldman-sachs-warns-investors-to-expect-lower-returns-over-the-next-year-171050637.html",
+    "https://finance.yahoo.com/technology/ai/articles/crowdstrike-ai-security-boom-may-165458612.html",
+    "https://www.investors.com/research/ibd-stock-of-the-day/tg-therapeutics-stock-briumvi-early-buy-point/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/economy/policy/articles/democratic-us-senator-asks-capital-161922117.html",
+    "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-wednesday-september-2-2026-rates-up-double-digits-as-iran-war-reescalates-100000964.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-2-2026-silver-prices-fall-further-following-second-wave-of-attacks-105910854.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-2-2026-gold-slips-further-as-military-actions-escalate-in-iran-104514058.html",
+    "https://www.coindesk.com/tech/2026/09/02/crowdstrike-and-federal-authorities-dismantle-russian-malware-that-secretly-stole-crypto-for-8-years",
+    "https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form",
+    "https://www.coindesk.com/business/2026/08/29/capital-b-aims-to-add-376-btc-to-bitcoin-treasury-following-usd8-8-million-adam-back-investment",
+    "https://www.coindesk.com/daybook-us/2026/09/02/a-fed-rate-increase-would-be-a-mistake-some-observers-say-as-bitcoin-gold-stocks-fall",
+    "https://www.coindesk.com/business/2026/09/02/tether-sued-over-usd42-4-million-usdt-freeze-allegedly-made-months-before-u-s-warrant",
+    "https://www.coindesk.com/markets/2026/09/02/bitcoin-slips-below-usd77-000-as-u-s-strikes-on-iran-send-oil-above-usd93"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 78010,
-        "change_24h": -1.4526758595316178,
-        "volume_24h": 29690663417.10388
-      },
-      "gold": {
-        "price": 4585.73,
-        "change_24h": -1.0707380187375244
-      },
-      "timestamp": "2026-08-26T16:57:59.544440+00:00"
-    },
     {
       "btc": {
         "price": 78377,
@@ -1092,6 +1099,18 @@
         "change_24h": 0.2877670685303506
       },
       "timestamp": "2026-09-02T15:18:11.228892+00:00"
+    },
+    {
+      "btc": {
+        "price": 77059,
+        "change_24h": -0.6344696187536017,
+        "volume_24h": 29203714541.483154
+      },
+      "gold": {
+        "price": 4378.02,
+        "change_24h": 0.4610548353011524
+      },
+      "timestamp": "2026-09-02T17:31:57.114991+00:00"
     }
   ],
   "last_alert": {
