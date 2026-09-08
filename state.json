@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://www.marketwatch.com/story/heres-why-wendys-is-losing-the-burger-wars-bf79deba?mod=mw_rss_topstories",
     "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-favors-fortinet-ftnt-135021351.html",
     "https://finance.yahoo.com/markets/stocks/articles/wall-street-losing-confidence-godaddy-130611903.html",
     "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says",
     "https://www.coindesk.com/markets/2026/09/08/bitcoin-security-risks-grow-as-ai-uncovers-hidden-vulnerabilities",
     "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026",
-    "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-to-usd78-800-as-bnb-and-defi-tokens-buck-the-selloff"
+    "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-to-usd78-800-as-bnb-and-defi-tokens-buck-the-selloff",
+    "https://www.marketwatch.com/story/stocks-are-stumbling-after-labor-day-why-the-easy-gains-of-2026-may-be-over-1d31fa69?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 80973,
-        "change_24h": 5.021170984388154,
-        "volume_24h": 33501799046.475365
-      },
-      "gold": {
-        "price": 4486.88,
-        "change_24h": 2.4811308155526177
-      },
-      "timestamp": "2026-09-03T17:13:31.753690+00:00"
-    },
     {
       "btc": {
         "price": 81016,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.4301119862005841
       },
       "timestamp": "2026-09-08T17:41:02.170847+00:00"
+    },
+    {
+      "btc": {
+        "price": 78529,
+        "change_24h": -0.8829616204095392,
+        "volume_24h": 35751574126.02328
+      },
+      "gold": {
+        "price": 4360.97,
+        "change_24h": -1.1083588931975907
+      },
+      "timestamp": "2026-09-08T20:17:35.307558+00:00"
     }
   ],
   "last_alert": {
