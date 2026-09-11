@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html",
     "https://finance.yahoo.com/media-advertising/articles/paramount-skydance-corporation-psky-vs-143126843.html",
     "https://finance.yahoo.com/markets/stocks/articles/signia-small-cap-value-strategy-141534643.html",
     "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-cpi-inflation-nvidia-partner-coreweave/?src=A00220&yptr=yahoo",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
     "https://www.coindesk.com/markets/2026/09/11/ripple-puts-ai-agents-inside-its-usd1-billion-corporate-treasury-bet",
     "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-    "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike"
+    "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike",
+    "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 79980,
-        "change_24h": 0.376483516391209,
-        "volume_24h": 18836463311.86628
-      },
-      "gold": {
-        "price": 4432.01,
-        "change_24h": -0.10969226907078726
-      },
-      "timestamp": "2026-09-06T01:19:50.055669+00:00"
-    },
     {
       "btc": {
         "price": 79839,
@@ -1111,6 +1099,18 @@
         "change_24h": 0.736475670225791
       },
       "timestamp": "2026-09-11T13:32:52.049953+00:00"
+    },
+    {
+      "btc": {
+        "price": 77812,
+        "change_24h": 0.8623491075923091,
+        "volume_24h": 34635848529.01933
+      },
+      "gold": {
+        "price": 4366.78,
+        "change_24h": 0.03285901298492287
+      },
+      "timestamp": "2026-09-11T17:13:49.262508+00:00"
     }
   ],
   "last_alert": {
