@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-gain-on-soft-inflation-data-earnings-100145282.html",
     "https://finance.yahoo.com/markets/stocks/articles/widening-spreads-tariff-protection-drive-143001351.html",
     "https://finance.yahoo.com/markets/crypto/articles/goldman-sachs-expands-bitcoin-push-143000957.html",
     "https://finance.yahoo.com/news/dollar-treads-water-fed-hike-041227590.html",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
     "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
     "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
-    "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/?src=A00220&yptr=yahoo"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 79885,
-        "change_24h": 0.016110424732620917,
-        "volume_24h": 18556884709.78991
-      },
-      "gold": {
-        "price": 4419.39,
-        "change_24h": -0.32978073513080297
-      },
-      "timestamp": "2026-09-06T21:42:47.594834+00:00"
-    },
     {
       "btc": {
         "price": 80173,
@@ -1111,6 +1099,18 @@
         "change_24h": 0.17353974583463375
       },
       "timestamp": "2026-09-12T09:18:17.730223+00:00"
+    },
+    {
+      "btc": {
+        "price": 77316,
+        "change_24h": -0.5931883218183712,
+        "volume_24h": 27168216899.23924
+      },
+      "gold": {
+        "price": 4352.28,
+        "change_24h": -0.7491165091152915
+      },
+      "timestamp": "2026-09-12T13:08:47.770834+00:00"
     }
   ],
   "last_alert": {
