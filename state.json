@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-09-11T20:33:08.305070+07:00",
-      "content": "## 🔄 อัปเดต — CPI จริงออกมาร้อนกว่าคาด ยืนยัน Fed hike\n📌 เดิม: โอกาส Fed hike พุ่ง 70% จาก PPI ร้อนแรงกว่าคาด, yield ใกล้ 5%\n🆕 ล่าสุด: Core CPI เดือนส.ค. จริงออกมา +0.3% (คาด +0.2%) headline +0.4% ตามคาด เงินเฟ้อยังฝังตัว ตอกย้ำเคส Fed hike สัปดาห์หน้าแทบจะ lock-in แล้ว\n\n💡 กระทบ BTC: ลบหนัก — real yield มีโอกาสพุ่งต่อ กดดันซ้ำหลังหลุด $77,000 แล้ว เฝ้าแนวรับ $76,500 เสี่ยงหลุดไปทดสอบ $75,000\n💡 กระทบทอง: ผสม — inflation hedge หนุนระยะสั้น แต่ yield/real rate สูงขึ้นกดดันมากกว่า เฝ้าแนวรับ $4,340 หลุดเสี่ยงลงต่อ\n🎯 จับตาถ้อยแถลง Fed และ 10Y yield ทะลุ 5% หรือไม่ ก่อนประชุมสัปดาห์หน้า"
-    },
-    {
       "time": "2026-09-12T00:27:22.284790+07:00",
       "content": "### 🔄 อัปเดต — BTC ฟื้นตัวหลัง Fed hike lock-in เกือบ 100%\n📌 เดิม: CPI ร้อนกว่าคาด ยืนยัน Fed hike, BTC หลุด $77,000 เฝ้าแนวรับ $76,500\n🆕 ล่าสุด: BTC ดีดกลับมา $77,813 (+0.77%) หลัง Zcash leverage unwind คลายแรงกดดัน แต่ CoinDesk ชี้ golden cross ล้มเหลวอีกครั้ง สะท้อน momentum อ่อนแอ\n💡 กระทบ: 🥇 ทอง $4,371 ยังอยู่ใต้ $4,400 | ₿ BTC ต้านที่ $78,000 ผ่านได้เปิดทาง $79,000 แต่หลุดเสี่ยงกลับไป $76,500\n\n### 🆕 Consumer Confidence ดิ่งหนักสุดรอบปี เงินเฟ้อคาดการณ์แย่ลง\nMichigan Consumer Sentiment ร่วงเหลือ 47.8 จุด (-7.5% MoM, -13.2% YoY) สะท้อนผู้บริโภคกังวลเงินเฟ้อฝังตัว หนุนเคส Fed hike ต่อเนื่อง\n💡 กระทบ: 🥇 ทอง ได้แรงหนุน inflation hedge ระยะสั้น | ₿ BTC เสี่ยง risk-off หาก sentiment แย่ลงต่อ\n\n### 🆕 BOJ อาจสร้าง shock ตลาดโลกสัปดาห์หน้า แซง Fed\nMarketWatch ชี้ตลาดโฟกัส Fed มากไปจนอาจพลาดความเสี่ยงจาก BOJ ที่อาจขยับนโยบายกะทันหัน กระทบ yen carry trade และสภาพคล่องโลก\n💡 กระทบ: 🥇 ทอง ผันผวนหาก yen แข็งค่าฉับพลัน | ₿ BTC เสี่ยง liquidity shock จาก carry trade unwind\n\n### 🆕 GLD ETF ร่วง -2.39% สวนทางราคาทองจริง\nขณะทอง spot ยัง +0.17% ที่ $4,371 แต่ GLD ETF ร่วงแรง สะท้อน outflow สถาบันจากแรงกดดัน yield 10Y ใกล้ 5%\n💡 กระทบ: 🥇 ทอง เตือน divergence เสี่ยงขาลงหาก outflow ต่อเนื่อง แนวรับ $4,340 | ₿ BTC ทางอ้อม risk-off ครอบคลุมสินทรัพย์เสี่ยงทั้งกลุ่ม\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold sideways-to-down\n⚠️ Risk: สูง — yield 10Y ใกล้ 5%, Fed hike lock-in, BOJ wildcard\n🎯 ภาพรวม: ตลาดรอ Fed hike สัปดาห์หน้าที่แทบ lock-in แล้ว แต่ BOJ อาจเป็นตัวแปรเซอร์ไพรส์กระทบทั้ง BTC-ทอง"
     },
@@ -31,21 +27,13 @@
     {
       "time": "2026-09-15T12:44:47.224486+07:00",
       "content": "### 🆕 Bitcoin หลุด $77,800 จับตา Senate Clarity Act + น้ำมันพุ่ง\nCoinDesk รายงาน BTC ร่วงมาที่ $77,800 ก่อนโหวต Senate Clarity Act (กม.กำกับดูแลคริปโต) ขณะราคาน้ำมันดิบไต่ขึ้นหนุน inflation fear กลับมา\n💡 กระทบ: 🥇 ทอง $4,297 อาจรีบาวด์สั้นจาก inflation hedge demand | ₿ BTC เสี่ยงกดดันต่อ แนวรับ $76,500 ถ้าโหวตออกลบ\n\n### 🆕 China ส่งสัญญาณเศรษฐกิจอ่อนแอ — retail sales พลาดคาด\nRetail sales ส.ค. โตช้าลง ขณะ investment slump ลึกขึ้น แม้ industrial output ดีกว่าคาด สะท้อน demand ในประเทศอ่อนแรง เพิ่มความเสี่ยง global growth\n💡 กระทบ: 🥇 ทองได้แรงหนุนจาก safe-haven demand เฝ้า $4,300 | ₿ BTC risk-off sentiment กดดันเพิ่มจาก global slowdown fear\n\n### 🆕 DOJ สหรัฐฯ ไล่ล่า $61M คริปโตจากน้ำมันเถื่อนอิหร่าน\nกระทรวงยุติธรรมสหรัฐฯ ยื่นฟ้องยึดทรัพย์คริปโต $61M ที่เชื่อมโยงกับการฟอกเงินน้ำมันผิดกฎหมายอิหร่าน ตอกย้ำแรงกดดัน regulatory ต่อ crypto ต่อเนื่อง\n💡 กระทบ: ₿ BTC ระยะสั้นกระทบจำกัด แต่เพิ่ม headline risk เรื่อง regulation เฝ้า sentiment แถว $77,000\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-downtrend | Gold sideways\n⚠️ Risk: กลาง-สูง — DXY แข็ง (99.63) + Yield 4.96% กดดันทั้งคู่ ผสาน regulatory/China macro risk\n🎯 ภาพรวม: ตลาดรอ Senate vote ชัดเจน ก่อนตัดสินทิศทาง BTC จับตาแนวรับ $76,500 / ทอง $4,280"
+    },
+    {
+      "time": "2026-09-16T00:51:51.797483+07:00",
+      "content": "### 🔄 อัปเดต — Clarity Act โอกาสผ่านร่วงหนัก บน Polymarket, BTC คืนกำไรวันจันทร์\n📌 เดิม: จับตาโหวต Senate Clarity Act, BTC หลุด $77,800\n🆕 ล่าสุด: Polymarket ปรับโอกาสผ่านร่วงแรง นักลงทุนเทขาย BTC คืนกำไรที่ทำได้เมื่อวันจันทร์ทั้งหมด สะท้อน regulatory risk กลับมากดดันตลาดคริปโต\n💡 กระทบ: ₿ BTC $76,960 (-2.47%) หลุดแนวรับ $77,000 เสี่ยงทดสอบ $76,500 ถ้าโหวตออกลบชัดเจน\n\n### 🔥 Fed Meeting วันนี้ — ตลาดคาด Warsh hike ครั้งแรกในรอบ 3 ปี\nYahoo Finance ยืนยัน anticipation สูงมาก ตลาด price-in hike แล้วกว่า 92% สอดคล้อง 10Y yield 5.01% และ DXY แข็งค่า +0.56% วันนี้เป็นจุดชี้ชะตาที่แท้จริง\n💡 กระทบ: 🥇 ทองเสี่ยงร่วงต่อจาก real yield สูง เฝ้า $4,280 | ₿ BTC ผันผวนสูง รอผล Fed ก่อนขยับทิศทางชัดเจน\n\n### 🆕 ทองเริ่มเคลื่อนไหวจากเรื่องใหญ่กว่าเงินเฟ้อ — Fed Credibility Crisis\nMarketWatch ชี้ทองกำลังชั่งน้ำหนักระหว่าง Fed credibility (การเมืองแทรกแซง) กับปัจจัยดั้งเดิมคือเงินเฟ้อ/ดอกเบี้ย เปิดมิติใหม่ของแรงขับเคลื่อนราคาทอง\n💡 กระทบ: 🥇 ทอง $4,296 อาจได้แรงหนุนใหม่จาก political-risk hedge แม้ real yield สูง เฝ้าแนวรับ $4,280\n\n### 🆕 Nigel Farage-backed Stack BTC ซื้อกิจการ gold dealer $16M เพื่อหนุนซื้อ BTC\nสะท้อน trend cross-asset ระหว่างทองและ BTC เป็น hedge คู่ขนาน อาจเพิ่ม demand สถาบันฝั่ง BTC ระยะกลาง\n💡 กระทบ: ₿ BTC sentiment บวกระยะยาว แต่ระยะสั้นยังกดดันจาก Fed event\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend (ระยะสั้น) | Gold sideways-to-down\n⚠️ Risk: สูงมาก — Fed decision วันนี้ + Clarity Act vote ผลกระทบพร้อมกัน\n🎯 ภาพรวม: ตลาดรอ Fed hike ชัดเจน BTC เสี่ยงหลุด $76,500 หากผลออกลบทั้งสองด้าน"
     }
   ],
   "posted_urls": [
-    "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-    "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
-    "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
-    "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
-    "https://finance.yahoo.com/markets/currencies/articles/yen-edges-traders-push-back-004148952.html",
-    "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
-    "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned",
-    "https://www.marketwatch.com/story/the-ai-productivity-payoff-is-coming-here-are-20-stocks-primed-to-capture-the-gains-as-adoption-spreads-443842ac?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/investor-dubbed-ai-stock-god-had-56-of-his-funds-in-these-two-stocks-before-it-blew-up-07472f46?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/why-goldman-sachs-thinks-the-fed-wont-be-hiking-interest-rates-in-september-718275e7?mod=mw_rss_topstories",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-17-2026-crypto-prices-down-slightly-as-analysts-question-timing-of-bear-market-bottom-135747407.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-17-2026-gold-ticks-up-after-lower-retail-sales-report-134755206.html",
     "https://finance.yahoo.com/markets/crypto/articles/strategy-leaves-bitcoin-holdings-unchanged-133000030.html",
     "https://www.coindesk.com/markets/2026/08/17/no-change-in-bitcoin-holdings-as-strategy-lifted-dollar-reserve-and-bought-back-more-strc-last-week",
     "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
@@ -533,21 +521,21 @@
     "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
     "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html",
     "https://www.coindesk.com/markets/2026/09/15/u-s-doj-seeks-usd61-million-in-what-it-calls-crypto-laundered-iranian-oil-proceeds",
-    "https://www.coindesk.com/markets/2026/09/15/bitcoin-slips-to-usd77-800-as-senate-clarity-act-vote-nears-and-oil-prices-climb"
+    "https://www.coindesk.com/markets/2026/09/15/bitcoin-slips-to-usd77-800-as-senate-clarity-act-vote-nears-and-oil-prices-climb",
+    "https://www.marketwatch.com/story/is-the-two-decade-era-of-low-interest-rates-over-the-fed-has-to-decide-0520f458?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/gold-is-starting-to-move-on-something-a-lot-bigger-than-inflation-39509ac5?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/wall-street-may-have-gotten-the-slower-ai-story-all-wrong-a08613c4?mod=mw_rss_topstories",
+    "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
+    "https://finance.yahoo.com/markets/stocks/articles/american-eagle-aeo-q2-numbers-171745773.html",
+    "https://www.investors.com/research/ibd-stock-of-the-day/scorpio-tankers-stock-buy-point/?src=A00220&yptr=yahoo",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-oil-prices-nvidia-stock/?src=A00220&yptr=yahoo",
+    "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-sends-stark-warning-173300422.html",
+    "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-barrels-toward-disappointment-barring-last-minute-senate-turnaround",
+    "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
+    "https://www.coindesk.com/markets/2026/09/15/bitcoin-gives-back-monday-s-gain-as-clarity-act-odds-fade-on-polymarket",
+    "https://www.coindesk.com/business/2026/09/15/nigel-farage-backed-stack-btc-eyes-usd16-million-gold-dealer-deal-to-fund-bitcoin-buy"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 78206,
-        "change_24h": -0.5770392342877565,
-        "volume_24h": 35512214832.192726
-      },
-      "gold": {
-        "price": 4413.17,
-        "change_24h": 0.9771996377375426
-      },
-      "timestamp": "2026-09-10T01:27:20.757950+00:00"
-    },
     {
       "btc": {
         "price": 78435,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.35516800526736636
       },
       "timestamp": "2026-09-15T15:41:27.440049+00:00"
+    },
+    {
+      "btc": {
+        "price": 76960,
+        "change_24h": -2.4669916814844437,
+        "volume_24h": 35617492595.90415
+      },
+      "gold": {
+        "price": 4296.13,
+        "change_24h": -0.44267632673260254
+      },
+      "timestamp": "2026-09-15T17:51:20.162242+00:00"
     }
   ],
   "last_alert": {
