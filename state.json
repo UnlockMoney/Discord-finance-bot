@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/crypto/articles/strategy-leaves-bitcoin-holdings-unchanged-133000030.html",
     "https://www.coindesk.com/markets/2026/08/17/no-change-in-bitcoin-holdings-as-strategy-lifted-dollar-reserve-and-bought-back-more-strc-last-week",
     "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
     "https://www.coindesk.com/markets/2026/08/17/bitcoin-options-remain-expensive-despite-summer-calm-here-s-why-it-matters",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-barrels-toward-disappointment-barring-last-minute-senate-turnaround",
     "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
     "https://www.coindesk.com/markets/2026/09/15/bitcoin-gives-back-monday-s-gain-as-clarity-act-odds-fade-on-polymarket",
-    "https://www.coindesk.com/business/2026/09/15/nigel-farage-backed-stack-btc-eyes-usd16-million-gold-dealer-deal-to-fund-bitcoin-buy"
+    "https://www.coindesk.com/business/2026/09/15/nigel-farage-backed-stack-btc-eyes-usd16-million-gold-dealer-deal-to-fund-bitcoin-buy",
+    "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 78153,
-        "change_24h": -1.3221277876296713,
-        "volume_24h": 33933546897.37754
-      },
-      "gold": {
-        "price": 4412.42,
-        "change_24h": 0.17532178801446377
-      },
-      "timestamp": "2026-09-10T06:38:08.064796+00:00"
-    },
     {
       "btc": {
         "price": 77945,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.1471931327454655
       },
       "timestamp": "2026-09-15T19:12:11.482609+00:00"
+    },
+    {
+      "btc": {
+        "price": 75398,
+        "change_24h": -4.319949412178954,
+        "volume_24h": 39303854902.30641
+      },
+      "gold": {
+        "price": 4293.77,
+        "change_24h": -0.22640132478161734
+      },
+      "timestamp": "2026-09-15T22:13:11.741608+00:00"
     }
   ],
   "last_alert": {
