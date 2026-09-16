@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
     "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
     "https://www.coindesk.com/markets/2026/08/17/september-fed-interest-rate-increase-is-very-unlikely-goldman-sachs-says",
     "https://www.marketwatch.com/story/a-new-set-of-trump-tariffs-for-canada-could-take-effect-wednesday-heres-whats-at-stake-8aa0eeb8?mod=mw_rss_topstories",
@@ -533,21 +532,10 @@
     "https://www.cnbc.com/2026/09/16/chinas-ai-leaders-keep-quiet-despite-us-publicity-on-tech-risks.html",
     "https://www.cnbc.com/2026/09/16/de-dollarization-brics-china-russia-trump.html",
     "https://www.marketwatch.com/story/medicare-is-using-ai-to-approve-claims-the-result-has-been-alarmingly-high-denial-rates-db87d902?mod=mw_rss_topstories",
-    "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000"
+    "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000",
+    "https://finance.yahoo.com/economy/article/federal-reserve-interest-rate-hikes-usually-pound-stocks-but-then-something-surprising-happens-100449563.html"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 77135,
-        "change_24h": -1.685332730437089,
-        "volume_24h": 32188521327.58328
-      },
-      "gold": {
-        "price": 4324.85,
-        "change_24h": -1.6967200982700028
-      },
-      "timestamp": "2026-09-10T19:15:46.649721+00:00"
-    },
     {
       "btc": {
         "price": 77150,
@@ -1111,6 +1099,18 @@
         "change_24h": 0.7961466783471434
       },
       "timestamp": "2026-09-16T05:35:58.366332+00:00"
+    },
+    {
+      "btc": {
+        "price": 75899,
+        "change_24h": -1.403573628115875,
+        "volume_24h": 38871680427.87999
+      },
+      "gold": {
+        "price": 4345.77,
+        "change_24h": 1.6671190517088688
+      },
+      "timestamp": "2026-09-16T10:17:29.245654+00:00"
     }
   ],
   "last_alert": {
