@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://www.marketwatch.com/story/pressure-on-bonds-abates-as-treasury-announces-buybacks-what-may-come-next-af7d7c76?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/the-bond-selloff-is-rattling-investors-but-heres-why-they-shouldnt-expect-a-deeper-stock-downturn-43139350?mod=mw_rss_topstories",
     "https://finance.yahoo.com/markets/stocks/articles/dividend-stocks-lost-yield-war-140730677.html",
     "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-august-19-2026-earn-up-to-435-apy-100000814.html",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/markets/2026/09/17/goldman-expects-another-fed-rate-hike-in-october",
     "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
     "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
-    "https://www.coindesk.com/markets/2026/09/17/zcash-jumps-23-as-bitcoin-and-major-tokens-rise-despite-fed-s-first-hike-since-2023"
+    "https://www.coindesk.com/markets/2026/09/17/zcash-jumps-23-as-bitcoin-and-major-tokens-rise-despite-fed-s-first-hike-since-2023",
+    "https://www.marketwatch.com/story/why-the-s-p-500-could-still-advance-after-a-fed-hike-according-to-a-wall-street-strategist-d357b4f2?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 77813,
-        "change_24h": 0.7705296678325985,
-        "volume_24h": 34630303409.917854
-      },
-      "gold": {
-        "price": 4371.04,
-        "change_24h": 0.16561654492244202
-      },
-      "timestamp": "2026-09-11T17:26:39.223585+00:00"
-    },
     {
       "btc": {
         "price": 77259,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.8564991330676813
       },
       "timestamp": "2026-09-17T05:41:04.173567+00:00"
+    },
+    {
+      "btc": {
+        "price": 76275,
+        "change_24h": 0.5190090004547805,
+        "volume_24h": 29370088095.874813
+      },
+      "gold": {
+        "price": 4308.21,
+        "change_24h": -0.8396940377128712
+      },
+      "timestamp": "2026-09-17T10:25:24.240150+00:00"
     }
   ],
   "last_alert": {
