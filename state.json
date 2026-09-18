@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://www.coindesk.com/business/2026/08/19/china-triples-digital-yuan-bank-roster-year-to-date-as-eight-more-banks-join-network",
     "https://www.coindesk.com/daybook-us/2026/08/19/fed-decision-making-comes-into-focus-as-bitcoin-holds-steady-bond-yields-surge",
     "https://www.coindesk.com/markets/2026/08/19/bitcoin-stuck-in-a-six-week-range-as-global-bond-yields-hit-highest-levels-for-decades",
     "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/tech/2026/09/18/ethereum-confirms-glamsterdam-dates-but-warns-fake-builders-could-stall-the-chain",
     "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000",
     "https://www.coindesk.com/markets/2026/09/17/boj-rate-hike",
-    "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work"
+    "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
+    "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 77348,
-        "change_24h": -0.5172657201120869,
-        "volume_24h": 19656845826.58051
-      },
-      "gold": {
-        "price": 4355.12,
-        "change_24h": -0.24333105618443776
-      },
-      "timestamp": "2026-09-12T16:17:52.071151+00:00"
-    },
     {
       "btc": {
         "price": 77351,
@@ -1111,6 +1099,18 @@
         "change_24h": 1.6110372078856887
       },
       "timestamp": "2026-09-18T05:53:49.992703+00:00"
+    },
+    {
+      "btc": {
+        "price": 78107,
+        "change_24h": 2.3498022968522365,
+        "volume_24h": 30382440841.856552
+      },
+      "gold": {
+        "price": 4376.42,
+        "change_24h": 1.0205365614895758
+      },
+      "timestamp": "2026-09-18T11:10:21.583469+00:00"
     }
   ],
   "last_alert": {
