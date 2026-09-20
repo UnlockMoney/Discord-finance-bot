@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-09-17T05:08:36.780761+07:00",
-      "content": "## 🔄 อัปเดต — Fed Hike ฉุดตลาดหุ้นร่วงหนัก ตอกย้ำ Risk-Off\n📌 เดิม: Fed ขึ้นดอกเบี้ย 0.25% ยืนยันแล้ว ส่งสัญญาณ hawkish ต่อ กดดัน BTC เสี่ยงหลุด $75,000\n🆕 ล่าสุด: Dow ร่วงกว่า 600 จุดหลังประกาศ Fed hike สะท้อนตลาดยังไม่สงบ นักวิเคราะห์ชี้ Fed Chair Warsh ส่งสัญญาณชัดเจนว่าจะเอาจริงกับเงินเฟ้อ คาดตลาดหุ้น-บอนด์ผันผวนแรงต่อเนื่อง\n\n💡 กระทบ BTC: Risk-off ลามจากตลาดหุ้นสู่คริปโต กดดัน BTC $75,707 ซ้ำเติมจาก Clarity Act เสี่ยงหลุด $75,000 ชัดเจนขึ้น\n💡 กระทบทอง: Hawkish Fed + risk-off จากหุ้นร่วง อาจหนุน safe-haven demand ให้ทอง $4,265 แม้ rate hike ปกติกดทอง แต่ตลาดปั่นป่วนอาจช่วยพยุงราคา\n🎯 จับตาว่าแรงขายหุ้นจะลามเข้าคริปโตต่อเนื่องแค่ไหน และ BTC จะยืน $75,000 ได้หรือไม่"
-    },
-    {
       "time": "2026-09-17T12:23:01.403959+07:00",
       "content": "## 🔄 อัปเดต — Goldman คาด Fed จะขึ้นดอกเบี้ยอีกครั้งในตุลาคม\n📌 เดิม: Fed hike 0.25% แล้ว พร้อมส่งสัญญาณ hawkish จะขึ้นอีกครั้งในปีนี้ ฉุด Dow ร่วง 600+ จุด\n🆕 ล่าสุด: Goldman Sachs ปรับคาดการณ์ใหม่ ชี้ Fed จะ hike รอบถัดไปในเดือนตุลาคม ยืนยัน hawkish path ชัดเจนขึ้น ตลาดเริ่ม price-in ดอกเบี้ยสูงต่อเนื่องยาวกว่าที่คาด\n\n💡 กระทบ BTC: แรงกดดันสะสมต่อ $75,707 เสี่ยงหลุดแนวรับหากกระแส risk-off ต่อเนื่องถึงตุลาคม\n💡 กระทบทอง: อาจเผชิญแรงขายระยะสั้นจาก dollar แข็งค่า แต่ demand safe-haven จาก market volatility อาจพยุงราคาไว้ที่ $4,288\n🎯 จับตาตัวเลขเงินเฟ้อ/จ้างงานเดือนหน้าที่จะยืนยันหรือเปลี่ยนคาดการณ์ตุลาคม"
     },
@@ -31,13 +27,13 @@
     {
       "time": "2026-09-20T00:59:34.555030+07:00",
       "content": "## 🔥 BREAKING — BofA เตือน Fed อาจขึ้นดอกเบี้ยต่อ สวนทางตลาดคาด\n\nBank of America ออกคำเตือนว่า Fed อาจยังไม่จบ hiking cycle ตามที่ตลาดคาดไว้ ท่ามกลาง 10Y Yield ที่พุ่งแตะ 5.00% และ DXY แข็งค่าต่อเนื่อง (100.22) สวนทางกับที่ตลาดคริปโตราคาสินทรัพย์เสี่ยงยังคง risk-on อย่างหนัก — คำเตือนนี้ตอกย้ำความเสี่ยง hawkish surprise ที่อาจกระทบ sentiment หากธนาคารกลางอื่นเริ่มขยับตาม\n\n💡 กระทบ BTC: เสี่ยง sentiment shift หาก yield/DXY แข็งต่อ แต่ปัจจุบันยังยืนเหนือ $80,000 ได้ — จับตาว่าโมเมนตัม risk-on จะทนต่อ hawkish narrative ได้แค่ไหน แนวรับสำคัญยังอยู่ $77,700\n💡 กระทบทอง: เสี่ยงโดนกดเพิ่มจาก real yield ที่สูงขึ้นหาก Fed hike ต่อจริง แนวรับ $4,340 อาจถูกทดสอบ\n🎯 จับตาสัปดาห์นี้ว่า Fed จะส่งสัญญาณตอบโต้ BofA หรือไม่ และ BTC จะยังฝ่า hawkish narrative ต่อได้หรือไม่"
+    },
+    {
+      "time": "2026-09-21T00:12:15.458603+07:00",
+      "content": "### 🔄 อัปเดต — BTC ย่อตัวเล็กน้อยหลังพุ่งแรงต่อเนื่อง\n📌 เดิม: BTC แตะ $81,807 (+1.11%) ฝ่า DXY/Yield แข็งได้\n🆕 ล่าสุด: BTC $81,252 (-0.64% 24h) ย่อตัวเบาๆ ขณะ DXY แข็งต่อ 100.22 (+0.57%) และ 10Y Yield ทรง 5.00% — F&G Index 71 (Greed) ยังหนุน sentiment risk-on แต่เริ่มมีแรงขายทำกำไรบางส่วน\n💡 กระทบ: ₿ BTC ต้องยืนเหนือ $80,000 หลุดเสี่ยงย่อ $77,700 | 🥇 ทอง $4,362 ทรงตัวใกล้แนวรับ $4,340\n\n### 🆕 Diesel แพงสุดเป็นประวัติการณ์ — เสี่ยงกดดันเงินเฟ้อ\nราคาดีเซลพุ่งทำสถิติใหม่ กดดันต้นทุนขนส่ง-โลจิสติกส์ทั่วสหรัฐฯ นักวิเคราะห์ชี้เสี่ยงหนุนเงินเฟ้อกลับมา ซึ่งอาจทำให้ Fed ต้อง hawkish ต่อ\n💡 กระทบ: 🥇 ทองอาจได้แรงหนุนจาก inflation hedge แม้ DXY ยังกดอยู่ | ₿ BTC เสี่ยง sentiment shift หาก Fed ต้อง hike เพิ่ม\n\n### 🆕 Tariffs + Fuel + Rate สูง บีบบริษัทอเมริกัน\nผู้ผลิต, auto suppliers, retailers และขนส่งเผชิญแรงกดดันหนักจาก tariffs, fuel และ interest rate พร้อมกัน สะท้อนภาคเศรษฐกิจจริงเริ่มตึงตัว แม้ตลาดการเงินยัง risk-on\n💡 กระทบ: ₿ BTC risk-on อาจสวนทาง real economy — จับตา slowdown signal | 🥇 ทองยังเป็น hedge choice หาก recession risk เพิ่ม\n\n## 🎯 สรุป\n📈 Trend: BTC uptrend (แต่เริ่มย่อ) | Gold sideways\n⚠️ Risk: ปานกลาง-สูง — DXY/Yield แข็ง + diesel/tariffs กดดันเศรษฐกิจจริง สวนทาง risk-on ในตลาดคริปโต\n🎯 ภาพรวม: BTC ยังแข็งเหนือ $80K แต่ต้องระวัง macro headwind เริ่มสะสมจาก inflation/real economy pressure"
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/article/wall-street-has-an-answer-to-6040--this-etf-crams-9060-into-the-same-dollar-one-big-investment-idea-135503448.html",
-    "https://finance.yahoo.com/markets/crypto/articles/short-sellers-lose-nearly-3-134900822.html",
-    "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-soar-alongside-bitcoin-133600627.html",
-    "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
     "https://www.coindesk.com/markets/2026/08/20/crypto-s-bottom-is-near-as-ai-hype-fades-okx-europe-ceo-says",
     "https://www.coindesk.com/markets/2026/08/20/bitcoin-breaks-out-of-six-week-range-tops-usd71-000-as-usd3-billion-in-shorts-get-wiped-out",
     "https://www.coindesk.com/markets/2026/08/20/bitcoin-approaches-usd72-000-as-strategy-and-coinbase-continue-rally",
@@ -533,21 +529,13 @@
     "https://finance.yahoo.com/markets/stocks/articles/nestl-loses-keys-russian-business-115500444.html",
     "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
     "https://www.coindesk.com/markets/2026/09/19/the-orange-tie-stays-michael-saylor-responds-to-venture-capitalist-s-bitcoin-obituary",
-    "https://finance.yahoo.com/economy/policy/articles/bofa-drops-stunning-warning-fed-171700996.html"
+    "https://finance.yahoo.com/economy/policy/articles/bofa-drops-stunning-warning-fed-171700996.html",
+    "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+    "https://www.marketwatch.com/story/china-is-chasing-spacex-and-setting-its-sights-on-the-global-space-economy-3b9e37ff?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+    "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 78643,
-        "change_24h": 2.5118829937767226,
-        "volume_24h": 32610363086.280357
-      },
-      "gold": {
-        "price": 4302.45,
-        "change_24h": -0.8104379831513617
-      },
-      "timestamp": "2026-09-14T22:44:17.163670+00:00"
-    },
     {
       "btc": {
         "price": 77964,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.13222402603382685
       },
       "timestamp": "2026-09-20T14:13:00.130166+00:00"
+    },
+    {
+      "btc": {
+        "price": 81252,
+        "change_24h": -0.641643618136166,
+        "volume_24h": 24019333596.91701
+      },
+      "gold": {
+        "price": 4362.3,
+        "change_24h": -0.08359754630169804
+      },
+      "timestamp": "2026-09-20T17:11:44.284448+00:00"
     }
   ],
   "last_alert": {
