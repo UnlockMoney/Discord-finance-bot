@@ -34,7 +34,6 @@
     }
   ],
   "posted_urls": [
-    "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
     "https://www.marketwatch.com/story/treasury-rout-restarts-one-day-after-bessents-beefed-up-buyback-plan-972766a1?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
     "https://www.coindesk.com/markets/2026/08/20/bitcoin-pushes-past-usd75-000-as-rally-continues",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans",
     "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
     "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic",
-    "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs"
+    "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs",
+    "https://www.coindesk.com/markets/2026/09/21/crypto-week-ahead"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 75995,
-        "change_24h": -3.8576084951383054,
-        "volume_24h": 39141087932.8334
-      },
-      "gold": {
-        "price": 4303.47,
-        "change_24h": -0.1471931327454655
-      },
-      "timestamp": "2026-09-15T19:12:11.482609+00:00"
-    },
     {
       "btc": {
         "price": 75398,
@@ -1111,10 +1099,22 @@
         "change_24h": -0.3180085085775359
       },
       "timestamp": "2026-09-21T05:50:02.079343+00:00"
+    },
+    {
+      "btc": {
+        "price": 84184,
+        "change_24h": 4.806586128587135,
+        "volume_24h": 38609662144.417694
+      },
+      "gold": {
+        "price": 4345.4,
+        "change_24h": -0.3500715135850746
+      },
+      "timestamp": "2026-09-21T10:40:29.194960+00:00"
     }
   ],
   "last_alert": {
     "breaking": "2026-09-20T00:59:34.555030+07:00",
-    "price": "2026-09-18T21:58:44.862483+07:00"
+    "price": "2026-09-21T17:40:49.173142+07:00"
   }
 }
