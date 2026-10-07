@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-10-04T19:51:20.672372+07:00",
-      "content": "## 🔥 BREAKING — Fed Minutes สัปดาห์นี้ จับตา Real Fed-Funds Rate ต่ำผิดปกติ\n\nMarketWatch รายงานว่า minutes การประชุม Fed เดือนก.ย. ที่จะเผยแพร่สัปดาห์นี้ อาจให้เบาะแสสำคัญต่อทิศทางดอกเบี้ย โดยจุดที่น่าสนใจคือ real fed-funds rate ตอนนี้ต่ำกว่าที่ตลาดคาดไว้มาก ซึ่งอาจสะท้อนว่า Fed มีช่องให้ผ่อนคลายนโยบายได้มากกว่าที่ Kashkari เคยส่งสัญญาณไว้ ท่ามกลางข้อมูล NFP ที่อ่อนแอและความกังวล stagflation ที่เพิ่มขึ้น\n\n💡 กระทบ BTC: เสี่ยงผันผวนสูงรอ minutes เป็นตัวชี้ขาด หาก Fed ส่งสัญญาณ dovish ชัดเจนอาจดันขึ้นทดสอบ $85,900 แต่ถ้า hawkish อาจกดลงหลุด $84,000\n💡 กระทบทอง: real rate ต่ำเป็นบวกต่อทอง (ลด opportunity cost การถือทอง) แนวรับ $4,100 แนวต้าน $4,150-4,200 หาก minutes ยืนยันแนวโน้ม dovish\n\n🎯 จับตา minutes ละเอียดช่วงกลาง-ปลายสัปดาห์ จะเป็นตัวชี้ขาดว่าตลาดเชื่อ \"โอกาสขึ้นดอกเบี้ยเป็นศูนย์\" ตามที่ตีความจาก NFP จริงหรือไม่"
-    },
-    {
       "time": "2026-10-05T00:56:17.085269+07:00",
       "content": "### 🆕 Corporate America มองกำไร Q3 สดใสสุดเป็นประวัติการณ์\nMarketWatch รายงานบริษัทจดทะเบียนสหรัฐฯ optimism ต่อผลประกอบการ Q3 สูงสุดเท่าที่เคยมี สวนทาง DXY แข็งค่า +0.55% และ 10Y yield พุ่ง 5.28% สะท้อน risk-on sentiment ในฝั่งหุ้นเด่นชัด\n💡 กระทบ: 🥇 ทอง $4,143 เสี่ยงโดนเทขายหาก fund flow ไหลเข้าหุ้น แนวรับ $4,100 | ₿ BTC อาจได้อานิสงส์ risk appetite แนวต้าน $85,900\n\n### 🔄 อัปเดต — Fed Minutes สัปดาห์นี้ ตลาดยังรอคำตอบ\n📌 เดิม: จับตา real fed-funds rate ต่ำผิดปกติ อาจเปิดช่องผ่อนคลายนโยบายมากกว่าคาด\n🆕 ล่าสุด: DXY กลับแข็งค่าขึ้น +0.55% แตะ 101.92 และ 10Y yield พุ่งแตะ 5.28% สวนทางการคาด dovish สะท้อนตลาด bond ยังไม่เชื่อ Fed จะลดเร็ว\n💡 กระทบ: 🥇 ทอง $4,143.51 เจอแรงกดดันจาก yield สูง | ₿ BTC $85,327 ผันผวนรอ minutes ฉบับเต็ม\n\n### 🔄 อัปเดต — GLD ยังร่วงต่อเนื่อง สวนทาง Gold Spot\n📌 เดิม: GLD ร่วงจาก DXY แข็งค่า ขณะ spot เริ่ม sideways\n🆕 ล่าสุด: GLD -3.37% ขณะ Gold spot แทบไม่ขยับ -0.07% divergence ชัดเจนขึ้น สะท้อน ETF outflow สถาบันมากกว่าแรงขายจริงในตลาด spot\n💡 กระทบ: 🥇 ทอง spot แข็งแกร่งกว่า ETF แนวรับ $4,100 แนวต้าน $4,150 | ₿ ไม่กระทบตรง\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold sideways\n⚠️ Risk: ปานกลาง-สูง จาก yield พุ่ง + DXY แข็งค่า กดดันทองระยะสั้น ขณะ Fed minutes ยังไม่ออกทำให้ตลาดรอดูทิศทาง\n🎯 ภาพรวม: ตลาดรอ Fed minutes เป็นตัวชี้ขาด ระวัง volatility ทั้ง BTC และทองสัปดาห์นี้"
     },
@@ -31,10 +27,13 @@
     {
       "time": "2026-10-07T13:48:56.008162+07:00",
       "content": "### 🔥 BREAKING — BTC หลุด $84,000 จากความตึงเครียดตะวันออกกลาง\nIran โจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ ดันราคาน้ำมันพุ่ง กระตุ้น risk-off ทั่วตลาด BTC ร่วงจาก $85,465 ลงมาแตะ $84,299 (-1.23% 24h) หลุดแนวรับเดิม $84,500\n💡 กระทบ: 🥇 ทอง $4,143 ทรงตัว เริ่มได้แรงหนุน safe-haven | ₿ BTC หลุดแนวรับ $84,500 เสี่ยงทดสอบ $83,000 ต่อ\n\n### 🆕 รัฐบาลสหรัฐฯ โยกย้าย BTC/BNB กว่า $100M\nWallet รัฐบาลสหรัฐฯ เคลื่อนไหวโอน BTC และ BNB มูลค่ารวมกว่า 100 ล้านดอลลาร์ ยังไม่ยืนยันว่าเป็นการขายหรือโยกย้ายภายใน\n💡 กระทบ: ₿ สร้าง uncertainty ระยะสั้น หากเป็นการขายจริงอาจกดดันราคาเพิ่มเติมที่โซน $84,000\n\n### 🆕 IMF เตือน AI ดันเงินเฟ้อ-yield พุ่ง ท่ามกลางหนี้สาธารณะสูง\nKristalina Georgieva ชี้ AI หนุนการเติบโตแต่กดดันเงินเฟ้อและ yield ให้สูงขึ้น สอดคล้องกับ 10Y Yield ที่ยืนเหนือ 5.27% ต่อเนื่อง\n💡 กระทบ: 🥇 ทองได้แรงหนุนจากความกังวลเงินเฟ้อระยะยาว | ₿ yield สูงกดดัน risk asset รวม BTC\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold sideways-up\n⚠️ Risk: สูง — ความตึงเครียด Iran + yield สูง + unconfirmed BTC sale กดดันพร้อมกัน\n🎯 ภาพรวม: BTC อ่อนแรงหลุดแนวรับ จับตา $83,000 ขณะทองเริ่มได้แรงหนุน safe-haven จากความเสี่ยงภูมิรัฐศาสตร์"
+    },
+    {
+      "time": "2026-10-08T02:31:35.568947+07:00",
+      "content": "## 🔥 BREAKING — Fed Minutes ส่งสัญญาณไม่เร่งขึ้นดอกเบี้ยต่อเนื่อง\n\nรายงานการประชุม Fed เผยเจ้าหน้าที่ส่วนใหญ่ไม่มีท่าทีต้องการขึ้นดอกเบี้ยหลายครั้งติดต่อกัน โดยมองว่าการขึ้นดอกเบี้ยเดือนกันยายนเป็นมาตรการป้องกันไว้ก่อนกรณีเงินเฟ้อยังสูงเกินคาด ไม่ใช่จุดเริ่มต้นของวงจรคุมเข้มต่อเนื่อง\n\n💡 กระทบ BTC: บวกเล็กน้อย-ปานกลาง — ท่าที dovish ลดแรงกดดันดอลลาร์แข็ง หนุน risk asset แต่ BTC ยังติดแนวต้าน $87,000 แนวรับ $83,000 ต้องรอ catalyst เสริมถึงจะทะลุ\n💡 กระทบทอง: บวก — นโยบายดอกเบี้ยไม่เข้มงวดหนุนทองในฐานะสินทรัพย์ไม่มีดอกเบี้ย ประกอบกับแรงหนุน safe-haven จากตึงเครียดตะวันออกกลาง ทอง $4,116 มีโอกาสทดสอบแนวต้านถัดไป\n🎯 จับตาถ้อยแถลง Fed official คนอื่นยืนยันทิศทางนี้ และ CPI รอบถัดไปว่าจะเปลี่ยนมุมมองหรือไม่"
     }
   ],
   "posted_urls": [
-    "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
     "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html",
     "https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower",
     "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
@@ -533,21 +532,10 @@
     "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
     "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
     "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed",
-    "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks"
+    "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
+    "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 83782,
-        "change_24h": -0.25675294244057734,
-        "volume_24h": 28254783407.977436
-      },
-      "gold": {
-        "price": 4185.18,
-        "change_24h": 0.4431944174854963
-      },
-      "timestamp": "2026-09-30T11:21:13.887721+00:00"
-    },
     {
       "btc": {
         "price": 84278,
@@ -1111,10 +1099,22 @@
         "change_24h": -1.5625795615082008
       },
       "timestamp": "2026-10-07T13:17:55.278435+00:00"
+    },
+    {
+      "btc": {
+        "price": 83392,
+        "change_24h": -2.478876294396362,
+        "volume_24h": 38949214208.53314
+      },
+      "gold": {
+        "price": 4116.32,
+        "change_24h": -1.4421999855117738
+      },
+      "timestamp": "2026-10-07T19:31:18.083590+00:00"
     }
   ],
   "last_alert": {
-    "breaking": "2026-10-06T21:28:01.102784+07:00",
+    "breaking": "2026-10-08T02:31:35.568947+07:00",
     "price": "2026-09-21T17:40:49.173142+07:00"
   }
 }
