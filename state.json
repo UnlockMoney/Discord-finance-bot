@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-10-08T02:40:20.740409+07:00",
-      "content": "### 🔄 อัปเดต — Fed Minutes ส่งสัญญาณผสม เสี่ยงขึ้นดอกเบี้ยอีกรอบ\n📌 เดิม: บอทรายงานว่า Fed ไม่เร่งขึ้นดอกเบี้ยต่อเนื่อง หนุน risk asset\n🆕 ล่าสุด: CNBC เผย Fed officials เห็นสัญญาณขึ้นดอกเบี้ยอีกครั้ง แต่ยังไม่ระบุช่วงเวลา สวนทางกับ inflation outlook 1 ปีที่พุ่งแตะ 3.9% สูงสุดนับตั้งแต่พ.ค. 2023 ดัน DXY แข็งค่า (+0.32%) และ 10Y Yield พุ่งแตะ 5.28%\n💡 กระทบ: 🥇 ทอง $4,116 (-1.39%) เจอแรงขายจาก real yield สูง แนวรับ $4,080 | ₿ BTC $83,392 (-2.49%) หลุดแนวรับ $84,000 เสี่ยงทดสอบ $82,000\n\n### 🆕 Inflation Expectations พุ่งสูงสุดรอบ 2 ปี\nSurvey of Consumer Expectations เผย median inflation outlook 12 เดือนข้างหน้าขึ้นแตะ 3.9% สูงสุดตั้งแต่พ.ค. 2023 เพิ่มแรงกดดันให้ Fed คงท่าที hawkish ต่อเนื่อง\n💡 กระทบ: 🥇 ทองเสี่ยงถูกกดดันเพิ่มจาก real yield | ₿ BTC ผันผวนสูง แนวต้าน $85,000 แนวรับ $82,000\n\n### 🆕 Wells Fargo เจรจา Kraken เพิ่มสภาพคล่อง Crypto\nWells Fargo อยู่ระหว่างเจรจากับ Payward (บริษัทแม่ Kraken) เพื่อเพิ่ม liquidity ด้าน crypto trading สะท้อนสถาบันการเงินดั้งเดิมเริ่มเปิดรับ crypto มากขึ้น\n💡 กระทบ: ₿ บวกระยะยาวต่อ institutional adoption แต่ผลระยะสั้นจำกัด ราคายังกดดันจาก macro\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold downtrend (short-term pullback)\n⚠️ Risk: สูง — DXY แข็ง, Yield พุ่ง 5.28%, Fed hawkish risk กดดันทั้ง BTC และทองพร้อมกัน\n🎯 ภาพรวม: ตลาด risk-off จาก inflation fear และ Fed hawkish จับตาแนวรับ BTC $82,000 และทอง $4,080"
-    },
-    {
       "time": "2026-10-08T13:57:54.261811+07:00",
       "content": "### 🔄 อัปเดต — BTC หลุด $83,000 ตามคาด จากแรงกดดัน Iran-Oil\n📌 เดิม: BTC $83,392 (-2.49%) เสี่ยงหลุด $83,000 จาก Fed hawkish + Iran tension\n🆕 ล่าสุด: รายงานแผนโจมตี Iran เพิ่มเติมดันราคาน้ำมันพุ่งต่อ กระตุ้น risk-off ทั่วตลาด BTC ทะลุแนวรับ $83,000 ลงมาที่ $82,840 (-1.67% 24h)\n💡 กระทบ: 🥇 ทอง $4,130.79 (-0.25%) ยังไม่ได้ safe-haven flow ชัดเจน แม้ GLD -1.30% | ₿ BTC หลุด $83,000 เสี่ยงทดสอบ $82,000-$81,500\n\n### 🆕 Bitcoin Loans ขยายสู่ real-world use case\nเจ้าหนี้เผยสินเชื่อค้ำประกันด้วย BTC ถูกใช้จ่ายค่าเทอม-เงินทุนหมุนเวียนธุรกิจ ไม่ใช่แค่เก็งกำไรเทรด สะท้อน adoption เชิงโครงสร้างที่ลึกขึ้นในตลาดสินเชื่อ crypto\n💡 กระทบ: ₿ บวกต่อ fundamental demand ระยะยาว แต่ไม่กระทบราคาระยะสั้น\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold sideways\n⚠️ Risk: สูง — Iran-Oil tension + Fed hawkish + 10Y yield 5.28% กดดัน risk asset พร้อมกัน\n🎯 ภาพรวม: BTC อยู่ในช่วง downtrend ชัดเจนจาก geopolitical risk ผสม Fed hawkish ทองยังไม่ได้ safe-haven flow เท่าที่ควร จับตาแนวรับ $82,000 เป็นจุดสำคัญถัดไป"
     },
@@ -31,10 +27,13 @@
     {
       "time": "2026-10-12T01:34:00.114903+07:00",
       "content": "### 🆕 Trump ประกาศ \"Energy Ceasefire\" รัสเซีย-ยูเครน\nTrump ประกาศหยุดยิงด้านพลังงานระหว่างรัสเซีย-ยูเครน ต่อเนื่องจากที่ปัดข่าวโจมตี Iran ก่อนหน้า คลายแรงกดดัน risk-off ราคาน้ำมันเสี่ยงร่วงต่อ หนุน sentiment ตลาด risk asset\n💡 กระทบ: 🥇 ทองอาจพักฐานจากแรงซื้อ safe-haven ลด แนวรับ $4,170 | ₿ BTC ได้แรงหนุน risk-on ทดสอบ $84,000\n\n### 🆕 ฤดูกาล Earnings Q3 เปิดฉาก ตลาดหุ้นเสี่ยง \"Complacent\"\nนักวิเคราะห์เตือนตลาดหุ้นมองโลกในแง่ดีเกินไปต่อผลประกอบการ ขณะที่ yield สูงยังกดดันเบื้องหลัง ธนาคารใหญ่เริ่มรายงานผลสัปดาห์นี้ จะเป็นตัวชี้วัดแรกของเศรษฐกิจในยุค yield สูง\n💡 กระทบ: 🥇 ทองยังเป็นที่พักเงินหาก earnings ผิดหวัง แนวต้าน $4,220 | ₿ BTC เสี่ยง correlate กับหุ้นหาก risk-off กลับมา\n\n### 🔄 อัปเดต — Bull Market หุ้นครบ 4 ปี แต่ Yield สูงเสี่ยงฉุดขาลง\n📌 เดิม: DXY 102.23 / 10Y Yield 5.24% กดดันแนวต้าน BTC $83,000\n🆕 ล่าสุด: นักวิเคราะห์ชี้ yield สูงต่อเนื่องอาจจบ bull market หุ้นเทคที่ลากตลาดมา 4 ปี เพิ่มความเสี่ยง rotation เข้า safe-haven\n💡 กระทบ: 🥇 ทองได้แรงหนุนหาก yield-driven selloff เกิดขึ้น | ₿ BTC เสี่ยงผันผวนสูงขึ้นตาม sentiment หุ้น\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-up | Gold sideways\n⚠️ Risk: ปานกลาง-สูง — yield 5.24% + earnings season เป็นตัวแปรใหญ่สัปดาห์นี้\n🎯 ภาพรวม: BTC มีโอกาสทดสอบ $84,000 หาก risk-on ต่อเนื่อง แต่ yield สูงยังเป็นเพดานกดทองและ BTC พร้อมกัน"
+    },
+    {
+      "time": "2026-10-12T13:54:10.125316+07:00",
+      "content": "### 🔄 อัปเดต — BTC ทะลุ $84,000 ตามคาด แม้ ETF Outflows\n📌 เดิม: Trump ประกาศ Energy Ceasefire รัสเซีย-ยูเครน คลาย risk-off คาด BTC ทดสอบ $84,000\n🆕 ล่าสุด: BTC $83,946 (+1.02%) ยืนเหนือ $84,000 ได้จริง แม้ ETF มี outflows ต่อเนื่อง สะท้อน spot demand แข็งแรงกว่าที่คิด ราคาน้ำมันร่วงหนุน risk-on ต่อ\n💡 กระทบ: 🥇 ทองแกว่งแคบ $4,182 รอทิศทางใหม่ แนวรับ $4,170 | ₿ BTC เปิดทาง $85,000 หากยืนเหนือ $84,000 ได้ต่อเนื่อง หลุดกลับไปเสี่ยงทดสอบ $82,500\n\n## 🎯 สรุป\n📈 Trend: BTC uptrend | Gold sideways\n⚠️ Risk: ปานกลาง — DXY/Yield ยังสูง (10Y 5.24%) แต่ F&G 69 (Greed) หนุน risk-on ระยะสั้น\n🎯 ภาพรวม: BTC นำตลาดฝ่า ETF outflows ได้ ทองพักฐานรอ catalyst ใหม่ก่อนไปต่อ"
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/article/goldman-sachs-warns-investors-to-expect-lower-returns-over-the-next-year-171050637.html",
     "https://finance.yahoo.com/technology/ai/articles/crowdstrike-ai-security-boom-may-165458612.html",
     "https://www.investors.com/research/ibd-stock-of-the-day/tg-therapeutics-stock-briumvi-early-buy-point/?src=A00220&yptr=yahoo",
     "https://finance.yahoo.com/economy/policy/articles/democratic-us-senator-asks-capital-161922117.html",
@@ -533,21 +532,10 @@
     "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
-    "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine"
+    "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
+    "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 85327,
-        "change_24h": 0.42721142278474245,
-        "volume_24h": 14560973999.273073
-      },
-      "gold": {
-        "price": 4143.51,
-        "change_24h": -0.06894625885319952
-      },
-      "timestamp": "2026-10-04T17:55:45.871258+00:00"
-    },
     {
       "btc": {
         "price": 85462,
@@ -1111,6 +1099,18 @@
         "change_24h": 0.42527114371729985
       },
       "timestamp": "2026-10-12T02:22:32.190735+00:00"
+    },
+    {
+      "btc": {
+        "price": 83946,
+        "change_24h": 1.02371849498029,
+        "volume_24h": 18810719774.445526
+      },
+      "gold": {
+        "price": 4182.26,
+        "change_24h": -0.07725992639614335
+      },
+      "timestamp": "2026-10-12T06:53:52.844285+00:00"
     }
   ],
   "last_alert": {
