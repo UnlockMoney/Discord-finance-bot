@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-10-15T01:15:13.766561+07:00",
-      "content": "### 🔄 อัปเดต — CPI กันยายนร้อนแรงจริง ฉุด BTC ร่วงหลุด $82,000\n📌 เดิม: คาดการณ์ CPI เร่งตัว 0.6% MoM / 3.6% YoY\n🆕 ล่าสุด: CPI ออกมาร้อนแรงตามคาด ส่ง BTC ร่วงจาก $83,497 ลงมา $81,514 (-1.97%) ตลาดบอนด์ตอบรับลบ yield พุ่งต่อเนื่อง\n💡 กระทบ: 🥇 ทองร่วงตาม -1.58% สู่ $4,096 real yield กดดันหนัก | ₿ BTC หลุดแนวรับ $82,500 เสี่ยงทดสอบ $80,000\n\n### 🔥 Fed ติดกับดัก Rate-Hike Dilemma หลัง Bond Yield พุ่งต่อเนื่อง\n10Y Yield แตะ 5.21% สูงสุดรอบนี้ นักวิเคราะห์ชี้ Fed ไม่มีทางออกง่าย ขึ้นดอกเบี้ยกระทบเศรษฐกิจ ไม่ขึ้นเงินเฟ้อยิ่งฝังราก\n💡 กระทบ: 🥇 ทองเสี่ยงกดดันต่อ แนวรับ $4,050 | ₿ BTC เสี่ยง risk-off ต่อเนื่อง หลุด $81,000 มีสิทธิ์เห็น $79,500\n\n### 🆕 BlackRock Crypto ETF Assets พุ่ง 63% แต่ยังต่ำกว่าพีค 2025\nสะท้อนสถาบันกลับเข้าซื้อ BTC ผ่าน ETF เพิ่มขึ้น แม้ภาพรวมยังห่างจุดสูงสุดปีก่อน เป็นสัญญาณบวกระยะยาวท่ามกลางความผันผวนระยะสั้น\n💡 กระทบ: ₿ BTC ได้แรงหนุนสถาบันระยะยาว แต่ short-term ยังผันผวนตาม Fed meeting\n\n### 🆕 Gold-Bitcoin ควรอยู่ในพอร์ตเดียวกัน — มุมมอง CoinDesk\nนักวิเคราะห์ชี้ทองและ BTC เป็น hedge คนละแบบ ทองรับมือ debt/inflation crisis ส่วน BTC รับมือ debasement risk ระยะยาว เสริมพอร์ตสมดุล\n💡 กระทบ: 🥇 ทองยังเป็น core hedge แม้ระยะสั้นร่วง | ₿ BTC อาจเห็นแรงซื้อ dip จากนักลงทุนระยะยาว\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold downtrend\n⚠️ Risk: สูง — CPI ร้อนแรง + yield 5.21% กดดันทั้งคู่ แม้ F&G ยังโซน Greed (62) สะท้อนตลาดยังไม่ panic เต็มที่ เสี่ยงร่วงต่อหากเปลี่ยนเป็น Fear\n🎯 ภาพรวม: ตลาดอยู่ในโหมด risk-off จาก inflation/yield shock ระวังหลุดแนวรับสำคัญทั้งคู่ในระยะสั้น"
-    },
-    {
       "time": "2026-10-15T12:31:29.970376+07:00",
       "content": "### 🔄 อัปเดต — BTC ร่วงหลุด $81,000 ทันทีหลัง Liquidation พุ่ง $1B\n📌 เดิม: CPI ร้อนฉุด BTC ร่วงจาก $83,497 สู่ $81,514 เสี่ยงทดสอบ $80,000\n🆕 ล่าสุด: BTC ร่วงต่อแตะ $81,056 (-2.99%) เกือบ $1B ถูก liquidate ทั้ง BTC/ETH/XRP ขณะ Kospi ร่วงหนัก 8% สะท้อน risk-off ทั่วตลาด\n💡 กระทบ: ₿ เสี่ยงหลุด $80,000 แนวรับถัดไป $78,500 | 🥇 ทองยังยืน $4,141 แต่ real yield กดดัน\n\n### 🆕 Credit Stress ลาม AI Bonds — CoreWeave ร่วงหนัก\nCoreWeave bonds ร่วงเหลือ 81 cents ให้ yield เกิน 15% สะท้อนกังวล credit market จาก AI buildout ที่แพงเกินไปท่ามกลางดอกเบี้ยสูง\n💡 กระทบ: ตลาดกว้าง risk-off เพิ่ม กดดัน BTC ในฐานะ risk asset | ทองอาจได้อานิสงส์ safe-haven บางส่วน\n\n### 🆕 AI Trade เริ่มแตกร้าว เงินเฟ้อ-ดอกเบี้ยสูงกดดันหุ้นเทค\nนักลงทุนกังวลว่าเงินเฟ้อและต้นทุนกู้ยืมสูงอาจทำให้ AI buildout สะดุด ฉุด sentiment หุ้นเทคทั่วตลาด\n💡 กระทบ: ₿ correlate กับ tech สูง เสี่ยงโดนเทขายต่อ | 🥇 ทองได้แรงหนุนจาก flight-to-safety\n\n### 🆕 Mining Pool ปิดตัวหลัง Hashrate ร่วง 65%\nPool ที่เคยคุม network share 2.3% ประกาศปิดตัว สะท้อนแรงกดดันต่อ miner จากราคา BTC ร่วงและต้นทุนสูง\n💡 กระทบ: ₿ สัญญาณ miner capitulation อาจเพิ่มแรงขาย short-term\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold sideways\n⚠️ Risk: สูง — risk-off ลามจาก AI/credit stress + yield สูง + Fed uncertainty\n🎯 ภาพรวม: BTC เสี่ยงหลุด $80,000 ต่อเนื่อง ขณะทองทรงตัวรอสัญญาณ Fed ชัดเจน"
     },
@@ -31,13 +27,13 @@
     {
       "time": "2026-10-17T23:46:28.425455+07:00",
       "content": "### 🔄 อัปเดต — BTC อ่อนตัวต่อเนื่อง ทดสอบโซน $81,000\n📌 เดิม: BTC ร่วงจาก $82,170 สู่ $81,464 หลังทดสอบแนวต้านไม่ผ่าน\n🆕 ล่าสุด: BTC ลงต่อแตะ $81,214 (-0.35%) แม้ DXY อ่อนค่าแรง -0.78% สู่ 101.78 สะท้อนแรงขายยังมีต่อเนื่อง ขณะ F&G ลดลงจาก 63 มาอยู่ที่ 55 (ยังเป็น Greed)\n💡 กระทบ: ₿ แนวรับ $80,000-80,500 ยังสำคัญ หลุดเสี่ยง $78,500 | 🥇 Gold $4,152 ยืนเหนือ $4,150 ต่อเนื่อง แม้ GLD ETF -0.67%\n\n### 🆕 Fed Meeting ใกล้เข้ามา — ตลาดมองประมาทไป? อาจไม่ Hold ง่ายๆ\nMarketWatch ชี้ Fed decision เดือนนี้เป็น \"closer call\" กว่าที่ตลาดคาด มีทั้งเหตุผลหนุน-ค้านการขึ้นดอกเบี้ย 10Y Yield ยังสูงที่ 5.10% สะท้อนตลาดบอนด์ยังกังวล\n💡 กระทบ: ₿ เสี่ยง volatility สูงช่วงก่อน-หลังประชุม Fed | 🥇 Gold อาจได้ safe-haven bid หากผลประชุมเซอร์ไพรส์ hawkish\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-down | Gold sideways-up\n⚠️ Risk: ปานกลาง-สูง — Fed meeting ใกล้เข้ามา + แนวรับ BTC $80,000 ยังเปราะบาง\n🎯 ภาพรวม: BTC พักฐานรอความชัดเจนจาก Fed ขณะ Gold ยืนแข็งจาก DXY อ่อน + fiscal concern หนุน safe haven"
+    },
+    {
+      "time": "2026-10-19T00:01:39.501757+07:00",
+      "content": "### 🔄 อัปเดต — BTC ยังอ่อนตัวต่อเนื่อง หลุดเข้าใกล้ $81,000\n📌 เดิม: BTC แตะ $81,214 (-0.35%) ทดสอบโซน $81,000\n🆕 ล่าสุด: BTC ลงต่อแตะ $81,002 (-0.20%) แม้ DXY ทรงตัว 101.78 ไม่ได้กดดันเพิ่ม สะท้อนแรงขายยังไม่หมด F&G ลดลงมาอยู่โซน Neutral (53) จาก Greed\n💡 กระทบ: ₿ แนวรับ $80,000-80,500 ยังสำคัญมาก หลุดเสี่ยงเร่งลง $78,500 | 🥇 Gold $4,145 ยังทรงตัวเหนือ $4,100\n\n### 🆕 Wall Street ผวาวันศุกร์ — VIX กับ Bitcoin ส่งสัญญาณความกลัวอาจจางลงวันจันทร์\nCoinDesk ชี้ตลาดหุ้นสหรัฐฯ ตกใจแรงวันศุกร์ที่ผ่านมา แต่ทั้ง VIX และ BTC กำลังส่งสัญญาณว่าความกลัวอาจไม่ยืดเยื้อ\n💡 กระทบ: ₿ หาก sentiment ฟื้นจริง อาจหนุน BTC กลับทดสอบ $82,000 | 🥇 Gold ได้อานิสงส์น้อยกว่าหาก risk-on กลับมา\n\n### 🆕 เป้า $100,000 ปลายปีของ BTC — นักวิเคราะห์แตกความเห็น\nInflation ที่ยังสูงทำให้มุมมองเป้าหมาย BTC แตะ $100K ปลายปีนี้แบ่งเป็นสองฝ่ายชัดเจน บางส่วนมองเฟดต้อง hawkish ต่อ\n💡 กระทบ: ₿ เพิ่มความผันผวนระยะกลาง นักลงทุนรอความชัดเจนจาก Fed meeting\n\n### 🆕 หุ้นเผชิญจุดวัดใจ — กำไรแกร่งปะทะต้นทุนกู้ยืมพุ่ง\nMarketWatch ชี้ AI trade ไม่ได้รอดพ้นแรงกดดันจาก bond yield ที่สูงขึ้นจริงอย่างที่คิด สอดคล้องกับ 10Y Yield 5.10%\n💡 กระทบ: ₿ หาก yield สูงกดดันหุ้นต่อ อาจลาม risk-off ถึง BTC | 🥇 Gold อาจได้ safe-haven flow หากหุ้นร่วงแรง\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-down | Gold sideways\n⚠️ Risk: ปานกลาง-สูง — Fed meeting ใกล้เข้า + yield สูงกดดันตลาดหุ้น อาจลามมาถึง crypto\n🎯 ภาพรวม: BTC ยังเปราะบางที่โซน $81,000 ต้องจับตาแนวรับ $80,000 ใกล้ชิด ขณะ Gold นิ่งรอทิศทาง Fed"
     }
   ],
   "posted_urls": [
-    "https://www.marketwatch.com/story/chip-stock-investors-beware-these-charts-could-warn-of-further-weakness-ahead-1bd890cc?mod=mw_rss_topstories",
-    "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop",
-    "https://www.coindesk.com/daybook-us/2026/09/07/bitcoin-blinks-less-than-gold-when-treasury-yields-move",
-    "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
     "https://www.cnbc.com/2026/09/08/china-exports-imports-august-trade-rebalance-demand-surplus-.html",
     "https://www.coindesk.com/markets/2026/09/08/white-hat-hackers-return-most-of-usd320m-bitcoin-taken-from-liquid-network",
     "https://www.coindesk.com/markets/2026/09/08/bitcoin-slips-under-usd79-000-zcash-leads-losses-as-fed-hike-odds-hold-near-60",
@@ -533,21 +529,13 @@
     "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
     "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
     "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+    "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 83329,
-        "change_24h": 0.43640055145782086,
-        "volume_24h": 22054013913.49662
-      },
-      "gold": {
-        "price": 4166.83,
-        "change_24h": -0.4626295688901926
-      },
-      "timestamp": "2026-10-12T09:44:55.112681+00:00"
-    },
     {
       "btc": {
         "price": 82325,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.3127981802662955
       },
       "timestamp": "2026-10-18T14:50:11.477734+00:00"
+    },
+    {
+      "btc": {
+        "price": 81002,
+        "change_24h": -0.20346546336061627,
+        "volume_24h": 17898089191.857227
+      },
+      "gold": {
+        "price": 4145.59,
+        "change_24h": -0.149742156352041
+      },
+      "timestamp": "2026-10-18T17:01:11.438972+00:00"
     }
   ],
   "last_alert": {
