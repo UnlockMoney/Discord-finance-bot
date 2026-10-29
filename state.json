@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-10-26T00:20:19.405499+07:00",
-      "content": "### 🔄 อัปเดต — BTC ดีดกลับยืนเหนือ $80,000 หลังหลุดช่วงสุดสัปดาห์\n📌 เดิม: BTC หลุด $80,000 จากเหตุอพยพพลเรือนสหรัฐฯ ตะวันออกกลาง เสี่ยงทดสอบ $78,000-79,000\n🆕 ล่าสุด: BTC ฟื้นกลับมา $80,737 (+0.78% 24h) ยึดแนวรับคืนได้ F&G กลับสู่ Neutral 54 ความตื่นตระหนกคลี่คลายชั่วคราว แต่ 10Y Yield ยังสูง 4.99% กดดันสินทรัพย์เสี่ยงต่อ\n💡 กระทบ: ₿ แนวรับ $80,000 ต้องยืนให้ได้ แนวต้าน $82,000 | 🥇 Gold $4,005.11 (+0.31%) แต่ GLD ETF ร่วงหนัก -4.03% สวนทางราคาสปอต\n\n### 🆕 ตลาดหุ้นสหรัฐฯ เข้าสู่สัปดาห์ earnings หนัก ความเชื่อมั่นเปราะบาง\nกว่า 1 ใน 3 ของบริษัท S&P 500 เตรียมรายงานผลประกอบการสัปดาห์นี้ ท่ามกลาง sentiment ระมัดระวังถึงลบ นักกลยุทธ์เตือนอาจเป็นสัปดาห์ผันผวนสูง\n💡 กระทบ: ₿ หาก earnings ผิดหวังซ้ำ AI-tech rout เสี่ยงลามมา risk asset รวมถึง BTC | 🥇 Gold อาจได้แรงหนุนหากตลาดหุ้นผันผวนแรง\n\n### 🆕 นักลงทุนจับตา Fed Chair Warsh ต้องสื่อสารชัดเจนกว่านี้\nนักเศรษฐศาสตร์ชี้ \"คำตอบคลุมเครือ\" ใช้ไม่ได้ผลอีกต่อไป ตลาดต้องการให้ Warsh พิสูจน์ความสามารถสื่อสารกลยุทธ์ Fed ให้ชัดเจน ท่ามกลาง yield ยังสูงลิ่ว 4.99%\n💡 กระทบ: ₿ ความไม่แน่นอนด้านนโยบาย Fed กดดัน risk sentiment | 🥇 Gold หาก Fed ส่งสัญญาณ dovish ชัดเจนขึ้น อาจหนุนราคาทองกลับมา\n\n## 🎯 สรุป\n📈 Trend: BTC sideways (ฟื้นตัวจากหลุดแนวรับ) | Gold sideways (แรงกดดันจาก ETF outflow)\n⚠️ Risk: สูง — Yield สูง + earnings season ผันผวน + ความไม่แน่นอนนโยบาย Fed\n🎯 ภาพรวม: BTC ทรงตัวเหนือ $80,000 ชั่วคราว แต่ตลาดยังเปราะบาง จับตา earnings และท่าที Fed สัปดาห์นี้"
-    },
-    {
       "time": "2026-10-26T12:44:08.834816+07:00",
       "content": "### 🔄 อัปเดต — BTC จ่อหลุด $80,000 อีกครั้งก่อนประชุม Fed\n📌 เดิม: BTC ดีดกลับยืนเหนือ $80,000 ได้ $80,737 (+0.78%)\n🆕 ล่าสุด: เทรดเดอร์เริ่ม de-risk ก่อนประชุม Fed สัปดาห์นี้ ราคาล่าสุด $80,103 (-0.55%) แตะขอบแนวรับอีกครั้ง 10Y Yield ยังสูง 4.99% กดดันสินทรัพย์เสี่ยงต่อเนื่อง\n💡 กระทบ: ₿ แนวรับ $80,000 เปราะบาง หลุดเสี่ยงทดสอบ $78,000-79,000 | แนวต้าน $82,000 | 🥇 Gold $4,018 (+0.42%) ขยับขึ้นเล็กน้อยรับ risk-off\n\n### 🆕 Bitcoin wallet bug — ช่องโหว่ RBF ถูกเซิร์ฟเวอร์ปลอมขโมยเงิน\nพบบั๊กใน wallet software เมื่อผู้ใช้พยายาม speed up ธุรกรรมผ่าน RBF เซิร์ฟเวอร์ปลอมสามารถดักเปลี่ยนปลายทางและขโมยเงินได้\n💡 กระทบ: ₿ ไม่กระทบราคาโดยตรง แต่กระทบ sentiment ด้าน security ระยะสั้น นักลงทุนควรระวัง wallet ที่ยังไม่อัปเดต patch\n\n### 🆕 Musk เตือนฟองสบู่ \"AI neocloud\" หลัง SpaceX กู้ $40B ซื้อชิป\nElon Musk ออกมาเตือนความเสี่ยงฟองสบู่กลุ่ม AI neocloud ขณะเดียวกัน SpaceX เพิ่งกู้เงิน $40 พันล้านเพื่อซื้อชิป AI สะท้อนความกังวลเรื่อง debt-fueled AI spending ในตลาดกว้าง\n💡 กระทบ: ₿ เสี่ยง sentiment risk-off ลามจากกลุ่มเทคโนโลยี หากฟองสบู่ AI แตกจะกดดันสินทรัพย์เสี่ยงรวม BTC | 🥇 Gold ได้ประโยชน์จากการหนีความเสี่ยงหากตลาดหุ้นเทคโนโลยีผันผวน\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-downtrend | Gold sideways-uptrend\n⚠️ Risk: สูง — Fed meeting + แนวรับ $80,000 เปราะบาง + ความกังวล AI bubble\n🎯 ภาพรวม: BTC จับตาแนวรับ $80,000 ใกล้ชิดก่อน Fed ขณะทองได้แรงหนุน safe-haven ระยะสั้น"
     },
@@ -31,23 +27,13 @@
     {
       "time": "2026-10-29T13:43:13.431190+07:00",
       "content": "### 🔄 อัปเดต — BTC หลุด $80,000 อีกครั้งหลัง Fed Hawkish + Tech Jitters\n📌 เดิม: Fed คงดอกเบี้ยตามคาด BTC ทะลุ $81,015 (+0.47%)\n🆕 ล่าสุด: BTC ร่วงกลับมา $79,997 (-1.01%) หลุดแนว $80,000 อีกรอบ โดนกดดันจาก Samsung-led tech jitters และท่าที hawkish ของ Fed ที่ชัดขึ้น ขณะ 10Y Yield ขยับขึ้นแตะ 5.04% สูงสุดรอบนี้ DXY ยังแข็งค่าต่อ 102.24\n💡 กระทบ: ₿ แนวรับ $78,000-79,000 แนวต้าน $80,000-82,000 | 🥇 Gold $4,029.57 (-0.02%) แกว่งแคบตาม GLD ETF ร่วง -1.44%\n\n### 🆕 AI เจาะช่องโหว่ Crash Bitcoin Node ได้ทั้ง Windows/Mac\nพบว่า AI สามารถหาวิธี crash bitcoin node บนระบบปฏิบัติการหลักได้ และข้อมูลนี้เผยแพร่สู่สาธารณะแล้ว เพิ่มความกังวลด้าน security ของเครือข่าย ต่อเนื่องจากกรณี Bithumb ถูกแฮ็กก่อนหน้านี้\n💡 กระทบ: ₿ เพิ่ม tail risk ระยะสั้น อาจกดดัน sentiment นักลงทุนสถาบัน\n\n### 🆕 ServiceNow งบพลาดคาด ฉุด Sentiment หุ้นเทคกลุ่ม AI\nแม้มีดีลใหญ่ AI เพิ่มขึ้น แต่ผลประกอบการไม่โดนใจนักลงทุน สะท้อนความกังวลฟองสบู่ AI valuation ที่ลามมาถึง risk asset รวมถึงคริปโต\n💡 กระทบ: ₿ แรงกดดันทางอ้อมจาก correlation กับ tech stocks | 🥇 Gold อาจได้แรงหนุน safe-haven เล็กน้อย\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-downtrend | Gold sideways\n⚠️ Risk: สูง — Yield แตะ 5.04% + DXY แข็งค่า + tech jitters กดดันพร้อมกัน\n🎯 ภาพรวม: BTC เสี่ยงหลุด $78,000 หากแรงขายต่อเนื่อง ต้องจับตาแนวรับ $78,000-79,000 ใกล้ชิด"
+    },
+    {
+      "time": "2026-10-30T02:22:11.377887+07:00",
+      "content": "### 🔥 GDP แกร่งเกินคาด + เงินเฟ้อเร่งตัว กดดัน Fed ต่อ\nQ3 GDP สหรัฐฯ +3.4% ดีกว่าคาด ขณะ PCE เดือนก.ย. เร่งเป็น 3.7% YoY สูงกว่าเป้าหมาย Fed ชัดเจน ตอกย้ำ hawkish theme ที่เพิ่งพูดไปหลัง Fed pause\n💡 กระทบ: ₿ กดดันแนวรับ $80,000 เสี่ยงหลุดซ้ำ | 🥇 Gold $4,014.10 (-0.88%) อ่อนตัวตาม real yield สูง\n\n### 🔄 อัปเดต — Fed Chair Warsh ส่งสัญญาณเอียง Hawkish ชัดขึ้น\n📌 เดิม: Fed คงดอกเบี้ย มีเสียง dissent ในที่ประชุม\n🆕 ล่าสุด: Warsh ประธาน Fed คนใหม่ เลี่ยงฟันธงแต่ชี้ชัดเอียงขึ้นดอกเบี้ย ผสาน ECB คง 2.5% แบบ hawkish pause ตลาดให้โอกาส 67% ขึ้นดอกเบี้ย ธ.ค.\n💡 กระทบ: ₿ แรงกดดันสะสมรอบ FOMC ธ.ค. | 🥇 DXY 102.03 ยังแข็งกดทอง\n\n### 🆕 $10B Options BTC ใกล้หมดอายุ — จับตา Pricing Signal\nตลาด options สะท้อน sentiment ระมัดระวังก่อนหมดอายุรอบใหญ่ อาจเพิ่มความผันผวนระยะสั้น สอดคล้อง F&G 51 (Neutral)\n💡 กระทบ: ₿ ผันผวนเพิ่มช่วง $80,000 แกว่งทั้งสองทาง\n\n### 🆕 Quantum Computing เจาะกุญแจ Bitcoin ได้ไวขึ้น 17 เท่า\nโมเดลใหม่ลดฮาร์ดแวร์ที่ต้องใช้เจาะกุญแจ BTC ลง 17 เท่า เพิ่มความกังวลด้าน long-term security แม้ยังไม่ใช่ภัยเฉียบพลัน\n💡 กระทบ: ₿ sentiment ลบระยะยาว ไม่กระทบราคาทันที\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-downtrend | Gold sideways-downtrend\n⚠️ Risk: สูง — GDP/PCE ร้อนแรงหนุน Fed hawkish, 10Y Yield ตรึง 4.99% กดทั้งสองสินทรัพย์\n🎯 ภาพรวม: ตลาดรอทดสอบแนวรับ $80,000 อีกรอบ ท่ามกลางแรงกดดัน macro hawkish รอบด้าน"
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-recover-oil-095547409.html",
-    "https://finance.yahoo.com/markets/stocks/articles/high-grade-monthly-summer-sprint-160721899.html",
-    "https://finance.yahoo.com/energy/articles/supertanker-rates-hit-800-000-160000148.html",
-    "https://finance.yahoo.com/technology/ai/articles/cognizant-says-ai-creates-jobs-154755236.html",
-    "https://www.investors.com/research/investing-action-plan/federal-reserve-rate-hike-close-to-clarity-act-vote-salesforce-dreamforce/?src=A00220&yptr=yahoo",
-    "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
-    "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
-    "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
-    "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
-    "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
-    "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
-    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/?src=A00220&yptr=yahoo",
-    "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
-    "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
     "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
     "https://www.investors.com/news/apple-taiwan-semiconductor-lead-5-top-stocks-near-buy-points/?src=A00220&yptr=yahoo",
     "https://finance.yahoo.com/markets/stocks/articles/samsara-iot-crosses-2b-growth-160016151.html",
@@ -533,21 +519,23 @@
     "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
     "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories",
     "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
-    "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto"
+    "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+    "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+    "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+    "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+    "https://www.marketwatch.com/story/the-100-level-is-ours-for-awhile-oil-wont-be-getting-cheap-anytime-soon-no-matter-what-happens-in-the-gulf-99d628bf?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/did-the-fed-make-a-mistake-with-its-october-rate-pause-the-treasury-could-help-save-the-day-77d84993?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/marvell-is-reportedly-close-to-buying-lumentum-analysts-say-they-see-logic-in-a-potential-deal-d7539c59?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/this-credit-card-is-the-best-weapon-to-fight-debt-while-interest-rates-keep-climbing-8378fcf2?mod=mw_rss_topstories",
+    "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
+    "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
+    "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
+    "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+    "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
+    "https://www.coindesk.com/daybook-us/2026/10/29/as-usd10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 81661,
-        "change_24h": -1.3412621916421597,
-        "volume_24h": 30407796712.031796
-      },
-      "gold": {
-        "price": 4030.6,
-        "change_24h": -1.4223076679965572
-      },
-      "timestamp": "2026-10-23T05:41:39.795378+00:00"
-    },
     {
       "btc": {
         "price": 81547,
@@ -1111,6 +1099,18 @@
         "change_24h": -0.5889218912425167
       },
       "timestamp": "2026-10-29T14:14:17.590583+00:00"
+    },
+    {
+      "btc": {
+        "price": 80748,
+        "change_24h": -0.428694643674677,
+        "volume_24h": 29572415110.586445
+      },
+      "gold": {
+        "price": 4014.1,
+        "change_24h": -0.875183201701796
+      },
+      "timestamp": "2026-10-29T19:21:34.471876+00:00"
     }
   ],
   "last_alert": {
