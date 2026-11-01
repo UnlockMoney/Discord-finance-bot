@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-10-28T13:35:13.212140+07:00",
-      "content": "### 🔄 อัปเดต — BTC ทะลุใกล้ $81,000 ก่อน Fed ประกาศผล\n📌 เดิม: ดีดกลับ $80,633 (+0.91%) ทดสอบแนวรับ $80,000\n🆕 ล่าสุด: ราคาพุ่งต่อ $80,811 (+1.43%) ใกล้แตะ $81,000 ตลาดรอผลประชุม Fed คืนนี้ ZEC พุ่งแรง +8% สะท้อน risk appetite กลับมา แต่ DXY แข็งค่า 102.43 (+0.61%) และ 10Y Yield ยังตรึงสูง 4.99%\n💡 กระทบ: ₿ แนวรับ $80,000 แนวต้าน $82,000 | 🥇 Gold $4,031.47 (+0.59%) ขยับขึ้นต่อ\n\n### 🆕 Bithumb ถูกแฮ็กผ่านระบบพนักงาน\nเกาหลีใต้เจอ cyberattack ต่อเนื่องในสถาบันการเงินหลายแห่ง เพิ่มความกังวลด้าน security บน centralized exchange\n💡 กระทบ: ₿ sentiment ลบระยะสั้นต่อความเชื่อมั่น exchange | ไม่กระทบราคาตรง แต่เพิ่ม tail risk\n\n### 🆕 Datavault AI ร่วง 50% หลังเข้าถึง BTC treasury ไม่ได้\nบริษัท treasury ถือ BTC ประกาศไม่สามารถเข้าถึงเหรียญของตัวเองได้ หุ้นร่วงทันที 50% จุดชนวนกังวลเรื่อง custody risk ของบริษัทที่ถือ BTC เป็นสินทรัพย์หลัก\n💡 กระทบ: ₿ ลบต่อความเชื่อมั่น corporate BTC holding | ยังไม่กระทบราคา spot โดยตรง\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-up (ทดสอบ $81,000) | Gold sideways-up\n⚠️ Risk: สูง — รอผล Fed คืนนี้ + security/custody incidents เพิ่มความผันผวน\n🎯 ภาพรวม: BTC ฟื้นตัวใกล้ $81,000 ก่อน Fed แต่ custody/security news อาจกดดัน sentiment ระยะสั้น"
-    },
-    {
       "time": "2026-10-29T02:12:40.740067+07:00",
       "content": "### 🔄 อัปเดต — Fed คงอัตราดอกเบี้ยตามคาด BTC ทะลุ $81,000\n📌 เดิม: 93% นักเศรษฐศาสตร์คาด Fed \"pause\" คลายแรงกดดันระยะสั้น\n🆕 ล่าสุด: Fed ประกาศคงดอกเบี้ยตามคาด 100% ไม่มีเซอร์ไพรส์ แต่มีเสียง dissent ในที่ประชุม ราคา BTC ตอบรับบวกแตะ $81,015 (+0.47%) ขณะ 10Y Yield ขยับขึ้นเป็น 5.04% และ DXY แข็งค่า 102.14\n💡 กระทบ: ₿ แนวรับ $80,000 แนวต้าน $82,000 | 🥇 Gold $4,044.37 (-0.40%) ย่อตัวเล็กน้อยหลังข่าว\n\n### 🆕 Asian Chip Rally หนุน Risk Appetite กลับมา\nกระแส rally หุ้นชิปเอเชียลามเข้าตลาดคริปโต ดัน BTC ยืนเหนือ $81,000 ได้ PEPE พุ่ง +9% สะท้อน speculative flow กลับเข้า altcoin ต่อเนื่องจาก ZEC ก่อนหน้า\n💡 กระทบ: ₿ sentiment เชิงบวกระยะสั้น ดันแนวต้าน $82,000 | 🥇 ไม่กระทบโดยตรง\n\n### 🔄 อัปเดต — GLD ETF ยังร่วงสวนทางสปอตทองต่อเนื่อง\n📌 เดิม: GLD ETF -3.13% ขณะสปอตแทบไม่ขยับ\n🆕 ล่าสุด: GLD ETF ร่วงหนัก -2.18% แม้สปอตทองลบเพียง -0.40% ช่องว่าง divergence ยังกว้าง อาจสะท้อน outflow สถาบันจาก ETF มากกว่าแรงขายจริงในตลาดทองคำ\n💡 กระทบ: 🥇 จับตา flow ETF ต่อเนื่อง หากลาม อาจกดดันสปอตตาม | ₿ ไม่กระทบตรง\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-uptrend | Gold sideways\n⚠️ Risk: ปานกลาง — 10Y Yield ขยับขึ้น 5.04% + DXY แข็งค่า กดดันสินทรัพย์เสี่ยงระยะกลาง\n🎯 ภาพรวม: Fed hold ตามคาดช่วยคลายกังวลระยะสั้น BTC ทดสอบ $82,000 แต่ Yield/DXY ยังเป็นปัจจัยเสี่ยงหลัก"
     },
@@ -31,10 +27,13 @@
     {
       "time": "2026-11-01T01:05:48.781052+07:00",
       "content": "### 🆕 บริษัท Nasdaq จ่อขาย BTC $450M อ้างเหตุ Binance Hack + ความเสี่ยง Quantum\nบริษัทจดทะเบียน Nasdaq เตรียมขาย BTC มูลค่า $450M โดยอ้างทั้งความเสียหายจาก Binance Hack และความกังวลเรื่อง quantum computing ต่อความปลอดภัย blockchain สะท้อน institutional sentiment ยังสั่นคลอนแม้ราคาเริ่มทรงตัว\n💡 กระทบ: ₿ เสี่ยงเจอแรงขายกดดันแนวรับ $75,000 ถ้าข่าวนี้จุดชนวนขายตามจากสถาบันอื่น | 🥇 Gold ไม่กระทบตรง แต่หนุน safe-haven narrative เล็กน้อย\n\n### 🔄 อัปเดต — BTC ฟื้นตัวจากจุดต่ำ $76,603 กลับมา $77,614\n📌 เดิม: BTC ร่วงหลุด $77,000 ต่อเนื่องจาก Binance Hack สูญ Momentum\n🆕 ล่าสุด: ราคาดีดกลับ +0.81% มาที่ $77,614 แม้ F&G Index ยังอยู่โซน Fear (30) สะท้อนตลาดเริ่มหาจุดสมดุลหลังข่าว hack ซึมซับไปบางส่วน แต่ยังไม่มั่นใจเต็มที่\n💡 กระทบ: ₿ แนวรับ $75,000 แนวต้าน $78,000-80,000 ต้องผ่านด้วยวอลุ่มถึงจะยืนยัน reversal\n\n### 🆕 Gold Spot ทรงตัว แต่ GLD ETF ร่วงหนัก -2.95% สวนทาง\nGold spot แทบไม่ขยับ (+0.02% ที่ $3,893.50) แต่ GLD ETF ร่วงแรง -2.95% สะท้อน fund flow ไหลออกจาก paper gold แม้ physical price นิ่ง — อาจเป็นสัญญาณ profit-taking สถาบันหลัง real yield สูง (10Y 4.93%, DXY 101.96)\n💡 กระทบ: 🥇 แนวรับ $3,850 แนวต้าน $3,950 ความเสี่ยง outflow ต่อเนื่องถ้า yield ไม่ย่อ\n\n## 🎯 สรุป\n📈 Trend: BTC sideways (ฟื้นตัวระยะสั้นในกรอบ) | Gold sideways\n⚠️ Risk: ปานกลาง-สูง — Nasdaq company dump + GLD outflow กดดันทั้งสองสินทรัพย์พร้อมกัน\n🎯 ภาพรวม: ตลาดยังอยู่ช่วง digest ข่าวร้าย ต้องจับตาแนวรับ $75,000 (BTC) และ $3,850 (Gold) เป็นจุดตัดสินทิศทางถัดไป"
+    },
+    {
+      "time": "2026-11-01T14:05:33.270046+07:00",
+      "content": "### 🔄 อัปเดต — FBI ยืนยัน North Korea อยู่เบื้องหลัง Binance Hack $6B\n📌 เดิม: แฮ็กเกอร์ขโมย BTC/ETH มูลค่า $6B จาก Binance ขนาดใหญ่กว่าทุนสำรอง BTC ของ El Salvador กว่า 2 เท่า\n🆕 ล่าสุด: FBI ยืนยันอย่างเป็นทางการว่าเป็นฝีมือ North Korea พร้อมขอความร่วมมือชุมชน DeFi บล็อก address BTC/ETH/SOL ที่เกี่ยวข้อง สะท้อนความเสี่ยงระดับ state-sponsored hack เพิ่มแรงกดดันด้าน regulatory ต่อ exchange ทั่วโลก\n💡 กระทบ: ₿ แนวรับ $75,000 เสี่ยงถูกทดสอบอีกครั้งหากเงินทุนเริ่มไหลออกจาก exchange อื่นตามความกังวล security | 🥇 Gold แนวรับ $3,850 แนวต้าน $3,950 ยังไม่ได้ safe-haven flow เต็มที่ แม้ DXY อ่อนตัว (-0.35%) เพราะ real yield สูง (10Y 4.93%) ยังกดดัน\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-downtrend | Gold sideways\n⚠️ Risk: สูง — F&G 34 (Fear) + ข่าว state-sponsored hack กดดัน sentiment ต่อเนื่อง, GLD ETF -2.95% สะท้อน outflow สถาบัน\n🎯 ภาพรวม: ตลาดยังอยู่ในโหมด risk-off จาก fallout ของ Binance hack จับตาแนวรับ BTC $75,000 และการไหลออกของทุนสถาบันทั้งสองสินทรัพย์"
     }
   ],
   "posted_urls": [
-    "https://www.marketwatch.com/story/the-fed-may-be-on-the-verge-of-a-serious-mistake-prominent-economists-warn-3ccb6581?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/calls-for-an-ai-slowdown-meet-vigorous-pushback-trump-calls-it-a-sick-conspiracy-21b3c1ab?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/why-the-social-security-cola-is-much-ado-about-nothing-cf9b90d4?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
@@ -533,21 +532,10 @@
     "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
     "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
     "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
-    "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears"
+    "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+    "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 80278,
-        "change_24h": -0.302369965589697,
-        "volume_24h": 19104705427.23754
-      },
-      "gold": {
-        "price": 3997.08,
-        "change_24h": -0.027319869848639815
-      },
-      "timestamp": "2026-10-25T10:08:13.933373+00:00"
-    },
     {
       "btc": {
         "price": 80227,
@@ -1111,6 +1099,18 @@
         "change_24h": 0.08344375855943162
       },
       "timestamp": "2026-11-01T02:36:58.675237+00:00"
+    },
+    {
+      "btc": {
+        "price": 77932,
+        "change_24h": 0.808717863558571,
+        "volume_24h": 48004866237.56511
+      },
+      "gold": {
+        "price": 3897.87,
+        "change_24h": 0.06346706324754858
+      },
+      "timestamp": "2026-11-01T07:05:16.149192+00:00"
     }
   ],
   "last_alert": {
