@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-11-06T14:37:31.203897+07:00",
-      "content": "### 🔄 อัปเดต — BTC ร่วงหนักต่อเนื่อง หลุด $75K\n📌 เดิม: ร่วงจาก $80K+ สู่ $76,271 (-4.67%) หลุดแนวรับ $78K จาก \"AI trade meltdown\"\n🆕 ล่าสุด: ร่วงต่อเนื่องแตะ $75,352 (-6.26% 24h) F&G Index ดิ่งสู่โซน Fear (28) สะท้อน panic sell ยังไม่จบ\n💡 กระทบ: ₿ แนวรับถัดไป $73,000 แนวต้าน $78,000 | 🥇 Gold ร่วงตาม -1.77% สู่ $4,036\n\n### 🆕 Gold-GLD Divergence น่าจับตา\nGold spot ร่วง -1.77% สู่ $4,036 สวนทาง GLD ETF ที่ +1.88% สู่ $375.49 — อาจสะท้อน fund flow ล่าช้าหรือ rebalancing ระหว่างวัน\n💡 กระทบ: 🥇 ผันผวนสูง จับตาแนวรับจิตวิทยา $4,000\n\n### 🆕 Hyperliquid ยื่นขอใบอนุญาต US Futures Platform\nบริษัท treasury ของ Hyperliquid เดินหน้าขอ regulatory nod เป็น domestic futures platform ในสหรัฐ สัญญาณบวกต่อ institutional adoption ระยะยาว\n💡 กระทบ: ₿ บวกเชิง sentiment ระยะยาว ไม่กระทบราคาทันที\n\n### 🆕 IRS ประกาศอัตรา Capital Gains Tax ปี 2027\nIRS เปิดเผยอัตราภาษีใหม่แยกตาม income bracket สำหรับปี 2027 — นักลงทุน crypto/gold ควรวางแผนการขายทำกำไรล่วงหน้า\n💡 กระทบ: ผสม ไม่กระทบราคาทันที แต่มีผลต่อ long-term holding strategy\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold sideways-to-down\n⚠️ Risk: สูง — Hawkish Fed + 10Y Yield 4.84% + Fear Index กดดันทั้งสินทรัพย์เสี่ยงและ safe-haven พร้อมกัน\n🎯 ภาพรวม: ตลาด risk-off รุนแรง จับตาแนวรับ BTC $73,000 และ Gold $4,000 เป็นจุดตัดสินใจสำคัญ"
-    },
-    {
       "time": "2026-11-07T03:11:06.435151+07:00",
       "content": "### 🔄 อัปเดต — Fed ยังเดินหน้า Hawkish ซ้ำ Barkin\n📌 เดิม: Barkin เตือนขึ้นดอกเบี้ยต่อ ฉุด BTC หลุด $78K\n🆕 ล่าสุด: Daly (Fed) ย้ำคนอเมริกันอยู่บน \"treadmill of high inflation\" แม้ jobs report แข็งแกร่ง (+165K เทียบคาด 59K, อัตราว่างงาน 4.1%) ก็ยังกังวลเงินเฟ้อ — ตลาดเริ่มตีความว่า Fed จะไม่รีบลดดอกเบี้ย\n💡 กระทบ: ₿ แนวรับ $75,000 เสี่ยงหลุดซ้ำหากดอลลาร์แข็งต่อ (DXY +0.55%) | 🥇 กดดันระยะสั้น แต่ real yield สูงหนุน safe-haven flow\n\n### 🆕 AI Debt Stress ลาม — CoreWeave Yield ทะลุ 16%\nBond yield ของ CoreWeave พุ่งเกิน 16% สะท้อนตลาดกังวล data center slowdown และ credit risk ในกลุ่ม AI infra — ต้นตอเดียวกับ \"AI trade meltdown\" ที่ลาก BTC ร่วงสัปดาห์นี้\n💡 กระทบ: ₿ หาก AI trade ยังอ่อนแรง risk-off อาจกดดันซ้ำสู่ $73,000 | 🥇 อาจได้แรงหนุนเพิ่มจาก safe-haven rotation\n\n### 🆕 ชิป Nvidia-AMD ดีดตัว แต่นักวิเคราะห์เตือนยังไม่จบ\nหุ้นชิปรีบาวด์หลังร่วงหนัก แต่ MarketWatch ชี้ความผันผวนอาจกลับมาอีก — ตลาดยังไม่มั่นใจว่า selloff จบจริง\n💡 กระทบ: ₿ correlation สูงกับ tech/AI sentiment, จับตาแนวต้าน $78,000 | 🥇 ผันผวนตาม risk sentiment\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-downtrend | Gold sideways\n⚠️ Risk: สูง — Hawkish Fed + AI credit stress + F&G Fear (28) กดดันพร้อมกัน\n🎯 ภาพรวม: BTC ยังเสี่ยงหลุด $75K หาก AI selloff/Fed hawkish กดดันต่อ ส่วน Gold แกว่งผันผวนรอสัญญาณชัดเจนจาก Fed"
     },
@@ -31,18 +27,13 @@
     {
       "time": "2026-11-10T17:27:41.395359+07:00",
       "content": "## 🔄 อัปเดต — CPI ตุลาคม vs ทิศทางดอกเบี้ย Fed\n\n📌 เดิม: ตลาดคาด CPI จะเป็นตัวชี้วัดการ \"ลดดอกเบี้ย\" รอบถัดไปของ Fed (headline +0.3%, core +0.2%)\n🆕 ล่าสุด: Fed Governor Waller เปิดเผยว่าอาจพิจารณา \"ขึ้นดอกเบี้ย 0.5%\" ในเดือนธันวาคม หาก CPI ตุลาคมออกมาร้อนกว่าคาด — พลิกจากกรอบ \"cut\" เป็นความเสี่ยง \"hike\" แบบไม่ทันตั้งตัว\n\n💡 กระทบ BTC: Risk-off รุนแรงขึ้น หาก CPI ร้อน — เพิ่มโอกาสหลุด $73,000 ชัดเจน แนวรับถัดไป $71,000\n💡 กระทบทอง: Hawkish surprise กดดัน real yield พุ่ง + DXY แข็งค่าต่อ ลดเสน่ห์ทอง แม้ safe-haven flow จาก uncertainty จะช่วยพยุงบางส่วน แนวรับ $4,050\n🎯 จับตา CPI วันอังคารนี้ใกล้ชิด — ถ้าร้อนกว่าคาด ตลาดอาจ price-in hike เร็วขึ้น เพิ่มความผันผวนทั้งคู่"
+    },
+    {
+      "time": "2026-11-11T03:40:13.303105+07:00",
+      "content": "### 🔥 BREAKING — CPI ร้อนกว่าคาด Waller ยืนยันเอียง hike ธ.ค.\nCPI ต.ค. +0.4% MoM (คาด 0.3%), core +0.3% (คาด 0.2%) — Fed Governor Waller พลิกจาก \"possible\" เป็น \"leaning toward\" ขึ้นดอกเบี้ย ธ.ค. เปิดทางขึ้น 0.5% หากเงินเฟ้อไม่คลาย ยืนยัน scenario เลวร้ายสุดที่เคยเตือน\n💡 กระทบ: ₿ Risk-off ชัดเจน เสี่ยงหลุด $73,000 แนวรับถัดไป $71,000 | 🥇 Real yield พุ่ง + DXY แข็ง (102.25) กดดันทองแรง แนวรับ $4,000\n\n### 🆕 Nvidia เสี่ยงโดนคุมเข้มส่งออกชิปจีน\nแรงหนุนออกกฎหมายคุมส่งออกเพิ่มขึ้นหลังกรณี spy scandal ของ Jensen Huang — ซ้ำเติม AI trade sentiment ที่เปราะบางอยู่แล้ว\n💡 กระทบ: ₿ กดดัน risk asset sentiment broad-based | 🥇 ไม่กระทบตรง\n\n### 🆕 ธนาคารใหญ่ทุ่ม $270M ลุย stablecoin venture\nGoldman Sachs, Citi ร่วมลงทุนธุรกิจ stablecoin — สัญญาณ institutional adoption crypto infra ต่อเนื่อง แม้ระยะสั้นยังไม่หนุนราคา\n💡 กระทบ: ₿ Sentiment บวกระยะยาว แต่ไม่พอ offset แรงขายระยะสั้น | 🥇 ไม่กระทบ\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold downtrend\n⚠️ Risk: สูง — CPI ร้อน + Fed hawkish surprise (Waller) กดดันทั้งสองสินทรัพย์พร้อมกัน F&G 32 สะท้อน fear ลึก\n🎯 ภาพรวม: Risk-off รุนแรงขึ้น จับตา $73,000/$71,000 (BTC) และ $4,000 (Gold) เป็นแนวรับสำคัญสัปดาห์นี้"
     }
   ],
   "posted_urls": [
-    "https://finance.yahoo.com/markets/stocks/articles/general-motors-gm-bets-software-170012082.html",
-    "https://finance.yahoo.com/healthcare/articles/novo-ceo-says-drugmaker-needs-165713245.html",
-    "https://finance.yahoo.com/economy/policy/articles/auto-industry-urges-trump-keep-164913146.html",
-    "https://finance.yahoo.com/markets/stocks/articles/truist-reshapes-lending-strategy-5-164856583.html",
-    "https://finance.yahoo.com/markets/stocks/articles/abbvie-dividend-growth-remains-solid-164620099.html",
-    "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-18-2026-rates-climb-above-7-100000327.html",
-    "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost",
-    "https://www.coindesk.com/daybook-us/2026/09/18/xrp-on-the-brink-of-a-golden-cross-as-focus-switches-to-altcoins",
-    "https://www.coindesk.com/markets/2026/09/18/layer-2-and-defi-tokens-lead-broad-crypto-advance-as-post-fed-hike-nerves-fade",
     "https://www.coindesk.com/tech/2026/09/18/live-updates-hype-leads-altcoin-rally-as-bitcoin-recovers-toward-usd78-000",
     "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
     "https://www.marketwatch.com/story/15-stocks-that-have-grown-dividends-the-most-and-nearly-all-have-beaten-the-s-p-500-6d8923fc?mod=mw_rss_topstories",
@@ -533,21 +524,18 @@
     "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
     "https://www.coindesk.com/markets/2026/11/10/bitcoin-miner-mara-sold-13-597-btc-for-usd1-1-billion-in-six-weeks-plans-to-sell-more",
     "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
-    "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories"
+    "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
+    "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
+    "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+    "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+    "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+    "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets",
+    "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+    "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 77413,
-        "change_24h": -0.8491501762183471,
-        "volume_24h": 21273477101.772945
-      },
-      "gold": {
-        "price": 3967.65,
-        "change_24h": 1.9027095289096767
-      },
-      "timestamp": "2026-11-02T17:01:35.177099+00:00"
-    },
     {
       "btc": {
         "price": 76764,
@@ -1111,6 +1099,18 @@
         "change_24h": -1.9674548718279627
       },
       "timestamp": "2026-11-10T18:14:59.582677+00:00"
+    },
+    {
+      "btc": {
+        "price": 73538,
+        "change_24h": -1.5742517831281693,
+        "volume_24h": 30025693311.943058
+      },
+      "gold": {
+        "price": 4023.65,
+        "change_24h": -2.4592786736862204
+      },
+      "timestamp": "2026-11-10T20:39:44.064459+00:00"
     }
   ],
   "last_alert": {
