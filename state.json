@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-11-18T18:34:54.549042+07:00",
-      "content": "## 🔄 อัปเดต — BTC แข็งแกร่งกว่าทอง แม้ร่วงพร้อมกันจากแรงกดดัน Fed\n\n📌 เดิม: BTC ยืนเหนือ $64,000 แต่ Basis Trade แห้ง, Gold ร่วง -2.43% ตาม DXY แข็ง\n🆕 ล่าสุด: CoinDesk ชี้ทั้ง BTC และ Gold ร่วงพร้อมกันจากคาดการณ์ Fed ขึ้นดอกเบี้ย แต่ BTC ($64,163) outpace Gold ($3,758.41) — สะท้อนว่า BTC ถูก sell-off น้อยกว่าทองเชิงเปรียบเทียบ แม้ทั้งคู่เผชิญแรงกดดันจาก yield/DXY เดียวกัน\n\n💡 กระทบ BTC: Relative strength เทียบทองเป็นบวก แต่แนวรับ $62,000-63,000 ยังสำคัญ หลุดเสี่ยงไหลสู่ $60,000\n💡 กระทบทอง: ยังอยู่ใน bear market pressure เสี่ยงหลุด $3,700 หาก DXY แข็งต่อ\n🎯 จับตาว่า BTC จะรักษาความได้เปรียบเชิง relative performance นี้ได้หรือไม่ หาก Fed ส่งสัญญาณขึ้นดอกเบี้ยชัดเจนขึ้น"
-    },
-    {
       "time": "2026-11-19T02:35:09.990847+07:00",
       "content": "## 🔄 อัปเดต — Fed Minutes ยืนยันแนวโน้มขึ้นดอกเบี้ยต่อ กังวลเงินเฟ้อจาก AI\n\n📌 เดิม: ตลาดคาดการณ์ Fed ขึ้นดอกเบี้ย กดดัน BTC และ Gold ร่วงพร้อมกัน (BTC $64,163 / Gold $3,758.41)\n🆕 ล่าสุด: Fed เปิดเผย minutes การประชุมเดือนต.ค. (คงดอกเบี้ย 3.75-4%) ระบุชัดเจนว่าเจ้าหน้าที่คาดต้องขึ้นดอกเบี้ยเพิ่ม พร้อมมีการหารือเรื่องขึ้นดอกเบี้ยแบบ aggressive ในการประชุมธ.ค. — เหตุกังวลเงินเฟ้อใหม่จากผลกระทบ AI (energy demand, labor market)\n\n💡 กระทบ BTC: Hawkish minutes หนุน DXY/yield แข็งต่อ กดดัน risk asset เพิ่ม BTC ปัจจุบัน $62,763 (ต่ำกว่าแนวรับ $62,000-63,000 ที่เคยเตือนไว้) เสี่ยงไหลต่อสู่ $60,000 หาก DXY ยังแข็ง\n💡 กระทบทอง: Gold $3,715.63 เสี่ยงกดดันเพิ่มจาก real yield สูงขึ้น แต่ระยะยาวอาจได้แรงหนุนจาก inflation hedge หาก AI-driven inflation เป็นจริง\n🎯 จับตาการประชุม Fed ธ.ค. และตัวเลขเงินเฟ้อ/yield 10Y ว่าจะยืนยันทิศทาง aggressive hike หรือไม่ — F&G ที่ 11 สะท้อน panic เพิ่มเติมจากตลาด"
     },
@@ -31,12 +27,13 @@
     {
       "time": "2026-11-21T14:56:47.045783+07:00",
       "content": "### 🔥 BREAKING — BTC ทะลุ $57,000 ครั้งแรกในรอบ 2 ปี\n📌 เดิม: BTC หลุด $60,000 มาที่ $58,708 (-4.64%) เสี่ยง bear market รอบใหม่\n🆕 ล่าสุด: BTC ร่วงต่อเนื่องทะลุ $57,000 มาที่ $57,909 (-6.26%) CoinDesk ยืนยันเป็นระดับต่ำสุดในรอบ 2 ปี พร้อมสินทรัพย์เสี่ยงอื่นร่วงตาม | Gold ร่วงเพิ่ม -1.28% สู่ $3,515.78 ใกล้หลุดแนวรับ $3,500 ที่เตือนไว้ | GLD ETF ร่วงหนักสุด -9.17% สะท้อน panic outflow | DXY แข็งค่า 103.84, 10Y Yield พุ่ง 4.91%\n💡 กระทบ: ₿ แนวรับถัดไป $55,000 เสี่ยงทดสอบจริง | 🥇 Gold $3,500 เป็นจุดตัดสินชี้ชะตา\n\n### 🆕 พบบั๊ก Bitcoin node — AI ตรวจเจอช่องโหว่สร้างความกังวล\nทีมวิจัยพบบั๊กที่อาจทำให้ node หยุดทำงานได้ด้วยการส่ง ID ซ้ำ 50,000 ครั้ง เพิ่มความกังวลด้าน technical risk ท่ามกลางตลาดที่อ่อนไหวอยู่แล้ว\n💡 กระทบ: ₿ เพิ่มแรงกดดันช่วง sentiment ติดลบ แม้ยังไม่ใช่ exploit จริง\n\n### 🆕 Xi-Trump-Putin จัดซัมมิทใหญ่ที่เซินเจิ้น\nจีนใช้เวทีการทูตขยายอิทธิพลโลก ตลาดจับตา stability ด้าน geopolitical ซึ่งอาจกระทบ DXY และ safe-haven flow\n💡 กระทบ: 🥇 อาจหนุน demand ทองหากความตึงเครียดเพิ่ม | ₿ ผลกระทบจำกัด\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend ชัดเจน | Gold downtrend\n⚠️ Risk: สูงมาก — F&G 12 (Extreme Fear), cascading selloff ทั้งตลาด, GLD outflow รุนแรง\n🎯 ภาพรวม: ตลาดเข้าสู่ risk-off เต็มรูปแบบ จับตา BTC $55,000 และ Gold $3,500 เป็นจุดตัดสินรอบถัดไป"
+    },
+    {
+      "time": "2026-11-22T03:19:25.290314+07:00",
+      "content": "### 🔄 อัปเดต — BTC ดีดกลับ $60,000 หลัง liquidation wave $1.8 พันล้าน\n📌 เดิม: BTC ทะลุ $57,000 ต่ำสุดรอบ 2 ปีที่ $57,909 (-6.26%)\n🆕 ล่าสุด: BTC เด้งกลับแรง +3.07% มาที่ $60,227 หลังเกิด liquidation wave กวาดล้าง short/long กว่า $1.8B ในตลาด crypto เทรดเดอร์จับตาตลาดหุ้นเปิดวันจันทร์ต่อ\n💡 กระทบ: ₿ แนวต้านถัดไป $62,000-63,000 ต้องผ่านให้ได้ก่อนยืนยัน reversal, แนวรับ $57,000 ยังเปราะบาง\n\n### 🆕 BTCS เตือน SEC เสี่ยง liquidate เงินกู้ Aave $54 ล้าน\nบริษัท Ether treasury firm BTCS แจ้ง SEC ว่าเงินกู้ Aave มูลค่า $54M เสี่ยงถูก liquidate จากความผันผวนราคา — สะท้อน stress ใน crypto lending market\n💡 กระทบ: ₿ เพิ่มความเสี่ยง forced-selling กดดัน sentiment ระยะสั้น\n\n### 🆕 \"Doomsday economy\" โตจาก fear เทคโนโลยีล่ม\nCNBC รายงานการใช้จ่ายเตรียมรับมือภัยพิบัติพุ่งขึ้น จาก AI cyberattack และความกังวล grid ไฟฟ้าสหรัฐฯ\n💡 กระทบ: 🥇 เสริม demand safe-haven ระยะกลาง แม้ GLD ETF ยัง outflow หนัก -9.17%\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-uptrend (เด้งจากจุดต่ำ) | Gold sideways (ดีดเล็กน้อยแต่ outflow หนัก)\n⚠️ Risk: สูง — F&G ยังอยู่โซน Extreme Fear (12), DXY แข็ง 103.84, Yield 4.91% กดดันสินทรัพย์เสี่ยงต่อ\n🎯 ภาพรวม: ตลาดเริ่มมี relief bounce แต่ยังไม่ยืนยัน trend reversal ต้องจับตาการเปิดตลาดหุ้นจันทร์นี้"
     }
   ],
   "posted_urls": [
-    "https://www.marketwatch.com/story/a-10-risk-free-yield-for-some-yes-0d1fa51a?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/millions-will-lose-medicaid-once-new-work-rules-kick-in-these-groups-will-be-hit-the-hardest-507694d3?mod=mw_rss_topstories",
-    "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
     "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
     "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/why-the-upcoming-jobs-report-could-send-10-year-and-30-year-treasury-yields-surging-67eab4ba?mod=mw_rss_topstories",
@@ -533,21 +530,12 @@
     "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death",
     "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
     "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
-    "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
+    "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+    "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
+    "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+    "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 70097,
-        "change_24h": -4.955295496368585,
-        "volume_24h": 30079355489.197376
-      },
-      "gold": {
-        "price": 3902.67,
-        "change_24h": -1.7586458527866853
-      },
-      "timestamp": "2026-11-13T02:55:40.281619+00:00"
-    },
     {
       "btc": {
         "price": 68889,
@@ -1111,6 +1099,18 @@
         "change_24h": 1.2634545134348523
       },
       "timestamp": "2026-11-21T20:04:19.649117+00:00"
+    },
+    {
+      "btc": {
+        "price": 60227,
+        "change_24h": 3.073253327826997,
+        "volume_24h": 60386125086.31146
+      },
+      "gold": {
+        "price": 3555.06,
+        "change_24h": 1.2206485935255131
+      },
+      "timestamp": "2026-11-21T20:19:04.888936+00:00"
     }
   ],
   "last_alert": {
