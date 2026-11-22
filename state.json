@@ -1,10 +1,6 @@
 {
   "posts": [
     {
-      "time": "2026-11-19T02:35:09.990847+07:00",
-      "content": "## 🔄 อัปเดต — Fed Minutes ยืนยันแนวโน้มขึ้นดอกเบี้ยต่อ กังวลเงินเฟ้อจาก AI\n\n📌 เดิม: ตลาดคาดการณ์ Fed ขึ้นดอกเบี้ย กดดัน BTC และ Gold ร่วงพร้อมกัน (BTC $64,163 / Gold $3,758.41)\n🆕 ล่าสุด: Fed เปิดเผย minutes การประชุมเดือนต.ค. (คงดอกเบี้ย 3.75-4%) ระบุชัดเจนว่าเจ้าหน้าที่คาดต้องขึ้นดอกเบี้ยเพิ่ม พร้อมมีการหารือเรื่องขึ้นดอกเบี้ยแบบ aggressive ในการประชุมธ.ค. — เหตุกังวลเงินเฟ้อใหม่จากผลกระทบ AI (energy demand, labor market)\n\n💡 กระทบ BTC: Hawkish minutes หนุน DXY/yield แข็งต่อ กดดัน risk asset เพิ่ม BTC ปัจจุบัน $62,763 (ต่ำกว่าแนวรับ $62,000-63,000 ที่เคยเตือนไว้) เสี่ยงไหลต่อสู่ $60,000 หาก DXY ยังแข็ง\n💡 กระทบทอง: Gold $3,715.63 เสี่ยงกดดันเพิ่มจาก real yield สูงขึ้น แต่ระยะยาวอาจได้แรงหนุนจาก inflation hedge หาก AI-driven inflation เป็นจริง\n🎯 จับตาการประชุม Fed ธ.ค. และตัวเลขเงินเฟ้อ/yield 10Y ว่าจะยืนยันทิศทาง aggressive hike หรือไม่ — F&G ที่ 11 สะท้อน panic เพิ่มเติมจากตลาด"
-    },
-    {
       "time": "2026-11-19T04:40:40.426967+07:00",
       "content": "### 🔥 BREAKING — Fed's Waller ขู่ขึ้นดอกเบี้ย 0.5% \"shock the market\"\n📌 เดิม: Fed minutes ต.ค. ส่งสัญญาณขึ้นดอกเบี้ยต่อเนื่อง กังวลเงินเฟ้อจาก AI\n🆕 ล่าสุด: ผู้ว่าการ Fed Christopher Waller ระบุอาจต้องขึ้นดอกเบี้ย 0.5% รวดเดียวเพื่อ \"shock\" ตลาด เหตุเงินเฟ้อยังสูงกว่าเป้า 2% ต่อเนื่อง — DXY ตอบรับแข็งค่าแตะ 103.81, 10Y Yield พุ่ง 5.07%\n💡 กระทบ: ₿ BTC หลุด $63,000 มาที่ $62,326 (-3.27%) เสี่ยงทดสอบ $60,000 | 🥇 Gold ร่วงแรง -3.22% สู่ $3,719\n\n### 🔄 อัปเดต — Tech outages สหรัฐฯ ลามถึงระดับรัฐบาล\n📌 เดิม: Crypto hack + tech outages หนุน gold เป็น \"antidigital hedge\"\n🆕 ล่าสุด: ทำเนียบขาว-รัฐสภาเร่งสอบสวน outage ต่อเนื่อง รองปธน. Vance ถอนตัวจากงานเพื่อประชุมด่วนเรื่องนี้ — สะท้อนความเสี่ยง digital infrastructure ยังไม่คลี่คลาย\n💡 กระทบ: 🥇 Gold อาจได้แรงหนุนระยะสั้นจาก safe-haven narrative แม้วันนี้ร่วงหนักจาก DXY/yield\n\n### 🆕 ศาลเยอรมันเสนอดีล: ปล่อยคดี Movie2k แลก BTC มูลค่า $2.56B\nผู้ดำเนินคดี Movie2k อาจหลุดคดีหากส่งมอบ bitcoin มูลค่า 2.56 พันล้านดอลลาร์ให้รัฐ — เป็นหนึ่งใน BTC seizure ก้อนใหญ่ที่สุดในประวัติศาสตร์\n💡 กระทบ: ₿ หาก BTC ถูกรัฐบาลเยอรมันขายออก อาจเพิ่มแรงขายกดดันราคาระยะสั้น\n\n## 🎯 สรุป\n📈 Trend: BTC downtrend | Gold downtrend\n⚠️ Risk: สูงมาก — Fed hawkish (Waller 0.5% hike) + F&G 11 (Extreme Fear) กดดันทั้งสองสินทรัพย์พร้อมกัน\n🎯 ภาพรวม: BTC-Gold ร่วงพร้อมกันจาก yield/DXY แข็ง จับตาแนวรับ BTC $62,000 และ Gold $3,700 อย่างใกล้ชิด"
     },
@@ -31,11 +27,13 @@
     {
       "time": "2026-11-22T03:19:25.290314+07:00",
       "content": "### 🔄 อัปเดต — BTC ดีดกลับ $60,000 หลัง liquidation wave $1.8 พันล้าน\n📌 เดิม: BTC ทะลุ $57,000 ต่ำสุดรอบ 2 ปีที่ $57,909 (-6.26%)\n🆕 ล่าสุด: BTC เด้งกลับแรง +3.07% มาที่ $60,227 หลังเกิด liquidation wave กวาดล้าง short/long กว่า $1.8B ในตลาด crypto เทรดเดอร์จับตาตลาดหุ้นเปิดวันจันทร์ต่อ\n💡 กระทบ: ₿ แนวต้านถัดไป $62,000-63,000 ต้องผ่านให้ได้ก่อนยืนยัน reversal, แนวรับ $57,000 ยังเปราะบาง\n\n### 🆕 BTCS เตือน SEC เสี่ยง liquidate เงินกู้ Aave $54 ล้าน\nบริษัท Ether treasury firm BTCS แจ้ง SEC ว่าเงินกู้ Aave มูลค่า $54M เสี่ยงถูก liquidate จากความผันผวนราคา — สะท้อน stress ใน crypto lending market\n💡 กระทบ: ₿ เพิ่มความเสี่ยง forced-selling กดดัน sentiment ระยะสั้น\n\n### 🆕 \"Doomsday economy\" โตจาก fear เทคโนโลยีล่ม\nCNBC รายงานการใช้จ่ายเตรียมรับมือภัยพิบัติพุ่งขึ้น จาก AI cyberattack และความกังวล grid ไฟฟ้าสหรัฐฯ\n💡 กระทบ: 🥇 เสริม demand safe-haven ระยะกลาง แม้ GLD ETF ยัง outflow หนัก -9.17%\n\n## 🎯 สรุป\n📈 Trend: BTC sideways-to-uptrend (เด้งจากจุดต่ำ) | Gold sideways (ดีดเล็กน้อยแต่ outflow หนัก)\n⚠️ Risk: สูง — F&G ยังอยู่โซน Extreme Fear (12), DXY แข็ง 103.84, Yield 4.91% กดดันสินทรัพย์เสี่ยงต่อ\n🎯 ภาพรวม: ตลาดเริ่มมี relief bounce แต่ยังไม่ยืนยัน trend reversal ต้องจับตาการเปิดตลาดหุ้นจันทร์นี้"
+    },
+    {
+      "time": "2026-11-23T03:31:48.642044+07:00",
+      "content": "### 🔄 อัปเดต — BTC ยืนเหนือ $60,000 ได้ต่อเนื่อง, Gold ย่อตัวตามแรง DXY\n📌 เดิม: BTC เด้งกลับ +3.07% มาที่ $60,227 หลัง liquidation wave $1.8B\n🆕 ล่าสุด: BTC ทรงตัวที่ $60,532 (+0.31%) ยังไม่หลุดแนวรับ $60,000 แม้ F&G ดิ่งลึกเหลือ 11 (Extreme Fear) | Gold ร่วง -0.53% สู่ $3,537.54 กดดันจาก DXY แข็งค่า 103.84 และ 10Y Yield พุ่งแตะ 4.91%\n💡 กระทบ: ₿ ต้องยืน $60,000 ให้ได้ ก่อนลุ้นทดสอบ $62,000 | 🥇 แนวรับ $3,500 ยังสำคัญ\n\n### 🆕 Bitcoin เผชิญความเสี่ยง Quantum Computing ระยะยาว\nCoinDesk ชี้ปัญหาความปลอดภัยด้าน quantum ไม่ได้จำกัดแค่ wallet แต่ลามไปถึง bridges, custodians และเหรียญหลายล้านเหรียญที่เสี่ยงถูกเจาะในอนาคต หากเทคโนโลยี quantum พัฒนาไปถึงจุดนั้น\n💡 กระทบ: ₿ risk ระยะยาวต่อ narrative \"digital gold\" ยังไม่กระทบราคาทันที แต่ต้องจับตา regulatory/industry response\n\n## 🎯 สรุป\n📈 Trend: BTC sideways | Gold sideways-downtrend\n⚠️ Risk: สูง — F&G Extreme Fear (11) + DXY/Yield แข็งค่ากดดันทั้งคู่\n🎯 ภาพรวม: ตลาดยังผันผวนสูง BTC ต้องยืน $60,000 ส่วน Gold จับตา $3,500 เป็นแนวรับหลัก"
     }
   ],
   "posted_urls": [
-    "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-    "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
     "https://www.marketwatch.com/story/why-the-upcoming-jobs-report-could-send-10-year-and-30-year-treasury-yields-surging-67eab4ba?mod=mw_rss_topstories",
     "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html",
     "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
@@ -533,21 +531,11 @@
     "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
     "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
     "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-    "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+    "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+    "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+    "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins"
   ],
   "price_history": [
-    {
-      "btc": {
-        "price": 68116,
-        "change_24h": -4.441693378026229,
-        "volume_24h": 43649284858.515434
-      },
-      "gold": {
-        "price": 3874.0,
-        "change_24h": -0.12068738512587378
-      },
-      "timestamp": "2026-11-13T23:52:06.694380+00:00"
-    },
     {
       "btc": {
         "price": 67233,
@@ -1111,6 +1099,18 @@
         "change_24h": 0.15969653112198717
       },
       "timestamp": "2026-11-22T15:40:25.088018+00:00"
+    },
+    {
+      "btc": {
+        "price": 60532,
+        "change_24h": 0.30750367500567266,
+        "volume_24h": 28523867936.228344
+      },
+      "gold": {
+        "price": 3537.54,
+        "change_24h": -0.5307666417525364
+      },
+      "timestamp": "2026-11-22T20:31:22.281628+00:00"
     }
   ],
   "last_alert": {
